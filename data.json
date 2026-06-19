@@ -3,6 +3,24 @@
     "brand": "Gamblin",
     "line": "1980",
     "grade": "student",
+    "name": "Titanium White",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#f7f5f0",
+    "size": 150.0,
+    "unit": "ml",
+    "price": 22.0,
+    "dist": "Fris Supply Shop",
+    "url": "https://www.frissupplyshop.com/shop/Paints-and-Mediums/Oil-Paints/p/1980-TITANIUM-WHITE-150ML-x88200574.htm",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
     "name": "Alizarin Permanent",
     "pigments": [
       "PR177"
