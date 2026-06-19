@@ -1,0 +1,16 @@
+[
+  {
+    "product_id": "gamblin-1980-alizarin-permanent",
+    "dist": "Hope College Bookstore",
+    "price": 12.50, "size": 37, "unit": "ml",
+    "url": "", "inStock": true,
+    "manual": true, "verified": "2026-02-14"
+  },
+  {
+    "product_id": "gamblin-artists-alizarin-permanent",
+    "dist": "Hope College Bookstore",
+    "price": 19.50, "size": 37, "unit": "ml",
+    "url": "", "inStock": true,
+    "manual": true, "verified": "2026-06-12"
+  }
+]

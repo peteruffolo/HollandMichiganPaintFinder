@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pigment — cheapest oil paint finder</title>
+<style>
+  :root{
+    --ground:#26221d;--ground-2:#2f2a23;--paper:#f4efe6;--paper-line:#e0d8c8;
+    --ink:#211d18;--ink-soft:#5c5347;--accent:#b6452f;--accent-deep:#7b1226;
+    --good:#3f6f4a;--local:#9a7a1e;--warn:#9a6a16;--chip:#efe7d8;--radius:10px;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box} html,body{margin:0}
+  body{font-family:var(--sans);color:var(--paper);
+    background:radial-gradient(120% 80% at 80% -10%, #36302700 0%, #1b1813 100%),var(--ground);
+    min-height:100vh;line-height:1.45;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:900px;margin:0 auto;padding:32px 20px 80px}
+  header.masthead{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:6px}
+  .logo{font-family:var(--mono);font-weight:600;letter-spacing:.18em;text-transform:uppercase;
+    font-size:13px;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:3px 8px;}
+  h1{font-weight:800;font-size:clamp(26px,5vw,40px);letter-spacing:-.02em;margin:14px 0 4px;line-height:1.05;}
+  .sub{color:#cdbfa8;max-width:64ch;margin:0 0 22px;font-size:15px}
+  .searchcard{background:var(--ground-2);border:1px solid #4a4234;border-radius:var(--radius);padding:16px;margin-bottom:14px;}
+  .searchrow{display:flex;gap:10px;flex-wrap:wrap}
+  #q{flex:1 1 280px;min-width:0;font-size:17px;padding:13px 14px;border-radius:8px;
+    border:1px solid #5a513f;background:#1f1b16;color:var(--paper);}
+  #q::placeholder{color:#8a7f6c}
+  #q:focus,button:focus-visible,.seg button:focus-visible,#coupon:focus{outline:2px solid var(--accent);outline-offset:1px}
+  button.go{font-weight:700;font-size:16px;cursor:pointer;padding:13px 22px;border-radius:8px;border:0;background:var(--accent);color:#fff;}
+  button.go:hover{background:#c9543c}
+  .examples{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
+  .ex{font-family:var(--mono);font-size:12px;cursor:pointer;background:#332d24;color:#d8cab0;
+    border:1px solid #4a4234;padding:5px 9px;border-radius:999px;}
+  .ex:hover{border-color:var(--accent);color:#fff}
+  .controls{display:flex;gap:18px;flex-wrap:wrap;align-items:center;margin-top:14px}
+  .seg{display:inline-flex;border:1px solid #4a4234;border-radius:8px;overflow:hidden}
+  .seg button{font-size:13px;font-weight:600;cursor:pointer;border:0;background:transparent;color:#cdbfa8;padding:7px 14px;}
+  .seg button.on{background:var(--accent);color:#fff}
+  .seglabel{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#8a7f6c;margin-right:8px}
+  .filters{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:#cdbfa8;align-items:center}
+  .filters label{display:flex;align-items:center;gap:6px;cursor:pointer}
+  #coupon{width:52px;font-family:var(--mono);font-size:13px;padding:5px 7px;border-radius:6px;
+    border:1px solid #5a513f;background:#1f1b16;color:var(--paper);}
+  .note{border-left:3px solid var(--warn);background:#2c2619;color:#e9dcc0;padding:11px 14px;border-radius:6px;margin:14px 0;font-size:14px;}
+  .note b{color:#fff}
+  .count{font-family:var(--mono);font-size:12px;color:#9c9079;margin:22px 0 10px;text-transform:uppercase;letter-spacing:.12em}
+  .card{display:grid;grid-template-columns:64px 1fr auto;gap:16px;align-items:center;background:var(--paper);
+    color:var(--ink);border-radius:var(--radius);padding:14px 16px;margin-bottom:10px;border:1px solid var(--paper-line);}
+  .card.best{border:2px solid var(--good);box-shadow:0 0 0 4px #3f6f4a22}
+  .card.best-local{border:2px solid var(--local);box-shadow:0 0 0 4px #9a7a1e22}
+  .card.mismatch{opacity:.62}
+  .swatch{width:64px;height:64px;border-radius:8px;border:1px solid #00000022;box-shadow:inset 0 0 14px #00000033;}
+  .mid .name{font-weight:700;font-size:17px;letter-spacing:-.01em}
+  .mid .brand{font-size:13px;color:var(--ink-soft);margin-bottom:6px}
+  .pigs{display:flex;gap:5px;flex-wrap:wrap;margin-top:2px}
+  .pig{font-family:var(--mono);font-size:11px;font-weight:600;background:var(--chip);border:1px solid #d6cab2;
+    color:#5b4636;padding:2px 6px;border-radius:4px;}
+  .pig.flag{background:#f3dada;border-color:#e0b3b3;color:#7b1226}
+  .tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:7px}
+  .tag{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;padding:2px 7px;border-radius:999px}
+  .tag.perm{background:#dfeede;color:#2f5a39}
+  .tag.genuine{background:#f6e3c8;color:#7a5410}
+  .tag.literal{background:#e3e9f3;color:#33507e}
+  .tag.grade-student{background:#e9e3f3;color:#564080}
+  .tag.grade-artist{background:#f3e6df;color:#8a4a2f}
+  .tag.crown-best{background:var(--good);color:#fff}
+  .tag.crown-local{background:var(--local);color:#fff}
+  .tag.oos{background:#eee;color:#888}
+  .right{text-align:right;white-space:nowrap}
+  .price{font-family:var(--mono);font-weight:700;font-size:20px}
+  .price .was{font-size:12px;color:#b04a2a;text-decoration:line-through;margin-right:6px;font-weight:500}
+  .per{font-family:var(--mono);font-size:11px;color:var(--ink-soft)}
+  .place{font-size:12px;font-weight:600;color:var(--ink);margin-top:3px}
+  .place .pin{color:var(--local)}
+  .dist{font-size:12px;color:var(--ink-soft)}
+  .fresh{font-family:var(--mono);font-size:10px;margin-top:3px;color:#8a8273}
+  .fresh.stale{color:#a35a14;font-weight:700}
+  .verify{font-size:10px;color:#8a8273;margin-top:2px;font-style:italic}
+  .right a{display:inline-block;margin-top:8px;font-size:13px;font-weight:700;color:var(--accent-deep);text-decoration:none;border-bottom:1px solid #00000022}
+  .right a:hover{color:var(--accent)}
+  .empty{background:var(--ground-2);border:1px dashed #5a513f;border-radius:var(--radius);padding:26px;text-align:center;color:#cdbfa8}
+  footer{margin-top:40px;font-size:12px;color:#7d725f;font-family:var(--mono);line-height:1.7}
+  footer code{color:#cdbfa8}
+  @media (max-width:560px){
+    .card{grid-template-columns:48px 1fr}
+    .swatch{width:48px;height:48px}
+    .right{grid-column:1/-1;text-align:left;border-top:1px solid var(--paper-line);padding-top:10px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead"><span class="logo">Pigment</span></header>
+  <h1>Where can I get this paint cheapest?</h1>
+  <p class="sub">Built for in-person shopping. Local Holland stores (Michael's, Fris, Hope Bookstore) are
+    flagged separately from Blick (a Chicago trip or an online order), so you can see the cheapest tube you can
+    walk in and buy today. Pigment codes separate genuine colors from their “permanent” replacements.</p>
+
+  <div class="searchcard">
+    <div class="searchrow">
+      <input id="q" type="text" placeholder="e.g. alizarin crimson permanent — or a code like PR83" autocomplete="off" aria-label="Color to search">
+      <button class="go" id="goBtn">Search</button>
+    </div>
+    <div class="examples" id="examples"></div>
+    <div class="controls">
+      <div><span class="seglabel">Grade</span>
+        <span class="seg" id="gradeSeg">
+          <button data-g="all" class="on">All</button>
+          <button data-g="student">Student</button>
+          <button data-g="artist">Artist</button>
+        </span>
+      </div>
+      <div class="filters">
+        <label>Michael's coupon <input type="number" id="coupon" min="0" max="90" step="5" value="0">%</label>
+        <label><input type="checkbox" id="localOnly"> Local (Holland) only</label>
+        <label><input type="checkbox" id="inStockOnly"> In stock only</label>
+        <label><input type="checkbox" id="hideMismatch" checked> Hide poor matches</label>
+      </div>
+    </div>
+  </div>
+
+  <div id="banner"></div>
+  <div id="results"></div>
+
+  <footer>
+    Prices below are <b>illustrative sample data</b>. Try the <b>Michael's coupon</b> box (e.g. 40) and watch the
+    cheapest option change.<br>Catalog loaded: <span id="src">built-in sample</span>.
+  </footer>
+</div>
+
+<script>
+/* ============================================================
+   CATALOG (ILLUSTRATIVE SAMPLE)
+   grade: "student" | "artist"     pigments: Colour Index codes
+   loc: "local" (Holland) | "trip" (Chicago/online)
+   manual:true entries carry verified date (YYYY-MM-DD)
+   ============================================================ */
+const DISTRIBUTORS = {
+  "Michael's":               {loc:"local", place:"Holland, MI",   coupon:true,  verifyInStore:true},
+  "Fris Supply Shop":        {loc:"local", place:"Holland, MI",   coupon:false, verifyInStore:false},
+  "Hope College Bookstore":  {loc:"local", place:"Holland, MI",   coupon:false, verifyInStore:false},
+  "Blick":                   {loc:"trip",  place:"Chicago / online", coupon:false, verifyInStore:false},
+};
+
+const SAMPLE = [
+  /* Gamblin 1980 Alizarin Permanent 37ml — across all four (the headline comparison) */
+  {brand:"Gamblin",line:"1980",grade:"student",name:"Alizarin Permanent",pigments:["PR177"],hex:"#90203b",size:37,unit:"ml",price:14.99,dist:"Michael's",url:"#",inStock:true,manual:false},
+  {brand:"Gamblin",line:"1980",grade:"student",name:"Alizarin Permanent",pigments:["PR177"],hex:"#90203b",size:37,unit:"ml",price:14.25,dist:"Fris Supply Shop",url:"#",inStock:true,manual:false},
+  {brand:"Gamblin",line:"1980",grade:"student",name:"Alizarin Permanent",pigments:["PR177"],hex:"#90203b",size:37,unit:"ml",price:12.50,dist:"Hope College Bookstore",url:"#",inStock:true,manual:true,verified:"2026-02-14"},
+  {brand:"Gamblin",line:"1980",grade:"student",name:"Alizarin Permanent",pigments:["PR177"],hex:"#90203b",size:37,unit:"ml",price:13.79,dist:"Blick",url:"#",inStock:true,manual:false},
+
+  /* Winton Permanent Alizarin Crimson — Michael's + Fris + Blick */
+  {brand:"Winsor & Newton",line:"Winton",grade:"student",name:"Permanent Alizarin Crimson",pigments:["PR177"],hex:"#871832",size:37,unit:"ml",price:12.99,dist:"Michael's",url:"#",inStock:true,manual:false},
+  {brand:"Winsor & Newton",line:"Winton",grade:"student",name:"Permanent Alizarin Crimson",pigments:["PR177"],hex:"#871832",size:37,unit:"ml",price:11.95,dist:"Fris Supply Shop",url:"#",inStock:true,manual:false},
+  {brand:"Winsor & Newton",line:"Winton",grade:"student",name:"Permanent Alizarin Crimson",pigments:["PR177"],hex:"#871832",size:37,unit:"ml",price:11.49,dist:"Blick",url:"#",inStock:true,manual:false},
+
+  /* Blick Studio — Blick only (house brand) */
+  {brand:"Blick",line:"Studio",grade:"student",name:"Alizarin Crimson Hue",pigments:["PR177","PR170"],hex:"#8d2238",size:37,unit:"ml",price:5.49,dist:"Blick",url:"#",inStock:true,manual:false},
+
+  /* ARTIST grade: genuine vs permanent contrast */
+  {brand:"Winsor & Newton",line:"Artists' Oil",grade:"artist",name:"Alizarin Crimson",pigments:["PR83"],hex:"#6e0a1e",size:37,unit:"ml",price:24.79,dist:"Blick",url:"#",inStock:true,manual:false},
+  {brand:"Winsor & Newton",line:"Artists' Oil",grade:"artist",name:"Permanent Alizarin Crimson",pigments:["PR177","PV19"],hex:"#8a1538",size:37,unit:"ml",price:24.79,dist:"Blick",url:"#",inStock:true,manual:false},
+  {brand:"Gamblin",line:"Artist's Oil",grade:"artist",name:"Alizarin Permanent",pigments:["PR177"],hex:"#90203b",size:37,unit:"ml",price:18.29,dist:"Blick",url:"#",inStock:true,manual:false},
+  {brand:"Gamblin",line:"Artist's Oil",grade:"artist",name:"Alizarin Permanent",pigments:["PR177"],hex:"#90203b",size:37,unit:"ml",price:19.50,dist:"Hope College Bookstore",url:"#",inStock:true,manual:true,verified:"2026-06-12"},
+
+  /* second family */
+  {brand:"Gamblin",line:"1980",grade:"student",name:"Ultramarine Blue",pigments:["PB29"],hex:"#26307f",size:37,unit:"ml",price:9.49,dist:"Fris Supply Shop",url:"#",inStock:true,manual:false},
+  {brand:"Gamblin",line:"1980",grade:"student",name:"Ultramarine Blue",pigments:["PB29"],hex:"#26307f",size:37,unit:"ml",price:9.99,dist:"Michael's",url:"#",inStock:true,manual:false},
+];
+
+const FUGITIVE_GENUINE="PR83";
+const STALE_DAYS=45;
+
+/* ===== normalization + matching ===== */
+const NOISE=new Set(["oil","oils","color","colour","colours","colors","artist","artists","professional","series","tube","paint","handmade","hue"]);
+function norm(s){return (s||"").toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g," ").trim();}
+function tokens(s){return norm(s).split(" ").filter(Boolean);}
+function isPigCode(t){return /^p[a-z]{1,3}\d{1,3}$/.test(t);}
+function coreTokens(s){return tokens(s).filter(t=>!NOISE.has(t)&&!isPigCode(t));}
+function extractPigCodes(s){const out=[];const re=/\bp[a-z]{1,3}\d{1,3}\b/gi;let m;while((m=re.exec(s)))out.push(m[0].toUpperCase());return out;}
+function lev1(a,b){if(a===b)return true;if(Math.abs(a.length-b.length)>1)return false;let i=0,j=0,e=0;
+  while(i<a.length&&j<b.length){if(a[i]===b[j]){i++;j++;continue;}if(++e>1)return false;
+  if(a.length>b.length)i++;else if(a.length<b.length)j++;else{i++;j++;}}if(i<a.length||j<b.length)e++;return e<=1;}
+function tokenIn(t,set){if(set.has(t))return true;if(t.length<4)return false;for(const x of set){if(x.length>=4&&lev1(t,x))return true;}return false;}
+
+function matchEntry(entry,query){
+  const qPigs=extractPigCodes(query), qCore=coreTokens(query);
+  const intentPermanent=tokens(query).some(t=>t==="permanent"||t==="perm");
+  const nameSet=new Set(coreTokens(entry.name));
+  const entryPigs=entry.pigments.map(p=>p.toUpperCase());
+  const isGenuine=entryPigs.includes(FUGITIVE_GENUINE);
+  if(qPigs.length && !qPigs.every(p=>entryPigs.includes(p))) return null;
+  let found=0; for(const t of qCore){if(tokenIn(t,nameSet))found++;}
+  const coverage=qCore.length?found/qCore.length:(qPigs.length?1:0);
+  const need=qCore.length<=2?qCore.length:qCore.length-1;
+  if(qCore.length && found<need && !qPigs.length) return null;
+  if(!qCore.length && !qPigs.length) return null;
+  const entryNameHasPerm=tokens(entry.name).includes("permanent");
+  let intentMatch=true, badge=null;
+  if(intentPermanent){ if(isGenuine){intentMatch=false;badge="genuine";} else badge="perm"; }
+  else { if(nameSet.has("alizarin")){ badge=isGenuine?"literal":"perm"; } else if(entryNameHasPerm) badge="perm"; }
+  return {coverage,intentMatch,badge,isGenuine};
+}
+
+/* ===== state ===== */
+let CATALOG=SAMPLE.slice();
+let gradeFilter="all";
+
+function couponPct(){const v=parseFloat(document.getElementById("coupon").value);return isNaN(v)?0:Math.max(0,Math.min(90,v));}
+function effPrice(e){const c=couponPct(); return (c>0 && DISTRIBUTORS[e.dist] && DISTRIBUTORS[e.dist].coupon) ? e.price*(1-c/100) : e.price;}
+function isLocal(e){return DISTRIBUTORS[e.dist] && DISTRIBUTORS[e.dist].loc==="local";}
+
+function search(query){
+  const inStockOnly=document.getElementById("inStockOnly").checked;
+  const hideMismatch=document.getElementById("hideMismatch").checked;
+  const localOnly=document.getElementById("localOnly").checked;
+  let rows=[];
+  for(const e of CATALOG){
+    if(gradeFilter!=="all" && e.grade!==gradeFilter) continue;
+    if(localOnly && !isLocal(e)) continue;
+    const m=matchEntry(e,query); if(!m) continue;
+    if(inStockOnly && !e.inStock) continue;
+    rows.push({e,m,eff:effPrice(e)});
+  }
+  rows.sort((a,b)=> a.m.intentMatch!==b.m.intentMatch ? (a.m.intentMatch?-1:1) : a.eff-b.eff);
+
+  const banner=document.getElementById("banner");
+  const wantAliz=tokens(query).includes("alizarin");
+  const typedPerm=tokens(query).some(t=>t==="permanent"||t==="perm");
+  if(wantAliz && !typedPerm && extractPigCodes(query).length===0 && rows.length){
+    banner.innerHTML=`<div class="note"><b>Heads up:</b> plain “alizarin crimson” is ambiguous.
+      The <b>genuine</b> color uses pigment <b>PR83</b> (it fades); “permanent” versions use mixes like
+      <b>PR177</b> that don’t. Both are shown — add “permanent”, or a code like <b>PR83</b>, to narrow it.</div>`;
+  } else banner.innerHTML="";
+  render(rows,query,hideMismatch);
+}
+
+function daysSince(iso){return Math.floor((Date.now()-new Date(iso+"T00:00:00").getTime())/86400000);}
+
+function render(rows,query,hideMismatch){
+  const out=document.getElementById("results");
+  if(!rows.length){
+    out.innerHTML=`<div class="empty">No tubes match “${esc(query)}” with these filters. Try fewer words,
+      change the grade, turn off “Local only”, or search a pigment code (e.g. <b>PR83</b>).</div>`; return;
+  }
+  const good=rows.filter(r=>r.m.intentMatch);
+  const pool=good.length?good:rows;
+  const visible=hideMismatch?good:rows;
+
+  const bestOverall=pool[0];
+  const bestLocal=pool.find(r=>isLocal(r.e));
+  const sameBest=bestLocal && bestOverall && bestLocal.e===bestOverall.e;
+
+  let html=`<div class="count">${visible.length} tube${visible.length>1?"s":""} found · cheapest first</div>`;
+  for(const r of visible){
+    const {e,m,eff}=r;
+    const isBO=r===bestOverall, isBL=bestLocal && r===bestLocal && !sameBest;
+    const D=DISTRIBUTORS[e.dist]||{};
+    const pigChips=e.pigments.map(p=>`<span class="pig${p.toUpperCase()===FUGITIVE_GENUINE?" flag":""}">${p}</span>`).join("");
+    let badge="";
+    if(isBO) badge+=`<span class="tag crown-best">${sameBest?"Cheapest — and local":"Cheapest overall"}</span>`;
+    if(isBL) badge+=`<span class="tag crown-local">Cheapest in Holland</span>`;
+    if(m.badge==="perm") badge+=`<span class="tag perm">Permanent</span>`;
+    if(m.badge==="genuine") badge+=`<span class="tag genuine">Genuine PR83 · fades</span>`;
+    if(m.badge==="literal") badge+=`<span class="tag literal">Literal “alizarin crimson”</span>`;
+    badge+=`<span class="tag grade-${e.grade}">${e.grade}</span>`;
+    if(!e.inStock) badge+=`<span class="tag oos">Out of stock</span>`;
+
+    const couponed = couponPct()>0 && D.coupon;
+    const priceHtml = couponed
+      ? `<span class="was">$${e.price.toFixed(2)}</span>$${eff.toFixed(2)}`
+      : `$${e.price.toFixed(2)}`;
+    let fresh="";
+    if(e.manual){const d=daysSince(e.verified);const stale=d>STALE_DAYS;
+      fresh=`<div class="fresh${stale?" stale":""}">verified ${e.verified}${stale?" · check price":""}</div>`;}
+    const verify = D.verifyInStore ? `<div class="verify">confirm stock &amp; shelf price in store</div>` : "";
+
+    html+=`<div class="card ${isBO?"best":""} ${isBL?"best-local":""} ${m.intentMatch?"":"mismatch"}">
+      <div class="swatch" style="background:${e.hex}"></div>
+      <div class="mid">
+        <div class="name">${esc(e.name)}</div>
+        <div class="brand">${esc(e.brand)} · ${esc(e.line)}</div>
+        <div class="pigs">${pigChips}</div>
+        <div class="tags">${badge}</div>
+      </div>
+      <div class="right">
+        <div class="price">${priceHtml}</div>
+        <div class="per">${e.size}${e.unit} · $${(eff/e.size).toFixed(2)}/${e.unit}${couponed?" w/ coupon":""}</div>
+        <div class="place"><span class="dist">${esc(e.dist)}</span> · <span class="${D.loc==="local"?"pin":""}">${esc(D.place||"")}</span></div>
+        ${verify}${fresh}
+        <a href="${e.url}" target="_blank" rel="noopener">View →</a>
+      </div></div>`;
+  }
+  out.innerHTML=html;
+}
+function esc(s){return (s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+
+/* ===== wiring ===== */
+const EXAMPLES=["alizarin crimson permanent","permanent alizarin crimson","alizarin crimson","PR83","ultramarine blue"];
+const exWrap=document.getElementById("examples");
+EXAMPLES.forEach(x=>{const b=document.createElement("button");b.className="ex";b.textContent=x;
+  b.onclick=()=>{document.getElementById("q").value=x;search(x);};exWrap.appendChild(b);});
+function run(){const q=document.getElementById("q").value.trim();if(q)search(q);}
+document.getElementById("goBtn").onclick=run;
+document.getElementById("q").addEventListener("keydown",e=>{if(e.key==="Enter")run();});
+["inStockOnly","hideMismatch","localOnly","coupon"].forEach(id=>{
+  const el=document.getElementById(id); el.addEventListener(id==="coupon"?"input":"change",run);
+});
+document.getElementById("gradeSeg").addEventListener("click",e=>{
+  const b=e.target.closest("button"); if(!b)return;
+  gradeFilter=b.dataset.g;
+  [...e.currentTarget.children].forEach(c=>c.classList.toggle("on",c===b));
+  run();
+});
+
+fetch("data.json").then(r=>{if(!r.ok)throw 0;return r.json();})
+  .then(d=>{if(Array.isArray(d)&&d.length){CATALOG=d;document.getElementById("src").textContent="prices.json";}})
+  .catch(()=>{});
+</script>
+</body>
+</html>
