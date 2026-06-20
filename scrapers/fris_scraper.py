@@ -2,13 +2,14 @@
 Fris Supply Shop scraper  ->  prices/fris.json
 
 Fris runs on RAIN POS. Open-stock oils are sold as ONE product per line+size
-(e.g. "GAMBLIN 1980s OIL 37ML") with every color in a list, each row showing a
-regular price and an often-discounted sale price. The product page also lists
-per-color stock for each physical store. We read the "Downtown Holland" store
-(your local Fris, 49423) for both price and in-stock.
+(e.g. "GAMBLIN 1980s OIL 37ML") whose page lists every color with a regular and
+an often-discounted sale price, plus per-store stock. Some colors are also sold
+as standalone products (e.g. "1980 TITANIUM WHITE 150ML"); for those we use the
+price shown on the listing card.
 
-Output rows are self-describing (brand/line/grade/color), so the catalog does
-NOT need an entry per color -- it only enriches pigments where it has them.
+We read the "Downtown Holland" store (your local Fris, 49423) for price + stock.
+Output rows are self-describing (brand/line/grade/color); the catalog only
+enriches pigments where it has them.
 
 Run:  python scrapers/fris_scraper.py
 Deps: pip install requests beautifulsoup4
@@ -27,10 +28,7 @@ from common import guess_line, extract_size, norm, ROOT
 
 DIST = "Fris Supply Shop"
 SITE = "https://www.frissupplyshop.com"
-LISTING_URLS = [
-    "https://www.frissupplyshop.com/shop/Paints-and-Mediums/Oil-Paints.htm",
-    "https://www.frissupplyshop.com/shop/Paints-and-Mediums.htm",
-]
+LISTING_URLS = ["https://www.frissupplyshop.com/shop/Paints-and-Mediums/Oil-Paints.htm"]
 HEADERS = {
     "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"),
@@ -39,10 +37,10 @@ HEADERS = {
 }
 LINE_BRAND = {"1980": "Gamblin", "Winton": "Winsor & Newton", "Studio": "Blick"}
 LINE_GRADE = {"1980": "student", "Winton": "student", "Studio": "student"}
+LINE_TOKENS = {"1980": ["1980"], "Winton": ["winton"], "Studio": ["studio"]}
 TRACKED_LINES = set(LINE_BRAND)
 
-# your local Fris store; stock + pricing read from here
-STORE_MARKER = "Downtown Holland"
+STORE_MARKER = "Downtown Holland"          # your local Fris (49423)
 NEXT_LOC = ["Set as Default Location", "Godfrey", "Grand Rapids",
             "See All Locations", "available at"]
 SET_WORDS = ("SET", "INTRO", "INTRODUCTORY", "TUBES", "ASSORT")
@@ -52,22 +50,42 @@ def fetch(url):
     return requests.get(url, headers=HEADERS, timeout=30)
 
 
-def _name_from_anchor(a, href):
+def product_id(url):
+    m = re.search(r"-x([0-9a-z]+)\.htm", url, re.I)
+    return m.group(1) if m else url
+
+
+def name_from_anchor(a, href):
     name = a.get_text(" ", strip=True) or (a.find("img").get("alt", "") if a.find("img") else "")
-    if not name:  # Fris product links are nameless; derive from the URL slug
+    if not name:
         m = re.search(r"/p/(.+?)-x[0-9a-z]+\.htm", href, re.I)
         if m:
             name = m.group(1).replace("-", " ")
     return name
 
 
-def listing_products():
-    """Crawl the oil-paint listing AND its sub-category pages, returning
-    [(name, url)] for every tracked open-stock product (all lines + sizes)."""
-    queue = list(LISTING_URLS)
-    visited = set()
-    products = {}        # url -> name
-    pages = 0
+def price_near(a):
+    node = a
+    for _ in range(4):
+        node = node.parent
+        if node is None:
+            break
+        m = re.search(r"\$\s*([\d]+(?:\.\d+)?)", node.get_text(" ", strip=True))
+        if m:
+            return float(m.group(1))
+    return None
+
+
+def clean_single_name(title, line):
+    s = re.sub(r"\b\d+(?:\.\d+)?\s*ml\b", "", title, flags=re.I)
+    for hint in LINE_TOKENS.get(line, []):
+        s = re.sub(re.escape(hint), "", s, flags=re.I)
+    return re.sub(r"\s+", " ", s).strip().title()
+
+
+def crawl():
+    """BFS the oil-paint listing + its sub-category pages. Return {id: {name,url,price}}."""
+    queue, visited, products, pages = list(LISTING_URLS), set(), {}, 0
     while queue and pages < 25:
         page = queue.pop(0)
         if page in visited:
@@ -80,16 +98,19 @@ def listing_products():
             continue
         pages += 1
         soup = BeautifulSoup(html, "html.parser")
-        # product links on this page
         for a in soup.select('a[href*="/p/"]'):
             href = a.get("href", "")
             if "/p/" not in href:
                 continue
             url = href if href.startswith("http") else SITE + href
-            name = _name_from_anchor(a, href)
-            if name and url not in products:
-                products[url] = name
-        # sub-category pages under Oil-Paints (one extra level of depth)
+            pid = product_id(url)
+            name = name_from_anchor(a, href)
+            if not name:
+                continue
+            if pid not in products:                       # dedupe by stable product id
+                products[pid] = {"name": name, "url": url, "price": price_near(a)}
+            elif products[pid]["price"] is None:
+                products[pid]["price"] = price_near(a)
         for a in soup.select('a[href*="/Oil-Paints/"]'):
             href = a.get("href", "")
             if "/p/" in href or not href.endswith(".htm"):
@@ -98,17 +119,8 @@ def listing_products():
             if url not in visited and url not in queue:
                 queue.append(url)
         time.sleep(1)
-
-    tracked = []
-    for url, name in products.items():
-        if guess_line(name) not in TRACKED_LINES:
-            continue
-        if any(w in name.upper() for w in SET_WORDS):
-            continue
-        tracked.append((name, url))
-    print(f"  crawl: visited {pages} pages, {len(products)} products, {len(tracked)} tracked")
-    print(f"  tracked: {[n for n, _ in tracked]}")
-    return tracked
+    print(f"  crawl: visited {pages} pages, {len(products)} unique products")
+    return products
 
 
 def parse_color_rows(text):
@@ -121,8 +133,7 @@ def parse_color_rows(text):
         regular = float(m.group(2))
         sale = float(m.group(3)) if m.group(3) else None
         rows.append({"color": m.group(1).strip(),
-                     "price": sale if sale is not None else regular,
-                     "regular": regular, "sale": sale})
+                     "price": sale if sale is not None else regular})
     return rows
 
 
@@ -136,14 +147,13 @@ def parse_store_stock(text, marker=STORE_MARKER):
         j = rest.find(nm)
         if 0 <= j < end:
             end = j
-    block = rest[:end]
     stock = {}
-    for m in re.finditer(r"([A-Z][A-Z0-9 /\-]+?):\s*(\d+)\b", block):
+    for m in re.finditer(r"([A-Z][A-Z0-9 /\-]+?):\s*(\d+)\b", rest[:end]):
         stock[norm(m.group(1))] = int(m.group(2))
     return stock
 
 
-def scrape_product(name, url):
+def scrape_product(name, url, listing_price):
     try:
         html = fetch(url).text
     except Exception as e:
@@ -154,7 +164,7 @@ def scrape_product(name, url):
     title = h1.get_text(" ", strip=True) if h1 else name
     line = guess_line(title) or guess_line(name)
     brand, grade = LINE_BRAND.get(line), LINE_GRADE.get(line)
-    if not line or not brand:
+    if not brand:
         return []
     size, unit = extract_size(title)
     text = soup.get_text(" ")
@@ -164,31 +174,26 @@ def scrape_product(name, url):
     if colors:
         for c in colors:
             in_stock = stock.get(norm(c["color"]), 0) > 0 if stock else True
-            rows.append({
-                "brand": brand, "line": line, "grade": grade,
-                "name": c["color"].title(), "dist": DIST,
-                "price": c["price"], "size": size, "unit": unit or "ml",
-                "url": url, "inStock": in_stock,
-            })
-    else:
-        prices = re.findall(r"\$\s*([\d]+(?:\.\d+)?)", text)
-        if prices:
-            rows.append({
-                "brand": brand, "line": line, "grade": grade,
-                "name": title.title(), "dist": DIST,
-                "price": float(prices[0]), "size": size, "unit": unit or "ml",
-                "url": url, "inStock": True,
-            })
-    print(f"  {title}: COLOR-markers={text.count('COLOR:')} "
-          f"dollar-amounts={len(re.findall(r'[$]\\s*[0-9]', text))} "
-          f"colors-parsed={len(colors)} rows={len(rows)}")
+            rows.append({"brand": brand, "line": line, "grade": grade,
+                         "name": c["color"].title(), "dist": DIST, "price": c["price"],
+                         "size": size, "unit": unit or "ml", "url": url, "inStock": in_stock})
+    elif listing_price is not None:                       # standalone single-color product
+        rows.append({"brand": brand, "line": line, "grade": grade,
+                     "name": clean_single_name(title, line), "dist": DIST, "price": listing_price,
+                     "size": size, "unit": unit or "ml", "url": url, "inStock": True})
+    print(f"  {title}: colors={len(colors)} rows={len(rows)}")
     return rows
 
 
 def main():
+    products = crawl()
+    tracked = {pid: p for pid, p in products.items()
+               if guess_line(p["name"]) in TRACKED_LINES
+               and not any(w in p["name"].upper() for w in SET_WORDS)}
+    print(f"  tracked: {[p['name'] for p in tracked.values()]}")
     out = []
-    for name, url in listing_products():
-        out.extend(scrape_product(name, url))
+    for p in tracked.values():
+        out.extend(scrape_product(p["name"], p["url"], p["price"]))
         time.sleep(1)
     (ROOT / "prices").mkdir(exist_ok=True)
     (ROOT / "prices" / "fris.json").write_text(json.dumps(out, indent=2))
