@@ -62,13 +62,20 @@ def listing_products():
             print(f"  listing fetch error {base}: {e}")
             continue
         soup = BeautifulSoup(html, "html.parser")
-        for a in soup.select('a[href*="/p/"]'):
+        anchors = soup.select('a[href*="/p/"]')
+        names_seen = []
+        for a in anchors:
             href = a.get("href", "")
             if "/p/" not in href:
                 continue
             name = a.get_text(" ", strip=True) or (a.find("img").get("alt", "") if a.find("img") else "")
+            if not name:  # Fris product links are nameless; derive from the URL slug
+                m = re.search(r"/p/(.+?)-x[0-9a-z]+\.htm", href, re.I)
+                if m:
+                    name = m.group(1).replace("-", " ")
             if not name:
                 continue
+            names_seen.append(name)
             up = name.upper()
             if guess_line(name) not in TRACKED_LINES:
                 continue
@@ -79,8 +86,12 @@ def listing_products():
                 continue
             seen.add(url)
             found.append((name, url))
+        print(f"  listing: {base}")
+        print(f"           {len(anchors)} product links, {len(names_seen)} named, {len(found)} tracked")
+        if not found and names_seen:
+            print(f"           sample names: {names_seen[:12]}")
         if found:
-            print(f"  listing: {len(found)} tracked products from {base}")
+            print(f"           tracked: {[n for n, _ in found]}")
             return found
     return []
 
@@ -153,7 +164,9 @@ def scrape_product(name, url):
                 "price": float(prices[0]), "size": size, "unit": unit or "ml",
                 "url": url, "inStock": True,
             })
-    print(f"  {title}: {len(rows)} colors")
+    print(f"  {title}: COLOR-markers={text.count('COLOR:')} "
+          f"dollar-amounts={len(re.findall(r'[$]\\s*[0-9]', text))} "
+          f"colors-parsed={len(colors)} rows={len(rows)}")
     return rows
 
 
