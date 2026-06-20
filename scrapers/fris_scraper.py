@@ -52,48 +52,63 @@ def fetch(url):
     return requests.get(url, headers=HEADERS, timeout=30)
 
 
+def _name_from_anchor(a, href):
+    name = a.get_text(" ", strip=True) or (a.find("img").get("alt", "") if a.find("img") else "")
+    if not name:  # Fris product links are nameless; derive from the URL slug
+        m = re.search(r"/p/(.+?)-x[0-9a-z]+\.htm", href, re.I)
+        if m:
+            name = m.group(1).replace("-", " ")
+    return name
+
+
 def listing_products():
-    """Return [(name, url)] of tracked open-stock products from the listing pages."""
-    for base in LISTING_URLS:
-        found, seen = [], set()
-        try:
-            html = fetch(base).text
-        except Exception as e:
-            print(f"  listing fetch error {base}: {e}")
+    """Crawl the oil-paint listing AND its sub-category pages, returning
+    [(name, url)] for every tracked open-stock product (all lines + sizes)."""
+    queue = list(LISTING_URLS)
+    visited = set()
+    products = {}        # url -> name
+    pages = 0
+    while queue and pages < 25:
+        page = queue.pop(0)
+        if page in visited:
             continue
+        visited.add(page)
+        try:
+            html = fetch(page).text
+        except Exception as e:
+            print(f"  crawl fetch error {page}: {e}")
+            continue
+        pages += 1
         soup = BeautifulSoup(html, "html.parser")
-        anchors = soup.select('a[href*="/p/"]')
-        names_seen = []
-        for a in anchors:
+        # product links on this page
+        for a in soup.select('a[href*="/p/"]'):
             href = a.get("href", "")
             if "/p/" not in href:
                 continue
-            name = a.get_text(" ", strip=True) or (a.find("img").get("alt", "") if a.find("img") else "")
-            if not name:  # Fris product links are nameless; derive from the URL slug
-                m = re.search(r"/p/(.+?)-x[0-9a-z]+\.htm", href, re.I)
-                if m:
-                    name = m.group(1).replace("-", " ")
-            if not name:
-                continue
-            names_seen.append(name)
-            up = name.upper()
-            if guess_line(name) not in TRACKED_LINES:
-                continue
-            if any(w in up for w in SET_WORDS):
+            url = href if href.startswith("http") else SITE + href
+            name = _name_from_anchor(a, href)
+            if name and url not in products:
+                products[url] = name
+        # sub-category pages under Oil-Paints (one extra level of depth)
+        for a in soup.select('a[href*="/Oil-Paints/"]'):
+            href = a.get("href", "")
+            if "/p/" in href or not href.endswith(".htm"):
                 continue
             url = href if href.startswith("http") else SITE + href
-            if url in seen:
-                continue
-            seen.add(url)
-            found.append((name, url))
-        print(f"  listing: {base}")
-        print(f"           {len(anchors)} product links, {len(names_seen)} named, {len(found)} tracked")
-        if not found and names_seen:
-            print(f"           sample names: {names_seen[:12]}")
-        if found:
-            print(f"           tracked: {[n for n, _ in found]}")
-            return found
-    return []
+            if url not in visited and url not in queue:
+                queue.append(url)
+        time.sleep(1)
+
+    tracked = []
+    for url, name in products.items():
+        if guess_line(name) not in TRACKED_LINES:
+            continue
+        if any(w in name.upper() for w in SET_WORDS):
+            continue
+        tracked.append((name, url))
+    print(f"  crawl: visited {pages} pages, {len(products)} products, {len(tracked)} tracked")
+    print(f"  tracked: {[n for n, _ in tracked]}")
+    return tracked
 
 
 def parse_color_rows(text):
