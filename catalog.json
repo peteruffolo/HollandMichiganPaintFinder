@@ -1,85 +1,63 @@
 [
-  {
-    "id": "gamblin-1980-alizarin-permanent",
-    "brand": "Gamblin", "line": "1980", "grade": "student",
-    "name": "Alizarin Permanent",
-    "aliases": ["alizarin crimson permanent", "permanent alizarin crimson", "alizarin crimson"],
-    "pigments": ["PR177"], "hex": "#90203b", "sizes": [37, 150]
-  },
-  {
-    "id": "gamblin-1980-ultramarine-blue",
-    "brand": "Gamblin", "line": "1980", "grade": "student",
-    "name": "Ultramarine Blue",
-    "aliases": ["ultramarine", "french ultramarine"],
-    "pigments": ["PB29"], "hex": "#26307f", "sizes": [37, 150]
-  },
-  {
-    "id": "gamblin-1980-titanium-white",
-    "brand": "Gamblin", "line": "1980", "grade": "student",
-    "name": "Titanium White",
-    "aliases": ["titanium white"],
-    "pigments": ["PW6"], "hex": "#f7f5f0", "sizes": [37, 150]
-  },
-  {
-    "id": "gamblin-1980-ivory-black",
-    "brand": "Gamblin", "line": "1980", "grade": "student",
-    "name": "Ivory Black",
-    "aliases": ["ivory black"],
-    "pigments": ["PBk9"], "hex": "#1c1b1a", "sizes": [37, 150]
-  },
+  { "id": "gamblin-1980-alizarin-permanent", "brand": "Gamblin", "line": "1980", "grade": "student",
+    "name": "Alizarin Crimson Permanent",
+    "aliases": ["alizarin permanent", "alizarin crimson permanent", "permanent alizarin crimson", "alizarin crimson"],
+    "pigments": ["PR177"], "hex": "#90203b", "sizes": [37, 150] },
+  { "id": "gamblin-1980-titanium-white", "brand": "Gamblin", "line": "1980", "grade": "student",
+    "name": "Titanium White", "pigments": ["PW6"], "hex": "#f7f5f0", "sizes": [37, 150] },
+  { "id": "gamblin-1980-ivory-black", "brand": "Gamblin", "line": "1980", "grade": "student",
+    "name": "Ivory Black", "pigments": ["PBk9"], "hex": "#1c1b1a", "sizes": [37, 150] },
+  { "id": "gamblin-1980-ultramarine-blue", "brand": "Gamblin", "line": "1980", "grade": "student",
+    "name": "Ultramarine Blue", "aliases": ["ultramarine", "french ultramarine"],
+    "pigments": ["PB29"], "hex": "#26307f", "sizes": [37, 150] },
+  { "id": "gamblin-1980-phthalo-green", "brand": "Gamblin", "line": "1980", "grade": "student",
+    "name": "Phthalo Green", "pigments": ["PG7"], "hex": "#0d5b4b", "sizes": [37, 150] },
+  { "id": "gamblin-1980-permanent-green-light", "brand": "Gamblin", "line": "1980", "grade": "student",
+    "name": "Permanent Green Light", "pigments": ["PY74", "PG7"], "hex": "#5aa23a", "sizes": [37, 150] },
+  { "id": "gamblin-1980-chromium-oxide-green", "brand": "Gamblin", "line": "1980", "grade": "student",
+    "name": "Chromium Oxide Green", "pigments": ["PG17"], "hex": "#5a6b4a", "sizes": [37, 150] },
+  { "id": "gamblin-1980-viridian", "brand": "Gamblin", "line": "1980", "grade": "student",
+    "name": "Viridian", "pigments": ["PG18", "PBk11", "PG7"], "hex": "#1a6b5a", "sizes": [37, 150] },
+  { "id": "gamblin-1980-cadmium-green", "brand": "Gamblin", "line": "1980", "grade": "student",
+    "name": "Cadmium Green", "pigments": ["PY35", "PG18"], "hex": "#5a8f4a", "sizes": [37, 150] },
+  { "id": "gamblin-1980-sap-green", "brand": "Gamblin", "line": "1980", "grade": "student",
+    "name": "Sap Green", "pigments": ["PY83", "PB15:2"], "hex": "#4a6a2a", "sizes": [37, 150] },
+  { "id": "gamblin-1980-olive-green", "brand": "Gamblin", "line": "1980", "grade": "student",
+    "name": "Olive Green", "pigments": ["PBr7", "PY75", "PB29"], "hex": "#5a5a2a", "sizes": [37, 150] },
+  { "id": "gamblin-1980-naples-yellow", "brand": "Gamblin", "line": "1980", "grade": "student",
+    "name": "Naples Yellow", "pigments": ["PW6", "PY75", "PY43"], "hex": "#efdaa0", "sizes": [37, 150] },
+  { "id": "gamblin-1980-cadmium-yellow-light", "brand": "Gamblin", "line": "1980", "grade": "student",
+    "name": "Cadmium Yellow Light", "pigments": ["PY35"], "hex": "#ffd21a", "sizes": [37, 150] },
+  { "id": "gamblin-1980-cadmium-orange", "brand": "Gamblin", "line": "1980", "grade": "student",
+    "name": "Cadmium Orange", "pigments": ["PO20"], "hex": "#f26a1b", "sizes": [37, 150] },
+  { "id": "gamblin-1980-cadmium-red-light", "brand": "Gamblin", "line": "1980", "grade": "student",
+    "name": "Cadmium Red Light", "pigments": ["PR108"], "hex": "#d2241f", "sizes": [37, 150] },
+  { "id": "gamblin-1980-yellow-ochre", "brand": "Gamblin", "line": "1980", "grade": "student",
+    "name": "Yellow Ochre", "pigments": ["PY42"], "hex": "#c08a2c", "sizes": [37, 150] },
+  { "id": "gamblin-1980-burnt-umber", "brand": "Gamblin", "line": "1980", "grade": "student",
+    "name": "Burnt Umber", "pigments": ["PBr7"], "hex": "#4a3122", "sizes": [37, 150] },
+  { "id": "gamblin-1980-raw-umber", "brand": "Gamblin", "line": "1980", "grade": "student",
+    "name": "Raw Umber", "pigments": ["PBr7"], "hex": "#5a4a32", "sizes": [37, 150] },
+  { "id": "gamblin-1980-burnt-sienna", "brand": "Gamblin", "line": "1980", "grade": "student",
+    "name": "Burnt Sienna", "pigments": ["PBr7"], "hex": "#7a3b22", "sizes": [37, 150] },
 
-  {
-    "id": "winton-permanent-alizarin-crimson",
-    "brand": "Winsor & Newton", "line": "Winton", "grade": "student",
+  { "id": "winton-permanent-alizarin-crimson", "brand": "Winsor & Newton", "line": "Winton", "grade": "student",
     "name": "Permanent Alizarin Crimson",
     "aliases": ["alizarin crimson permanent", "permanent alizarin crimson", "alizarin crimson"],
-    "pigments": ["PR177", "PR264"], "hex": "#871832", "sizes": [37, 200],
-    "_note": "VERIFY pigments from Winsor & Newton site"
-  },
-  {
-    "id": "winton-french-ultramarine",
-    "brand": "Winsor & Newton", "line": "Winton", "grade": "student",
-    "name": "French Ultramarine",
-    "aliases": ["ultramarine", "ultramarine blue"],
-    "pigments": ["PB29"], "hex": "#23357a", "sizes": [37, 200]
-  },
-  {
-    "id": "winton-titanium-white",
-    "brand": "Winsor & Newton", "line": "Winton", "grade": "student",
-    "name": "Titanium White",
-    "aliases": ["titanium white", "soft mixing white"],
-    "pigments": ["PW6"], "hex": "#f7f5f0", "sizes": [37, 200]
-  },
+    "pigments": ["PR177"], "hex": "#871832", "sizes": [37, 200], "_note": "VERIFY pigments from W&N" },
+  { "id": "winton-titanium-white", "brand": "Winsor & Newton", "line": "Winton", "grade": "student",
+    "name": "Titanium White", "pigments": ["PW6"], "hex": "#f7f5f0", "sizes": [37, 200] },
+  { "id": "winton-french-ultramarine", "brand": "Winsor & Newton", "line": "Winton", "grade": "student",
+    "name": "French Ultramarine", "aliases": ["ultramarine", "ultramarine blue"],
+    "pigments": ["PB29"], "hex": "#23357a", "sizes": [37, 200] },
 
-  {
-    "id": "blick-studio-alizarin-crimson-hue",
-    "brand": "Blick", "line": "Studio", "grade": "student",
-    "name": "Alizarin Crimson Hue",
-    "aliases": ["alizarin crimson", "alizarin crimson permanent", "permanent alizarin crimson"],
-    "pigments": ["PR177", "PR170"], "hex": "#8d2238", "sizes": [37, 150],
-    "_note": "VERIFY pigments from Blick product page"
-  },
-
-  {
-    "id": "wn-artists-alizarin-crimson",
-    "brand": "Winsor & Newton", "line": "Artists' Oil", "grade": "artist",
-    "name": "Alizarin Crimson",
-    "aliases": ["alizarin crimson"],
-    "pigments": ["PR83"], "hex": "#6e0a1e", "sizes": [37, 200],
-    "_note": "genuine PR83 - the fugitive one"
-  },
-  {
-    "id": "wn-artists-permanent-alizarin-crimson",
-    "brand": "Winsor & Newton", "line": "Artists' Oil", "grade": "artist",
-    "name": "Permanent Alizarin Crimson",
-    "aliases": ["permanent alizarin crimson", "alizarin crimson permanent"],
-    "pigments": ["PR177", "PV19"], "hex": "#8a1538", "sizes": [37, 200]
-  },
-  {
-    "id": "gamblin-artists-alizarin-permanent",
-    "brand": "Gamblin", "line": "Artist's Oil", "grade": "artist",
-    "name": "Alizarin Permanent",
-    "aliases": ["alizarin crimson permanent", "permanent alizarin crimson", "alizarin permanent"],
-    "pigments": ["PR177"], "hex": "#90203b", "sizes": [37, 150]
-  }
+  { "id": "wn-artists-alizarin-crimson", "brand": "Winsor & Newton", "line": "Artists' Oil", "grade": "artist",
+    "name": "Alizarin Crimson", "pigments": ["PR83"], "hex": "#6e0a1e", "sizes": [37, 200],
+    "_note": "genuine PR83 - the fugitive one" },
+  { "id": "wn-artists-permanent-alizarin-crimson", "brand": "Winsor & Newton", "line": "Artists' Oil", "grade": "artist",
+    "name": "Permanent Alizarin Crimson", "aliases": ["alizarin crimson permanent"],
+    "pigments": ["PR177", "PV19"], "hex": "#8a1538", "sizes": [37, 200] },
+  { "id": "gamblin-artists-alizarin-permanent", "brand": "Gamblin", "line": "Artist's Oil", "grade": "artist",
+    "name": "Alizarin Permanent", "aliases": ["alizarin crimson permanent", "permanent alizarin crimson"],
+    "pigments": ["PR177"], "hex": "#90203b", "sizes": [37, 150] }
 ]
