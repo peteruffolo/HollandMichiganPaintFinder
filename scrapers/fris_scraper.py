@@ -1,10 +1,14 @@
 """
 Fris Supply Shop scraper  ->  prices/fris.json
 
-Fris runs on the RAIN POS platform with server-rendered listing pages. This
-version uses a browser-like User-Agent (some store sites serve an empty page to
-non-browser clients), tries the oil-paint page first and falls back to the main
-paints page, and prints diagnostics so a zero-result run is easy to debug.
+Fris runs on RAIN POS. Open-stock oils are sold as ONE product per line+size
+(e.g. "GAMBLIN 1980s OIL 37ML") with every color in a list, each row showing a
+regular price and an often-discounted sale price. The product page also lists
+per-color stock for each physical store. We read the "Downtown Holland" store
+(your local Fris, 49423) for both price and in-stock.
+
+Output rows are self-describing (brand/line/grade/color), so the catalog does
+NOT need an entry per color -- it only enriches pigments where it has them.
 
 Run:  python scrapers/fris_scraper.py
 Deps: pip install requests beautifulsoup4
@@ -19,7 +23,7 @@ import requests
 from bs4 import BeautifulSoup
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from common import load_catalog, match_product, extract_size, guess_line, ROOT
+from common import guess_line, extract_size, norm, ROOT
 
 DIST = "Fris Supply Shop"
 SITE = "https://www.frissupplyshop.com"
@@ -33,116 +37,134 @@ HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
 }
-TRACKED_LINES = {"1980", "Winton"}
+LINE_BRAND = {"1980": "Gamblin", "Winton": "Winsor & Newton", "Studio": "Blick"}
+LINE_GRADE = {"1980": "student", "Winton": "student", "Studio": "student"}
+TRACKED_LINES = set(LINE_BRAND)
+
+# your local Fris store; stock + pricing read from here
+STORE_MARKER = "Downtown Holland"
+NEXT_LOC = ["Set as Default Location", "Godfrey", "Grand Rapids",
+            "See All Locations", "available at"]
+SET_WORDS = ("SET", "INTRO", "INTRODUCTORY", "TUBES", "ASSORT")
 
 
 def fetch(url):
-    r = requests.get(url, headers=HEADERS, timeout=30)
-    return r
+    return requests.get(url, headers=HEADERS, timeout=30)
 
 
-def parse_cards(html):
-    """Return list of {name, price, url, in_stock} for product cards on a page."""
-    soup = BeautifulSoup(html, "html.parser")
-    cards, seen = [], set()
-    anchors = soup.select('a[href*="/p/"]')
-    for a in anchors:
-        href = a.get("href", "")
-        if "/p/" not in href:
-            continue
-        name = a.get_text(" ", strip=True)
-        if not name:
-            img = a.find("img")
-            name = img.get("alt", "").strip() if img else ""
-        if not name:  # derive from the URL slug as a last resort
-            m = re.search(r"/p/(.+?)-x[0-9a-z]+\.htm", href, re.I)
-            if m:
-                name = m.group(1).replace("-", " ")
-        if not name:
-            continue
-        url = href if href.startswith("http") else SITE + href
-        if url in seen:
-            continue
-        seen.add(url)
-        # find this card's price: climb to the smallest ancestor holding a $ price
-        price, sold_out, node = None, False, a
-        for _ in range(3):
-            node = node.parent
-            if node is None:
-                break
-            txt = node.get_text(" ", strip=True)
-            if "sold out" in txt.lower():
-                sold_out = True
-            prices = re.findall(r"\$(\d+(?:\.\d+)?)", txt)
-            if 1 <= len(prices) <= 2:
-                price = float(prices[0])
-                break
-            if len(prices) > 2:  # climbed past the card into the whole grid
-                break
-        cards.append({"name": name, "price": price, "url": url, "in_stock": not sold_out})
-    return cards, len(anchors)
-
-
-def harvest():
-    """Try each listing URL (with pagination) until one yields product cards."""
+def listing_products():
+    """Return [(name, url)] of tracked open-stock products from the listing pages."""
     for base in LISTING_URLS:
-        all_cards, seen_urls = [], set()
-        for n in range(1, 21):
-            url = base if n == 1 else f"{base}?pageNum={n}"
-            try:
-                r = fetch(url)
-            except Exception as e:
-                print(f"  fetch error {url}: {e}")
-                break
-            html = r.text
-            cards, n_anchors = parse_cards(html)
-            if n == 1:
-                print(f"  [diag] {url}")
-                print(f"         status={r.status_code} bytes={len(html)} "
-                      f"raw '/p/' count={html.count('/p/')} parsed anchors={n_anchors}")
-                up = html.upper()
-                print(f"         contains 1980={'1980' in up} WINTON={'WINTON' in up}")
-                if not cards:
-                    snippet = re.sub(r"\s+", " ", html[:400])
-                    print(f"         (no cards) first 400 chars: {snippet}")
-            fresh = [c for c in cards if c["url"] not in seen_urls]
-            for c in fresh:
-                seen_urls.add(c["url"])
-            all_cards.extend(fresh)
-            if not fresh:
-                break
-            time.sleep(1)
-        if all_cards:
-            print(f"  -> {len(all_cards)} cards from {base}")
-            return all_cards
+        found, seen = [], set()
+        try:
+            html = fetch(base).text
+        except Exception as e:
+            print(f"  listing fetch error {base}: {e}")
+            continue
+        soup = BeautifulSoup(html, "html.parser")
+        for a in soup.select('a[href*="/p/"]'):
+            href = a.get("href", "")
+            if "/p/" not in href:
+                continue
+            name = a.get_text(" ", strip=True) or (a.find("img").get("alt", "") if a.find("img") else "")
+            if not name:
+                continue
+            up = name.upper()
+            if guess_line(name) not in TRACKED_LINES:
+                continue
+            if any(w in up for w in SET_WORDS):
+                continue
+            url = href if href.startswith("http") else SITE + href
+            if url in seen:
+                continue
+            seen.add(url)
+            found.append((name, url))
+        if found:
+            print(f"  listing: {len(found)} tracked products from {base}")
+            return found
     return []
 
 
-def main():
-    catalog = load_catalog()
-    cards = harvest()
-    out, matched, skipped = [], 0, 0
-    for c in cards:
-        line = guess_line(c["name"])
-        if line not in TRACKED_LINES:
-            skipped += 1
+def parse_color_rows(text):
+    rows = []
+    for part in text.split("COLOR:")[1:]:
+        m = re.match(r"\s*(.+?)\s*Price:\s*\$?\s*([\d]+(?:\.\d+)?)"
+                     r"(?:\s*\$?\s*([\d]+(?:\.\d+)?))?", part)
+        if not m:
             continue
-        entry, score = match_product(c["name"], catalog, restrict_line=line)
-        if not entry or score < 0.6:
-            skipped += 1
-            print(f"  no catalog match: {c['name']!r}")
-            continue
-        size, unit = extract_size(c["name"])
-        out.append({
-            "product_id": entry["id"], "dist": DIST,
-            "price": c["price"], "size": size, "unit": unit or "ml",
-            "url": c["url"], "inStock": c["in_stock"],
-        })
-        matched += 1
+        regular = float(m.group(2))
+        sale = float(m.group(3)) if m.group(3) else None
+        rows.append({"color": m.group(1).strip(),
+                     "price": sale if sale is not None else regular,
+                     "regular": regular, "sale": sale})
+    return rows
 
+
+def parse_store_stock(text, marker=STORE_MARKER):
+    i = text.find(marker)
+    if i < 0:
+        return {}
+    rest = text[i + len(marker):]
+    end = len(rest)
+    for nm in NEXT_LOC:
+        j = rest.find(nm)
+        if 0 <= j < end:
+            end = j
+    block = rest[:end]
+    stock = {}
+    for m in re.finditer(r"([A-Z][A-Z0-9 /\-]+?):\s*(\d+)\b", block):
+        stock[norm(m.group(1))] = int(m.group(2))
+    return stock
+
+
+def scrape_product(name, url):
+    try:
+        html = fetch(url).text
+    except Exception as e:
+        print(f"  product fetch error {url}: {e}")
+        return []
+    soup = BeautifulSoup(html, "html.parser")
+    h1 = soup.find("h1")
+    title = h1.get_text(" ", strip=True) if h1 else name
+    line = guess_line(title) or guess_line(name)
+    brand, grade = LINE_BRAND.get(line), LINE_GRADE.get(line)
+    if not line or not brand:
+        return []
+    size, unit = extract_size(title)
+    text = soup.get_text(" ")
+    colors = parse_color_rows(text)
+    stock = parse_store_stock(text)
+    rows = []
+    if colors:
+        for c in colors:
+            in_stock = stock.get(norm(c["color"]), 0) > 0 if stock else True
+            rows.append({
+                "brand": brand, "line": line, "grade": grade,
+                "name": c["color"].title(), "dist": DIST,
+                "price": c["price"], "size": size, "unit": unit or "ml",
+                "url": url, "inStock": in_stock,
+            })
+    else:
+        prices = re.findall(r"\$\s*([\d]+(?:\.\d+)?)", text)
+        if prices:
+            rows.append({
+                "brand": brand, "line": line, "grade": grade,
+                "name": title.title(), "dist": DIST,
+                "price": float(prices[0]), "size": size, "unit": unit or "ml",
+                "url": url, "inStock": True,
+            })
+    print(f"  {title}: {len(rows)} colors")
+    return rows
+
+
+def main():
+    out = []
+    for name, url in listing_products():
+        out.extend(scrape_product(name, url))
+        time.sleep(1)
     (ROOT / "prices").mkdir(exist_ok=True)
     (ROOT / "prices" / "fris.json").write_text(json.dumps(out, indent=2))
-    print(f"\nFris: matched {matched}, skipped {skipped} -> prices/fris.json")
+    print(f"\nFris: wrote {len(out)} color/price rows -> prices/fris.json")
 
 
 if __name__ == "__main__":
