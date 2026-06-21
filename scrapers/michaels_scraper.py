@@ -1,88 +1,127 @@
 """
-Michael's scraper  ->  prices/michaels.json     STATUS: scaffold, needs a tuning run
+Michael's scraper  ->  prices/michaels.json
 
-Why Playwright: michaels.com renders price + store availability with JavaScript,
-so a plain HTML fetch won't see them. Playwright drives a real headless browser.
+Michael's is a Next.js site, but every product page embeds a schema.org
+ProductGroup in its raw HTML (a <script type="application/ld+json"> block) that
+lists every color variant with its price and availability. So we fetch each
+parent product, parse that JSON, and emit one self-describing row per color --
+no browser needed.
 
-Your store: Holland #4729 (3571 West Shore Dr, Greenly Crossings).
-You confirmed: online price == shelf price, and "available for pickup today"
-== in stock at that store. So we pin the store to 4729 and read both.
+Discovery: a small list of parent product URLs (one per line+size). Each expands
+to its full color range automatically, so this isn't a hand-picked color list --
+add a line by adding its parent URL. Prices are national (= your shelf price).
 
-One-time setup:
-  - Fill michaels_products.json with {product_id, url} for the colors you buy.
-    (Find each color on michaels.com and paste its URL.)
-  - pip install playwright && playwright install chromium
-
-Run:  python scrapers/michaels_scraper.py
-
-FIRST RUN: open one product page in your own browser with the Holland store
-selected, right-click the price -> Inspect, and copy the real CSS selector into
-PRICE_SEL / PICKUP_SEL below. They're best-guess placeholders until then.
+Run:  python scrapers/michaels_scraper.py     (stdlib only)
 """
 import json
-import sys
+import re
+import time
+import urllib.request
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-from common import ROOT, extract_size
-
+ROOT = Path(__file__).resolve().parent.parent
 DIST = "Michael's"
-STORE_ID = "4729"            # Holland / Greenly Crossings
-STORE_ZIP = "49423"
+STORE = "4729"  # Greenly Crossings, Holland
 
-# --- selectors to confirm on first run (Inspect element) ---
-PRICE_SEL = '[data-test="product-price"], .product-price, [itemprop="price"]'
-PICKUP_SEL = '[data-test="fulfillment-pickup"], .pickup-availability'
-PICKUP_OK_TEXT = "pickup today"   # phrase that means in-stock locally
+# One parent URL per line+size. Each auto-expands to all its colors, so this is
+# a list of LINES (not hand-picked colors). Add a line by adding its parent URL.
+PARENTS = [
+    # Gamblin 1980 (student)
+    "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-MMACGB198037",
+    "https://www.michaels.com/product/gamblin-1980-oil-color-150ml-10577028",
+    # Gamblin Artist Grade (artist)
+    "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518333",
+    "https://www.michaels.com/product/gamblin-150ml-artist-grade-oil-colors-10518382",
+    # Winsor & Newton Winton (student)
+    "https://www.michaels.com/product/winsor-newton-winton-oil-colour-tube-37ml-MD002570S",
+    # Winsor & Newton Artists' Oil (artist)
+    "https://www.michaels.com/product/winsor-newton-artists%27-oil-color-37ml-M10127993",
+]
+UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
 
 
-def load_products():
-    f = ROOT / "michaels_products.json"
-    if not f.exists():
-        print("Create michaels_products.json: [{\"product_id\":..., \"url\":...}, ...]")
-        return []
-    return json.loads(f.read_text())
+def fetch(url):
+    sep = "&" if "?" in url else "?"
+    req = urllib.request.Request(f"{url}{sep}michaelsStore={STORE}",
+          headers={"User-Agent": UA,
+                   "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"})
+    with urllib.request.urlopen(req, timeout=40) as r:
+        return r.read().decode("utf-8", "replace")
 
 
-def scrape():
-    from playwright.sync_api import sync_playwright
-    products = load_products()
+def product_group(html):
+    for blk in re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S):
+        try:
+            data = json.loads(blk)
+        except Exception:
+            continue
+        for it in (data if isinstance(data, list) else [data]):
+            if isinstance(it, dict) and it.get("@type") == "ProductGroup":
+                return it
+    return None
+
+
+def detect(name, url=""):
+    s = (name + " " + url).lower()
+    if "gamblin" in s:
+        brand = "Gamblin"
+    elif "winton" in s or "winsor" in s or "newton" in s:
+        brand = "Winsor & Newton"
+    else:
+        brand = None
+    if "1980" in s:
+        line, grade = "1980", "student"
+    elif "winton" in s:
+        line, grade = "Winton", "student"
+    elif "gamblin" in s and "artist" in s:
+        line, grade = "Artist's Oil", "artist"
+    elif "artist" in s and ("winsor" in s or "newton" in s):
+        line, grade = "Artists' Oil", "artist"
+    else:
+        line, grade = None, None
+    m = re.search(r"(\d+)\s*ml", s)   # name OR url (Winton lists size in oz, url has ml)
+    size = int(m.group(1)) if m else None
+    return brand, line, grade, size
+
+
+def main():
     out = []
-    with sync_playwright() as p:
-        browser = p.chromium.launch()
-        ctx = browser.new_context()
-        # pin the store: Michael's stores the selection in a cookie. Setting it
-        # up front avoids the location prompt. Confirm the cookie name on run 1.
-        ctx.add_cookies([{
-            "name": "preferredStoreId", "value": STORE_ID,
-            "domain": ".michaels.com", "path": "/",
-        }])
-        page = ctx.new_page()
-        for prod in products:
-            try:
-                page.goto(prod["url"], timeout=45000, wait_until="networkidle")
-                price_txt = page.locator(PRICE_SEL).first.inner_text(timeout=10000)
-                price = float(price_txt.replace("$", "").split()[0])
-                try:
-                    pickup_txt = page.locator(PICKUP_SEL).first.inner_text(timeout=5000)
-                except Exception:
-                    pickup_txt = ""
-                in_stock = PICKUP_OK_TEXT in pickup_txt.lower()
-                size, unit = extract_size(prod["url"]) if False else (prod.get("size"), prod.get("unit", "ml"))
-                out.append({
-                    "product_id": prod["product_id"], "dist": DIST,
-                    "price": price, "size": size, "unit": unit,
-                    "url": prod["url"], "inStock": in_stock,
-                })
-                print(f"  ok {prod['product_id']}: ${price} pickup={in_stock}")
-            except Exception as e:
-                print(f"  FAILED {prod.get('product_id')}: {e}")
-        browser.close()
-    return out
+    for url in PARENTS:
+        try:
+            pg = product_group(fetch(url))
+        except Exception as e:
+            print(f"  fetch error {url}: {e}")
+            continue
+        if not pg:
+            print(f"  no ProductGroup: {url}")
+            continue
+        brand, line, grade, size = detect(pg.get("name", ""), url)
+        if not brand or not line:
+            print(f"  unrecognized line: {pg.get('name')!r}")
+            continue
+        n = 0
+        for v in pg.get("hasVariant", []):
+            color = (v.get("color") or "").strip()
+            offers = v.get("offers") or {}
+            if isinstance(offers, list):
+                offers = offers[0] if offers else {}
+            price = offers.get("price")
+            if not color or price is None:
+                continue
+            out.append({
+                "brand": brand, "line": line, "grade": grade, "name": color,
+                "dist": DIST, "price": float(price), "size": size, "unit": "ml",
+                "url": offers.get("url") or url,
+                "inStock": "InStock" in (offers.get("availability") or ""),
+            })
+            n += 1
+        print(f"  {pg.get('name', '').strip()}: {n} colors")
+        time.sleep(1)
+    (ROOT / "prices").mkdir(exist_ok=True)
+    (ROOT / "prices" / "michaels.json").write_text(json.dumps(out, indent=2))
+    print(f"\nMichael's: wrote {len(out)} color/price rows -> prices/michaels.json")
 
 
 if __name__ == "__main__":
-    rows = scrape()
-    (ROOT / "prices").mkdir(exist_ok=True)
-    (ROOT / "prices" / "michaels.json").write_text(json.dumps(rows, indent=2))
-    print(f"Michael's: wrote {len(rows)} rows -> prices/michaels.json")
+    main()
