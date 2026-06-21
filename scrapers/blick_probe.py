@@ -1,8 +1,4 @@
-"""
-Blick probe v2: read the embedded product data on a products(listing) page.
-Checks JSON-LD (loose match) and __NEXT_DATA__, and reports the array of products
-with their fields so we can parse all colors+sizes+prices from one fetch.
-"""
+"""Blick probe v3: dump the ProductGroup.hasVariant structure (color/size/price)."""
 import json
 import re
 import urllib.request
@@ -19,60 +15,20 @@ def fetch(url):
         return r.read().decode("utf-8", "replace")
 
 
-def find_product_arrays(obj, path="", out=None, depth=0):
-    if out is None:
-        out = []
-    if depth > 8:
-        return out
-    if isinstance(obj, list):
-        if obj and isinstance(obj[0], dict) and any(k in obj[0] for k in ("price", "sku", "offers")):
-            out.append((path, len(obj), obj[0]))
-        for i, v in enumerate(obj[:4]):
-            find_product_arrays(v, f"{path}[{i}]", out, depth + 1)
-    elif isinstance(obj, dict):
-        for k, v in obj.items():
-            find_product_arrays(v, f"{path}.{k}", out, depth + 1)
-    return out
-
-
 html = fetch(PRODUCTS)
-print(f"bytes={len(html)}")
-
-print("\n=== JSON-LD (loose match) ===")
-lds = re.findall(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>', html, re.S)
-print(f"blocks: {len(lds)}")
-for blk in lds[:4]:
+for blk in re.findall(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>', html, re.S):
     try:
         data = json.loads(blk)
-    except Exception as e:
-        print("  parse fail:", e); continue
+    except Exception:
+        continue
     items = data if isinstance(data, list) else [data]
-    for it in items[:1]:
-        if isinstance(it, dict):
-            print("  @type:", it.get("@type"), "| keys:", list(it.keys())[:12])
-            if "@graph" in it:
-                g = it["@graph"]
-                print("   @graph len:", len(g), "first @type:", g[0].get("@type") if g else None)
-            if it.get("@type") in ("ItemList", "Product") or "itemListElement" in it:
-                print("   sample:", json.dumps(it)[:400])
-
-print("\n=== __NEXT_DATA__ ===")
-m = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', html, re.S)
-if m:
-    try:
-        nd = json.loads(m.group(1))
-        arrays = find_product_arrays(nd.get("props", {}))
-        arrays.sort(key=lambda a: -a[1])
-        print(f"  product-like arrays found: {len(arrays)}")
-        for path, n, sample in arrays[:3]:
-            print(f"\n  path={path}  count={n}")
-            print(f"  sample keys: {list(sample.keys())}")
-            for k in ("name", "title", "color", "size", "sku", "price", "salePrice",
-                      "listPrice", "url", "slug", "offers"):
-                if k in sample:
-                    print(f"     {k} = {json.dumps(sample[k])[:160]}")
-    except Exception as e:
-        print("  parse error:", e)
-else:
-    print("  __NEXT_DATA__ not found")
-print("\nBlick probe v2 complete.")
+    for it in items:
+        if isinstance(it, dict) and it.get("@type") == "ProductGroup":
+            hv = it.get("hasVariant", [])
+            print("ProductGroup name:", it.get("name"))
+            print("variesBy:", it.get("variesBy"))
+            print("hasVariant count:", len(hv))
+            for v in hv[:3]:
+                print("\n--- variant ---")
+                print(json.dumps(v, indent=2)[:900])
+print("\nBlick probe v3 complete.")
