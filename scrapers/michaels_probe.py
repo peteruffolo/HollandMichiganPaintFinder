@@ -1,114 +1,93 @@
 """
-Michael's feasibility probe  (diagnostics only -- writes nothing)
+Michael's feasibility probe v2  (diagnostics only -- writes nothing)
 
-Renders one Michael's product page in a real headless browser and reports:
-  * whether we were blocked (bot wall / captcha)
-  * whether the PRICE is present in the rendered DOM
-  * whether the COLOR list is present (and how many)
-  * whether any STORE AVAILABILITY UI is present
-  * which candidate CSS selectors actually match (to inform the real scraper)
+Determines the most efficient extraction path:
+  PART A: does the RAW HTML (no browser) already embed the product data
+          (__NEXT_DATA__ / __next_f / JSON-LD / og:price)?  -> lightweight path
+  PART B: rendered page -- inspect window.__NEXT_DATA__ for all-variant data,
+          and render the category page to confirm product discovery.
 
-Run via the "Michaels probe" workflow (manual dispatch).
-Deps: pip install playwright ; playwright install --with-deps chromium
+Run via the "Michaels probe" workflow.
 """
 import re
+import urllib.request
 
 from playwright.sync_api import sync_playwright
 
-# Two parents: a 1980 (student) and an Artist grade, both 37 mL.
-TEST_URLS = [
-    "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-MMACGB198037",
-    "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--D021532S",
-]
-
+PRODUCT = "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-MMACGB198037"
+CATEGORY = ("https://www.michaels.com/shop/art-supplies/paint-painting-supplies/"
+            "fine-art-paint/oil-paint/open-stock-oil-paint")
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
-
-BLOCK_HINTS = ["pardon our interruption", "access denied", "are you a human",
-               "unusual traffic", "captcha", "request blocked", "bot detection"]
-
-PRICE_SELECTORS = ['[data-testid*="price" i]', '[class*="price" i]', '[itemprop="price"]',
-                   '[data-test*="price" i]']
-COLOR_SELECTORS = ['[aria-label*="Color" i]', '[data-testid*="swatch" i]', '[class*="swatch" i]',
-                   'button[role="radio"]', '[data-testid*="variant" i]', 'select option']
-AVAIL_SELECTORS = ['[data-testid*="fulfillment" i]', '[data-testid*="pickup" i]',
-                   '[class*="availability" i]', '[class*="pickup" i]', '[class*="instock" i]']
-AVAIL_WORDS = ["pickup", "in stock", "out of stock", "available", "aisle", "find in store"]
+KEYWORDS = ["colorVariations", "variants", "variationValues", "skus", "listPrice",
+            "salePrice", "onlinePrice", "price", "inventory", "availability",
+            "inStock", "pickup", "color"]
 
 
-def probe(page, url):
-    print("\n" + "=" * 70)
-    print("URL:", url)
-    resp = None
+def report_blob(blob, label):
+    print(f"  [{label}] length={len(blob)}")
+    present = [k for k in KEYWORDS if k in blob]
+    print(f"  [{label}] keywords present: {present}")
+    i = blob.find('"price"')
+    if i < 0:
+        i = blob.lower().find("price")
+    if i >= 0:
+        print(f"  [{label}] sample near 'price': ...{blob[max(0,i-40):i+180]}...")
+
+
+def raw_fetch(url):
+    req = urllib.request.Request(url, headers={"User-Agent": UA,
+          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"})
+    with urllib.request.urlopen(req, timeout=40) as r:
+        return getattr(r, "status", 200), r.read().decode("utf-8", "replace")
+
+
+print("=== PART A: RAW HTML (no browser) ===")
+try:
+    status, html = raw_fetch(PRODUCT)
+    print(f"  status={status} bytes={len(html)}")
+    print(f"  has __NEXT_DATA__ : {'__NEXT_DATA__' in html}")
+    print(f"  has __next_f      : {'__next_f' in html}")
+    print(f"  has og:price      : {'og:price' in html}")
+    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
+    if m:
+        report_blob(m.group(1), "raw __NEXT_DATA__")
+    ld = re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)
+    print(f"  JSON-LD blocks: {len(ld)}")
+    for j, blk in enumerate(ld[:2]):
+        print(f"  JSON-LD[{j}] (first 400): {blk.strip()[:400]}")
+except Exception as e:
+    print("  raw fetch error:", e)
+
+print("\n=== PART B: RENDERED (browser) ===")
+with sync_playwright() as p:
+    browser = p.chromium.launch(args=["--disable-blink-features=AutomationControlled"])
+    ctx = browser.new_context(user_agent=UA, viewport={"width": 1366, "height": 900}, locale="en-US")
+    page = ctx.new_page()
     try:
-        resp = page.goto(url, wait_until="domcontentloaded", timeout=60000)
+        page.goto(PRODUCT, wait_until="domcontentloaded", timeout=60000)
+        page.wait_for_timeout(5000)
+        nd = page.evaluate("() => window.__NEXT_DATA__ ? JSON.stringify(window.__NEXT_DATA__) : null")
+        if nd:
+            report_blob(nd, "rendered __NEXT_DATA__")
+        else:
+            print("  window.__NEXT_DATA__ not present (likely App Router / __next_f)")
+            full = page.content()
+            print(f"  rendered HTML has __next_f: {'__next_f' in full}  length={len(full)}")
     except Exception as e:
-        print("  goto error:", e)
-        return
+        print("  product render error:", e)
+
     try:
-        page.wait_for_timeout(6000)  # let client-side render
-    except Exception:
-        pass
-
-    status = resp.status if resp else "?"
-    title = ""
-    try:
-        title = page.title()
-    except Exception:
-        pass
-    body = ""
-    try:
-        body = page.evaluate("() => document.body ? document.body.innerText : ''")
-    except Exception:
-        pass
-    low = body.lower()
-
-    print(f"  status={status}  final_url={page.url}")
-    print(f"  title={title!r}")
-    print(f"  body_text_length={len(body)}")
-    blocked = [h for h in BLOCK_HINTS if h in low]
-    print(f"  BLOCK hints found: {blocked if blocked else 'none'}")
-
-    dollar = re.findall(r"\$\s*\d+(?:\.\d+)?", body)
-    print(f"  $-amounts in rendered text: {dollar[:8]}")
-
-    def count(sels):
-        out = []
-        for s in sels:
-            try:
-                n = page.locator(s).count()
-            except Exception:
-                n = -1
-            if n:
-                out.append((s, n))
-        return out
-
-    print("  price selectors that matched:", count(PRICE_SELECTORS) or "none")
-    color_hits = count(COLOR_SELECTORS)
-    print("  color selectors that matched:", color_hits or "none")
-    print("  availability selectors that matched:", count(AVAIL_SELECTORS) or "none")
-    avail_words = [w for w in AVAIL_WORDS if w in low]
-    print("  availability words in text:", avail_words or "none")
-
-    # quick verdict
-    ok_price = bool(dollar)
-    ok_colors = any(n >= 3 for _, n in color_hits)
-    verdict = "LOOKS USABLE" if (not blocked and ok_price) else "PROBLEM"
-    print(f"  >>> {verdict}  (price={'Y' if ok_price else 'N'}, "
-          f"colors={'Y' if ok_colors else '?'}, blocked={'Y' if blocked else 'N'})")
-
-
-def main():
-    with sync_playwright() as p:
-        browser = p.chromium.launch(args=["--disable-blink-features=AutomationControlled"])
-        ctx = browser.new_context(user_agent=UA, viewport={"width": 1366, "height": 900},
-                                  locale="en-US")
-        page = ctx.new_page()
-        for url in TEST_URLS:
-            probe(page, url)
-        browser.close()
-    print("\nProbe complete.")
-
-
-if __name__ == "__main__":
-    main()
+        page.goto(CATEGORY, wait_until="domcontentloaded", timeout=60000)
+        page.wait_for_timeout(7000)
+        links = page.evaluate(
+            "() => Array.from(document.querySelectorAll('a[href*=\"/product/\"]'))"
+            ".map(a => a.getAttribute('href'))")
+        uniq = sorted(set(l for l in links if l))
+        print(f"\n  CATEGORY rendered: {len(uniq)} unique /product/ links")
+        for u in uniq[:15]:
+            print("    ", u)
+    except Exception as e:
+        print("  category render error:", e)
+    browser.close()
+print("\nProbe v2 complete.")
