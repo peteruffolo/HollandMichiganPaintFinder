@@ -16,7 +16,11 @@ import json
 import re
 import time
 import urllib.request
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from common import write_prices_safely
 
 ROOT = Path(__file__).resolve().parent.parent
 DIST = "Michael's"
@@ -158,9 +162,8 @@ def main():
                         "inStock": in_stock})
             n += 1
         print(f"  {pg.get('name', '').strip()}: {n} colors")
-    (ROOT / "prices").mkdir(exist_ok=True)
-    (ROOT / "prices" / "michaels.json").write_text(json.dumps(out, indent=2))
-    print(f"\nMichael's: wrote {len(out)} color/price rows -> prices/michaels.json")
+    print(f"\nMichael's: parsed {len(out)} color/price rows")
+    write_prices_safely(ROOT / "prices" / "michaels.json", out)
 
 
 if __name__ == "__main__":
