@@ -24,7 +24,7 @@ import requests
 from bs4 import BeautifulSoup
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from common import guess_line, extract_size, norm, ROOT
+from common import guess_line, extract_size, norm, ROOT, write_prices_safely
 
 DIST = "Fris Supply Shop"
 SITE = "https://www.frissupplyshop.com"
@@ -226,9 +226,8 @@ def main():
     for p in tracked.values():
         out.extend(scrape_product(p["name"], p["url"], p["price"]))
         time.sleep(1)
-    (ROOT / "prices").mkdir(exist_ok=True)
-    (ROOT / "prices" / "fris.json").write_text(json.dumps(out, indent=2))
-    print(f"\nFris: wrote {len(out)} color/price rows -> prices/fris.json")
+    print(f"\nFris: parsed {len(out)} color/price rows")
+    write_prices_safely(ROOT / "prices" / "fris.json", out)
 
 
 if __name__ == "__main__":
