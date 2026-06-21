@@ -74,8 +74,14 @@ def display_name(name, color):
 
 
 def parse_size(size_str):
-    m = re.search(r"(\d+)\s*ml", (size_str or "").lower())
-    return int(m.group(1)) if m else None
+    s = (size_str or "").lower()
+    m = re.search(r"(\d+(?:\.\d+)?)\s*ml", s)
+    if m:
+        return round(float(m.group(1)))
+    o = re.search(r"(\d+(?:\.\d+)?)\s*oz", s)   # 8 oz / 16 oz cans -> mL
+    if o:
+        return round(float(o.group(1)) * 29.5735)
+    return None
 
 
 def scrape_line(cfg):
@@ -98,6 +104,7 @@ def scrape_line(cfg):
         rows.append({"brand": cfg["brand"], "line": cfg["line"], "grade": cfg["grade"],
                      "name": name, "dist": DIST, "price": float(price),
                      "size": parse_size(v.get("size")), "unit": "ml",
+                     "sizeLabel": re.sub(r"\s+", " ", (v.get("size") or "")).strip() or None,
                      "url": offers.get("url") or cfg["url"],
                      "inStock": "InStock" in (offers.get("availability") or "")})
     print(f"  {cfg['brand']} {cfg['line']}: {len(rows)} colors")
