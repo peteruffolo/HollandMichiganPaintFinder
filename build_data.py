@@ -24,9 +24,16 @@ ROOT = Path(__file__).resolve().parent
 catalog = json.loads((ROOT / "catalog.json").read_text())
 cat_by_id = {c["id"]: c for c in catalog}
 
+# auto-generated enrichment (pigments + swatch hex per color, harvested from Blick).
+# Curated catalog goes first so its pigments win ties; enrichment fills the long tail.
+_enrich_path = ROOT / "enrichment.json"
+ENRICHMENT = json.loads(_enrich_path.read_text()) if _enrich_path.exists() else []
+MATCH_CATALOG = catalog + ENRICHMENT
+
 
 def enrich(row):
-    """Resolve a price row to full display fields, pulling pigments/hex from catalog."""
+    """Resolve a price row to full display fields, pulling pigments/hex/swatch from catalog."""
+    swatch = None
     if row.get("product_id"):
         c = cat_by_id.get(row["product_id"])
         if not c:
@@ -36,15 +43,16 @@ def enrich(row):
                     pigments=c["pigments"], hex=c.get("hex", "#888888"))
     else:
         pigments, hexv = [], "#888888"
-        entry, score = match_product(row["name"], catalog,
+        entry, score = match_product(row["name"], MATCH_CATALOG,
                                      restrict_line=row.get("line"),
                                      restrict_brand=row.get("brand"))
         if entry and score >= 0.6:
             pigments, hexv = entry["pigments"], entry.get("hex", "#888888")
+            swatch = entry.get("swatch")
         base = dict(brand=row["brand"], line=row["line"], grade=row.get("grade", "student"),
                     name=row["name"], pigments=pigments, hex=hexv)
     base.update(size=row.get("size"), unit=row.get("unit", "ml"), price=row.get("price"),
-                sizeLabel=row.get("sizeLabel"),
+                sizeLabel=row.get("sizeLabel"), swatch=swatch,
                 dist=row["dist"], url=row.get("url", ""), inStock=row.get("inStock", True),
                 manual=row.get("manual", False), verified=row.get("verified"))
     return base
