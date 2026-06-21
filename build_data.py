@@ -44,6 +44,7 @@ def enrich(row):
         base = dict(brand=row["brand"], line=row["line"], grade=row.get("grade", "student"),
                     name=row["name"], pigments=pigments, hex=hexv)
     base.update(size=row.get("size"), unit=row.get("unit", "ml"), price=row.get("price"),
+                sizeLabel=row.get("sizeLabel"),
                 dist=row["dist"], url=row.get("url", ""), inStock=row.get("inStock", True),
                 manual=row.get("manual", False), verified=row.get("verified"))
     return base
