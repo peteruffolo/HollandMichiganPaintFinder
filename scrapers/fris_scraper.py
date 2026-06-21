@@ -35,10 +35,40 @@ HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
 }
-LINE_BRAND = {"1980": "Gamblin", "Winton": "Winsor & Newton", "Studio": "Blick"}
-LINE_GRADE = {"1980": "student", "Winton": "student", "Studio": "student"}
-LINE_TOKENS = {"1980": ["1980"], "Winton": ["winton"], "Studio": ["studio"]}
-TRACKED_LINES = set(LINE_BRAND)
+LINES = {
+    "1980":           {"line": "1980",         "brand": "Gamblin",         "grade": "student", "tokens": ["1980"]},
+    "gamblin_artist": {"line": "Artist's Oil", "brand": "Gamblin",         "grade": "artist",  "tokens": ["gamblin", "artist", "oils", "oil"]},
+    "winton":         {"line": "Winton",       "brand": "Winsor & Newton", "grade": "student", "tokens": ["winton"]},
+    "studio":         {"line": "Studio",       "brand": "Blick",           "grade": "student", "tokens": ["studio", "blick"]},
+}
+
+
+def detect_line(name):
+    """Map a Fris product name to one of our tracked line keys, or None."""
+    up = name.upper()
+    if "1980" in up:
+        return "1980"
+    if "WINTON" in up:
+        return "winton"
+    if "GAMBLIN" in up and "ARTIST" in up:
+        return "gamblin_artist"
+    if "STUDIO" in up:
+        return "studio"
+    return None
+
+
+def line_of(name):
+    """Brand-aware line detection for Fris product names."""
+    n = (name or "").lower()
+    if "winton" in n:
+        return "Winton"
+    if "1980" in n:
+        return "1980"
+    if "blick" in n and "studio" in n:
+        return "Studio"
+    if "gamblin" in n and "artist" in n:
+        return "Artist's Oil"
+    return None
 
 STORE_MARKER = "Downtown Holland"          # your local Fris (49423)
 NEXT_LOC = ["Set as Default Location", "Godfrey", "Grand Rapids",
@@ -76,10 +106,10 @@ def price_near(a):
     return None
 
 
-def clean_single_name(title, line):
+def clean_single_name(title, tokens):
     s = re.sub(r"\b\d+(?:\.\d+)?\s*ml\b", "", title, flags=re.I)
-    for hint in LINE_TOKENS.get(line, []):
-        s = re.sub(re.escape(hint), "", s, flags=re.I)
+    for hint in tokens:
+        s = re.sub(r"\b" + re.escape(hint) + r"\b", "", s, flags=re.I)
     return re.sub(r"\s+", " ", s).strip().title()
 
 
@@ -162,10 +192,11 @@ def scrape_product(name, url, listing_price):
     soup = BeautifulSoup(html, "html.parser")
     h1 = soup.find("h1")
     title = h1.get_text(" ", strip=True) if h1 else name
-    line = guess_line(title) or guess_line(name)
-    brand, grade = LINE_BRAND.get(line), LINE_GRADE.get(line)
-    if not brand:
+    kind = detect_line(title) or detect_line(name)
+    if not kind:
         return []
+    cfg = LINES[kind]
+    line, brand, grade = cfg["line"], cfg["brand"], cfg["grade"]
     size, unit = extract_size(title)
     text = soup.get_text(" ")
     colors = parse_color_rows(text)
@@ -179,7 +210,7 @@ def scrape_product(name, url, listing_price):
                          "size": size, "unit": unit or "ml", "url": url, "inStock": in_stock})
     elif listing_price is not None:                       # standalone single-color product
         rows.append({"brand": brand, "line": line, "grade": grade,
-                     "name": clean_single_name(title, line), "dist": DIST, "price": listing_price,
+                     "name": clean_single_name(title, cfg["tokens"]), "dist": DIST, "price": listing_price,
                      "size": size, "unit": unit or "ml", "url": url, "inStock": True})
     print(f"  {title}: colors={len(colors)} rows={len(rows)}")
     return rows
@@ -188,7 +219,7 @@ def scrape_product(name, url, listing_price):
 def main():
     products = crawl()
     tracked = {pid: p for pid, p in products.items()
-               if guess_line(p["name"]) in TRACKED_LINES
+               if detect_line(p["name"])
                and not any(w in p["name"].upper() for w in SET_WORDS)}
     print(f"  tracked: {[p['name'] for p in tracked.values()]}")
     out = []
