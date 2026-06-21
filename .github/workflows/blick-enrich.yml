@@ -1,0 +1,32 @@
+name: Blick enrich (pigments + swatches)
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Colors to sample (8 = quick dry-run, writes nothing; 0 = full run)"
+        default: "8"
+permissions:
+  contents: write
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install Pillow
+        run: pip install pillow
+      - name: Run enrichment
+        env:
+          ENRICH_LIMIT: "${{ inputs.limit }}"
+        run: python scrapers/blick_enrich.py
+      - name: Rebuild data + commit (full run only)
+        if: ${{ inputs.limit == '0' }}
+        run: |
+          python build_data.py
+          git config user.name "price-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add enrichment.json data.json
+          git commit -m "Enrich pigments + swatches ($(date -u +%F))" || echo "no changes"
+          git push
