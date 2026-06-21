@@ -16,10 +16,16 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4
       - name: Scrape Fris
+        id: fris
         run: python scrapers/fris_scraper.py
         continue-on-error: true
       - name: Scrape Michael's
+        id: michaels
         run: python scrapers/michaels_scraper.py
+        continue-on-error: true
+      - name: Scrape Blick
+        id: blick
+        run: python scrapers/blick_scraper.py
         continue-on-error: true
       - name: Build data.json
         run: python build_data.py
@@ -30,3 +36,16 @@ jobs:
           git add data.json prices/*.json
           git commit -m "Update prices ($(date -u +%F))" || echo "no changes"
           git push
+      - name: Flag scraper failures
+        if: always()
+        run: |
+          fail=0
+          for s in "Fris=${{ steps.fris.outcome }}" "Michaels=${{ steps.michaels.outcome }}" "Blick=${{ steps.blick.outcome }}"; do
+            name="${s%%=*}"; out="${s##*=}"
+            if [ "$out" = "failure" ]; then
+              echo "::error::$name scraper failed or tripped its safeguard - kept last good prices."
+              fail=1
+            fi
+          done
+          if [ "$fail" = "0" ]; then echo "All scrapers OK."; fi
+          exit $fail
