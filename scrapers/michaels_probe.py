@@ -1,8 +1,6 @@
 """
-Michael's FULL-VARIANT probe (diagnostics only).
-The JSON-LD ProductGroup is capped at 25 variants, but the complete color list
-is embedded in the Next.js __next_f data chunks. This probe tries to recover ALL
-colors + prices from the raw HTML and reports the structure so we can parse it.
+Michael's probe v5: confirm the FULL variant-URL list is in the parent page, and
+that each variant page exposes price + color in meta tags (no browser).
 """
 import re
 import urllib.request
@@ -15,7 +13,7 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
 
 
-def raw_fetch(url):
+def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": UA,
           "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
           "Accept-Encoding": "identity"})
@@ -33,34 +31,26 @@ def uniq(seq):
 
 for label, url in URLS.items():
     print("\n" + "=" * 70)
-    print(label, url)
-    try:
-        html = raw_fetch(url)
-    except Exception as e:
-        print("  fetch error:", e)
-        continue
-    print(f"  bytes={len(html)}  has __next_f={'__next_f' in html}")
+    print(label)
+    html = fetch(url)
+    slug = url.split("/product/")[1]
+    m = re.search(r"(.*?\d+ml)", slug)        # prefix up to the size token
+    prefix = m.group(1) if m else slug
+    variants = uniq(re.findall(r"/product/" + re.escape(prefix) + r"-{1,2}[A-Za-z0-9]+", html))
+    print(f"  prefix={prefix!r}")
+    print(f"  unique variant URLs found: {len(variants)}")
+    for v in variants[:6]:
+        print("    ", v)
 
-    # how many key occurrences (escaped form used inside __next_f JS strings)
-    for kw in [r'\"color\"', r'"color"', r'\"price\"', r'"price"', r'\"listPrice\"',
-               r'\"salePrice\"', r'\"orderable\"', r'\"variationValues\"',
-               r'\"sku\"', r'\"productId\"', r'\"name\"']:
-        print(f"    count {kw!r}: {len(re.findall(re.escape(kw), html))}")
-
-    # recover color names (both escaped and plain)
-    colors = uniq(re.findall(r'\\"color\\":\\"([^"\\]+)\\"', html)
-                  + re.findall(r'"color":"([^"\\]+)"', html))
-    print(f"\n  COLORS recovered: {len(colors)}")
-    print("   ", colors)
-
-    # recover prices
-    prices = re.findall(r'\\"price\\":\s*([\d.]+)', html) + re.findall(r'"price":\s*([\d.]+)', html)
-    print(f"  PRICE values found: {len(prices)} (sample: {prices[:12]})")
-
-    # context window around first escaped color -> shows how price relates to color
-    m = re.search(r'\\"color\\":\\"[^"\\]+\\"', html)
-    if m:
-        s = max(0, m.start() - 250)
-        print("\n  --- context around first variant ---")
-        print("  " + html[s:m.end() + 250].replace("\\", ""))
-print("\nProbe complete.")
+    if variants:
+        v0 = "https://www.michaels.com" + variants[0]
+        vh = fetch(v0)
+        price = re.search(r'property="(?:product:)?price:amount"\s+content="([\d.]+)"', vh) \
+            or re.search(r'property="og:price:amount"\s+content="([\d.]+)"', vh)
+        title = re.search(r'property="og:title"\s+content="([^"]+)"', vh)
+        avail = re.search(r'property="product:availability"\s+content="([^"]+)"', vh)
+        print(f"  sample variant: {variants[0]}")
+        print(f"     price meta: {price.group(1) if price else None}")
+        print(f"     title meta: {title.group(1) if title else None}")
+        print(f"     avail meta: {avail.group(1) if avail else None}")
+print("\nProbe v5 complete.")
