@@ -1,8 +1,8 @@
 name: Update paint prices
 on:
-  workflow_dispatch:
   schedule:
     - cron: "0 12 * * 1"
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
@@ -17,6 +17,9 @@ jobs:
         run: pip install requests beautifulsoup4
       - name: Scrape Fris
         run: python scrapers/fris_scraper.py
+        continue-on-error: true
+      - name: Scrape Michael's
+        run: python scrapers/michaels_scraper.py
         continue-on-error: true
       - name: Build data.json
         run: python build_data.py
