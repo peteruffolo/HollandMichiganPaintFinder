@@ -23,8 +23,9 @@ LINE_HINTS = {
     "1980": ["1980"],
     "Winton": ["winton"],
     "Studio": ["blick studio", "studio oil"],
-    "Artist's Oil": ["gamblin artist", "artist's oil", "artists oil"],
-    "Artists' Oil": ["winsor", "artists' oil"],
+    # Gamblin's artist line shows up as "Gamblin ... Artist Oils" on Fris
+    "Artist's Oil": ["gamblin artist", "artist oils", "artist oil", "artist's oil", "artists oil"],
+    "Artists' Oil": ["artists' oil"],
 }
 
 
@@ -117,3 +118,28 @@ def match_product(raw_name: str, catalog, restrict_line=None, restrict_brand=Non
 
 def load_catalog():
     return json.loads((ROOT / "catalog.json").read_text())
+
+
+def write_prices_safely(path, rows, min_floor=1, drop_ratio=0.5):
+    """Write rows to `path` as JSON, but REFUSE if the result looks broken --
+    zero rows, or a big drop versus the previous file. This stops a site change
+    from silently overwriting good prices with garbage: instead we keep the last
+    good file and raise SystemExit(1) so the workflow step goes red (and GitHub
+    emails the repo owner). Returns the number of rows written on success.
+    """
+    path = Path(path)
+    new_n = len(rows)
+    old_n = 0
+    if path.exists():
+        try:
+            old_n = len(json.loads(path.read_text()))
+        except Exception:
+            old_n = 0
+    if new_n < min_floor or (old_n >= 4 and new_n < old_n * drop_ratio):
+        print(f"  SAFEGUARD TRIPPED for {path.name}: got {new_n} rows, previous was "
+              f"{old_n}. Keeping the previous file and failing this step.")
+        raise SystemExit(1)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(rows, indent=2))
+    print(f"  wrote {new_n} rows -> {path.name} (previous: {old_n})")
+    return new_n
