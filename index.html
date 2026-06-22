@@ -197,7 +197,7 @@ const FUGITIVE_GENUINE="PR83";
 const STALE_DAYS=45;
 
 /* ===== normalization + matching ===== */
-const NOISE=new Set(["oil","oils","color","colour","colours","colors","artist","artists","professional","series","tube","paint","handmade","hue"]);
+const NOISE=new Set(["oil","oils","color","colour","colours","colors","artist","artists","professional","series","tube","paint","handmade"]);
 function norm(s){return (s||"").toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g," ").trim();}
 function tokens(s){return norm(s).split(" ").filter(Boolean);}
 const PIG_RE_RAW=/\bp(?:bk|br|b|g|m|o|r|v|w|y)\d{1,3}(?::\d+)?\b/gi;
