@@ -1,0 +1,7518 @@
+[
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Alizarin Crimson Permanent",
+    "pigments": [
+      "PR177"
+    ],
+    "hex": "#a92024",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748033001/01587-3063-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Blush",
+    "pigments": [
+      "PW6",
+      "PR101"
+    ],
+    "hex": "#efb4ab",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767823501/01587-3153-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Burnt Sienna",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#7b3e24",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767823594/01587-8043-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Burnt Umber",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#46362a",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767823468/01587-8053-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Cadmium Green",
+    "pigments": [
+      "PY37",
+      "PG18"
+    ],
+    "hex": "#99b92b",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767823568/01587-7213-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Cadmium Lemon",
+    "pigments": [
+      "PY35",
+      "PY3"
+    ],
+    "hex": "#f9f648",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768489347/01587-4153-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Cadmium Orange",
+    "pigments": [
+      "PO62",
+      "PO20"
+    ],
+    "hex": "#f48c1c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767823476/01587-4533-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Cadmium Red Light",
+    "pigments": [
+      "PR108",
+      "PR9"
+    ],
+    "hex": "#e34b2d",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767823685/01587-3093-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Cadmium Red Medium",
+    "pigments": [
+      "PR112",
+      "PR108"
+    ],
+    "hex": "#d93323",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767823507/01587-3103-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Cadmium Yellow Light",
+    "pigments": [
+      "PY35",
+      "PY3"
+    ],
+    "hex": "#fcea0f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767823608/01587-4133-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Cadmium Yellow Medium",
+    "pigments": [
+      "PY37",
+      "PY74"
+    ],
+    "hex": "#f9d91b",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767823626/01587-4093-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Cerulean Blue",
+    "pigments": [
+      "PB35",
+      "PB15:2"
+    ],
+    "hex": "#3076ca",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500233/01587-5193-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Chromium Oxide Green",
+    "pigments": [
+      "PG17"
+    ],
+    "hex": "#5e944c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768593648/01587-7893-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Cobalt Blue",
+    "pigments": [
+      "PB15:1",
+      "PB28"
+    ],
+    "hex": "#1e4f6c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500093/01587-5184-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Cobalt Violet",
+    "pigments": [
+      "PV23",
+      "PV19",
+      "PV14"
+    ],
+    "hex": "#685196",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500114/01587-6523-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Cool Violet",
+    "pigments": [
+      "PV23",
+      "PB29",
+      "PW6"
+    ],
+    "hex": "#7072cc",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768489424/01587-6533-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Coral",
+    "pigments": [
+      "PO62",
+      "PR188",
+      "PW6"
+    ],
+    "hex": "#f87b6e",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768489376/01587-3353-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Denim",
+    "pigments": [
+      "PB15:2",
+      "PV15",
+      "PBr7",
+      "PW6"
+    ],
+    "hex": "#263947",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768489267/01587-5553-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Dioxazine Purple",
+    "pigments": [
+      "PV23"
+    ],
+    "hex": "#363150",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500317/01587-6023-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Fast Dry Titanium White",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#efefef",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768489354/01587-1033-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Hansa Yellow Light",
+    "pigments": [
+      "PY3"
+    ],
+    "hex": "#f3e437",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500205/01587-4703-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Hansa Yellow Medium",
+    "pigments": [
+      "PY74"
+    ],
+    "hex": "#f5da11",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500175/01587-4713-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Hot Pink",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#fd5c91",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768489359/01587-3163-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Hot Violet",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#9d3896",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768489451/01587-6543-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "India Yellow",
+    "pigments": [
+      "PY83"
+    ],
+    "hex": "#f78037",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500300/01587-4163-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Ivory Black",
+    "pigments": [
+      "PBk9"
+    ],
+    "hex": "#323232",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500296/01587-2253-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Kings Blue",
+    "pigments": [
+      "PB29",
+      "PW6"
+    ],
+    "hex": "#6699d9",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768489414/01587-5503-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Mars Black",
+    "pigments": [
+      "PBk11"
+    ],
+    "hex": "#303232",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500159/01587-2044-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Naples Yellow",
+    "pigments": [
+      "PW6",
+      "PY43",
+      "PY75"
+    ],
+    "hex": "#fbda8b",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500133/01587-4143-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Naphthol Red",
+    "pigments": [
+      "PR112"
+    ],
+    "hex": "#d4352c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500154/01587-3604-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Natural White",
+    "pigments": [
+      "PBr7",
+      "PW6"
+    ],
+    "hex": "#eee4cc",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768489351/01587-1043-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Neutral Gray",
+    "pigments": [
+      "PBk7",
+      "PW6",
+      "PBk9"
+    ],
+    "hex": "#c3c5c4",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500125/01587-2543-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Olive Green",
+    "pigments": [
+      "PBr7",
+      "PB29",
+      "PY75"
+    ],
+    "hex": "#747944",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768593810/01587-7073-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Payne's Gray",
+    "pigments": [
+      "PB29",
+      "PY42",
+      "PBk9"
+    ],
+    "hex": "#2a3038",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500257/01587-4553-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Permanent Green Light",
+    "pigments": [
+      "PY73",
+      "PG7"
+    ],
+    "hex": "#53c022",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768503644/01587-7983-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Permanent Orange",
+    "pigments": [
+      "PO62"
+    ],
+    "hex": "#fd811f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768503636/01587-4913-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Phthalo Blue",
+    "pigments": [
+      "PB15:2"
+    ],
+    "hex": "#174ba6",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768503685/01587-5163-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Phthalo Green",
+    "pigments": [
+      "PG7"
+    ],
+    "hex": "#065049",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768503691/01587-7803-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Prussian Blue",
+    "pigments": [
+      "PB27:1"
+    ],
+    "hex": "#303546",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514604/01587-5223-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Quinacridone Magenta",
+    "pigments": [
+      "PR122"
+    ],
+    "hex": "#a42c47",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514561/01587-3623-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Quinacridone Red",
+    "pigments": [
+      "PV19"
+    ],
+    "hex": "#c62d3b",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514536/01587-3273-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Quinacridone Violet",
+    "pigments": [
+      "PV19"
+    ],
+    "hex": "#772e48",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514503/01587-6203-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Raw Sienna",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#a66c29",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514524/01587-8063-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Raw Umber",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#332d1f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514591/01587-8073-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Sap Green",
+    "pigments": [
+      "PB15:1",
+      "PY3"
+    ],
+    "hex": "#1f3320",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514527/01587-7094-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Sevres Blue",
+    "pigments": [
+      "PB15:2",
+      "PB15:4",
+      "PW6"
+    ],
+    "hex": "#087abc",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768489312/01587-5513-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Teal",
+    "pigments": [
+      "PG7",
+      "PG36",
+      "PW6"
+    ],
+    "hex": "#05b196",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768489402/01587-5103-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Titanium Buff",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#dcd2b4",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514505/01587-1004-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Titanium White",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#ebebeb",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514599/01587-1023-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Transparent Red Oxide",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#7a5448",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514555/01587-3123-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Transparent White",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#f1f1f1",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514495/01587-1733-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Transparent Yellow Oxide",
+    "pigments": [
+      "PY42"
+    ],
+    "hex": "#9a6542",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514539/01587-4983-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Turquoise",
+    "pigments": [
+      "PB15:4",
+      "PG7",
+      "PW6"
+    ],
+    "hex": "#23b1bf",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768593742/01587-5113-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Ultramarine Blue",
+    "pigments": [
+      "PB29"
+    ],
+    "hex": "#30396f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768593792/01587-5233-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Ultramarine Violet",
+    "pigments": [
+      "PV15"
+    ],
+    "hex": "#282843",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768593653/01587-6733-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Van Dyke Brown",
+    "pigments": [
+      "PBr7",
+      "PBk9"
+    ],
+    "hex": "#414243",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768593737/01587-8314-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Venetian Red",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#a8472a",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768593697/01587-3133-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Viridian",
+    "pigments": [
+      "PG7",
+      "PG18"
+    ],
+    "hex": "#307b6c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768593710/01587-7193-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Yellow Ochre",
+    "pigments": [
+      "PY43"
+    ],
+    "hex": "#bd8931",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768593714/01587-4043-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Alizarin Crimson",
+    "pigments": [
+      "PR83"
+    ],
+    "hex": "#8f2829",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048287/00401-3063-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Alizarin Crimson Permanent",
+    "pigments": [
+      "PR177"
+    ],
+    "hex": "#872524",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048287/00401-3053-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Alpine Blue-Green",
+    "pigments": [],
+    "hex": "#334a56",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767909831/00401-7173-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Asphaltum",
+    "pigments": [
+      "PR101",
+      "PB29"
+    ],
+    "hex": "#413b34",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047949/00401-8183-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Asphaltum 8 oz Can",
+    "pigments": [
+      "PR101",
+      "PB29"
+    ],
+    "hex": "#413b34",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047949/00401-8183-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Asphaltum 16 oz Can",
+    "pigments": [
+      "PR101",
+      "PB29"
+    ],
+    "hex": "#413b34",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047949/00401-8183-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Azure",
+    "pigments": [],
+    "hex": "#55a3d9",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767909781/00401-5073-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Brown Pink",
+    "pigments": [
+      "PR149",
+      "PR101"
+    ],
+    "hex": "#86372e",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047951/00401-8483-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Brown Pink 8 oz Can",
+    "pigments": [
+      "PR149",
+      "PR101"
+    ],
+    "hex": "#86372e",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047951/00401-8483-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Brown Pink 16 oz Can",
+    "pigments": [
+      "PR149",
+      "PR101"
+    ],
+    "hex": "#86372e",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047951/00401-8483-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Burnt Sienna",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#774835",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047981/00401-8046-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Burnt Sienna 8 oz Can",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#774835",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047981/00401-8046-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Burnt Sienna 16 oz Can",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#774835",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047981/00401-8046-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Burnt Umber",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#483b33",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047961/00401-8053-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Burnt Umber 8 oz Can",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#483b33",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047961/00401-8053-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Burnt Umber 16 oz Can",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#483b33",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047961/00401-8053-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Bush Green",
+    "pigments": [],
+    "hex": "#617234",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767909865/00401-7183-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Chartreuse",
+    "pigments": [
+      "PY35",
+      "PG36"
+    ],
+    "hex": "#e0eb24",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048182/00401-4314-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Chartreuse 8 oz can",
+    "pigments": [
+      "PY35",
+      "PG36"
+    ],
+    "hex": "#e0eb24",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048182/00401-4314-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Chartreuse 16 oz can",
+    "pigments": [
+      "PY35",
+      "PG36"
+    ],
+    "hex": "#e0eb24",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048182/00401-4314-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Green",
+    "pigments": [
+      "PY35",
+      "PG18"
+    ],
+    "hex": "#9cbd34",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047999/00401-7214-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Green 8 oz Can",
+    "pigments": [
+      "PY35",
+      "PG18"
+    ],
+    "hex": "#9cbd34",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047999/00401-7214-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Green 16 oz Can",
+    "pigments": [
+      "PY35",
+      "PG18"
+    ],
+    "hex": "#9cbd34",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047999/00401-7214-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Lemon",
+    "pigments": [
+      "PY35"
+    ],
+    "hex": "#edd83b",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048197/00401-4183-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Lemon 8 oz Can",
+    "pigments": [
+      "PY35"
+    ],
+    "hex": "#edd83b",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048197/00401-4183-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Lemon 16 oz Can",
+    "pigments": [
+      "PY35"
+    ],
+    "hex": "#edd83b",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048197/00401-4183-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Orange",
+    "pigments": [
+      "PO20"
+    ],
+    "hex": "#f38d23",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048183/00401-4533-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Orange 8 oz Can",
+    "pigments": [
+      "PO20"
+    ],
+    "hex": "#f38d23",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048183/00401-4533-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Orange 16 oz Can",
+    "pigments": [],
+    "hex": "#f38d23",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048183/00401-4533-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Orange Deep",
+    "pigments": [
+      "PO20"
+    ],
+    "hex": "#f67f31",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048171/00401-4913-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Orange Deep 8 oz Can",
+    "pigments": [
+      "PO20"
+    ],
+    "hex": "#f67f31",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048171/00401-4913-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Orange Deep 16 oz Can",
+    "pigments": [
+      "PO20"
+    ],
+    "hex": "#f67f31",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048171/00401-4913-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Red Deep",
+    "pigments": [
+      "PR108"
+    ],
+    "hex": "#b4362e",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048282/00401-3204-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Red Deep 8 oz Can",
+    "pigments": [
+      "PR108"
+    ],
+    "hex": "#b4362e",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048282/00401-3204-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Red Deep 16 oz Can",
+    "pigments": [
+      "PR108"
+    ],
+    "hex": "#b4362e",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048282/00401-3204-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Red Light",
+    "pigments": [
+      "PR108"
+    ],
+    "hex": "#df4822",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048288/00401-3094-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Red Light 8 oz Can",
+    "pigments": [
+      "PR108"
+    ],
+    "hex": "#df4822",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048288/00401-3094-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Red Light 16 oz Can",
+    "pigments": [
+      "PR108"
+    ],
+    "hex": "#df4822",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048288/00401-3094-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Red Medium",
+    "pigments": [
+      "PR108"
+    ],
+    "hex": "#dc3526",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048277/00401-3156-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Red Medium 8 oz Can",
+    "pigments": [
+      "PR108"
+    ],
+    "hex": "#dc3526",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048277/00401-3156-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Red Medium 16 oz Can",
+    "pigments": [
+      "PR108"
+    ],
+    "hex": "#dc3526",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048277/00401-3156-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Yellow Deep",
+    "pigments": [
+      "PY37"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Yellow Deep 8 oz Can",
+    "pigments": [
+      "PY37"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Yellow Deep 16 oz Can",
+    "pigments": [
+      "PY37"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Yellow Light",
+    "pigments": [
+      "PY35"
+    ],
+    "hex": "#f4dd17",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048213/00401-4076-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Yellow Light 8 oz Can",
+    "pigments": [
+      "PY35"
+    ],
+    "hex": "#f4dd17",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048213/00401-4076-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Yellow Light 16 oz Can",
+    "pigments": [
+      "PY35"
+    ],
+    "hex": "#f4dd17",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048213/00401-4076-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Yellow Medium",
+    "pigments": [
+      "PY37"
+    ],
+    "hex": "#f1c31f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048215/00401-4094-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Yellow Medium 8 oz Can",
+    "pigments": [
+      "PY37"
+    ],
+    "hex": "#f1c31f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048215/00401-4094-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Yellow Medium 16 oz Can",
+    "pigments": [
+      "PY37"
+    ],
+    "hex": "#f1c31f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048215/00401-4094-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Canopy Green",
+    "pigments": [],
+    "hex": "#b2b423",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767909794/00401-7193-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cerulean Blue",
+    "pigments": [
+      "PB36"
+    ],
+    "hex": "#2065ab",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048114/00401-5163-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cerulean Blue 8 oz Can",
+    "pigments": [
+      "PB36"
+    ],
+    "hex": "#2065ab",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048114/00401-5163-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cerulean Blue 16 oz Can",
+    "pigments": [
+      "PB36"
+    ],
+    "hex": "#2065ab",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048114/00401-5163-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cerulean Blue Hue",
+    "pigments": [
+      "PW6",
+      "PB15:4"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cerulean Blue Hue 8 oz Can",
+    "pigments": [
+      "PW6",
+      "PB15:4"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cerulean Blue Hue 16 oz Can",
+    "pigments": [
+      "PW6",
+      "PB15:4"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Chromatic Black",
+    "pigments": [
+      "PG36",
+      "PV19"
+    ],
+    "hex": "#434446",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048366/00401-2143-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Chromatic Black 8 oz Can",
+    "pigments": [
+      "PG36",
+      "PV19"
+    ],
+    "hex": "#434446",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048366/00401-2143-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Chromatic Black 16 oz Can",
+    "pigments": [
+      "PG36",
+      "PV19"
+    ],
+    "hex": "#434446",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048366/00401-2143-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Chromium Oxide Green",
+    "pigments": [
+      "PG17"
+    ],
+    "hex": "#487642",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047984/00401-7654-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Chromium Oxide Green 8 oz Can",
+    "pigments": [
+      "PG17"
+    ],
+    "hex": "#487642",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047984/00401-7654-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Chromium Oxide Green 16 oz Can",
+    "pigments": [
+      "PG17"
+    ],
+    "hex": "#487642",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047984/00401-7654-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cobalt Blue",
+    "pigments": [
+      "PB28"
+    ],
+    "hex": "#3058ac",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048095/00401-5183-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cobalt Blue 8 oz Can",
+    "pigments": [
+      "PB28"
+    ],
+    "hex": "#3058ac",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048095/00401-5183-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cobalt Blue 16 oz Can",
+    "pigments": [
+      "PB28"
+    ],
+    "hex": "#3058ac",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048095/00401-5183-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cobalt Green",
+    "pigments": [
+      "PG19"
+    ],
+    "hex": "#385b49",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047998/00401-7165-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cobalt Green 8 oz Can",
+    "pigments": [
+      "PG19"
+    ],
+    "hex": "#385b49",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047998/00401-7165-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cobalt Green 16 oz Can",
+    "pigments": [
+      "PG19"
+    ],
+    "hex": "#385b49",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047998/00401-7165-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cobalt Teal",
+    "pigments": [
+      "PB28"
+    ],
+    "hex": "#1da5b2",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048117/00401-5083-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cobalt Teal 8 oz Can",
+    "pigments": [
+      "PB28"
+    ],
+    "hex": "#1da5b2",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048117/00401-5083-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cobalt Teal 16 oz Can",
+    "pigments": [
+      "PB28"
+    ],
+    "hex": "#1da5b2",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048117/00401-5083-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cobalt Turquoise",
+    "pigments": [],
+    "hex": "#095c6b",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767909808/00401-5133-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cobalt Violet",
+    "pigments": [
+      "PV14"
+    ],
+    "hex": "#664c7a",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048061/00401-6523-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cobalt Violet 8 oz Can",
+    "pigments": [
+      "PV14"
+    ],
+    "hex": "#664c7a",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048061/00401-6523-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cobalt Violet 16 oz Can",
+    "pigments": [
+      "PV14"
+    ],
+    "hex": "#664c7a",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048061/00401-6523-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cool White",
+    "pigments": [
+      "PB15:1",
+      "PW6",
+      "PW4"
+    ],
+    "hex": "#dee4ec",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048376/00401-1873-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cool White 8 oz can",
+    "pigments": [
+      "PB15:1",
+      "PW6",
+      "PW4"
+    ],
+    "hex": "#dee4ec",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048376/00401-1873-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cool White 16 oz can",
+    "pigments": [
+      "PB15:1",
+      "PW6",
+      "PW4"
+    ],
+    "hex": "#dee4ec",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048376/00401-1873-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Copper",
+    "pigments": [],
+    "hex": "#bb8663",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047926/00401-9503-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Coral",
+    "pigments": [],
+    "hex": "#e4524c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767909777/00401-3353-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Dioxazine Purple",
+    "pigments": [
+      "PV23"
+    ],
+    "hex": "#383651",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048082/00401-6023-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Dioxazine Purple 8 oz Can",
+    "pigments": [
+      "PV23"
+    ],
+    "hex": "#383651",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048082/00401-6023-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Dioxazine Purple 16 oz Can",
+    "pigments": [
+      "PV23"
+    ],
+    "hex": "#383651",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048082/00401-6023-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Emerald Green",
+    "pigments": [
+      "PG36",
+      "PY74",
+      "PW6"
+    ],
+    "hex": "#45b381",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048028/00401-7053-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Emerald Green 8 oz Can",
+    "pigments": [
+      "PG36",
+      "PY74",
+      "PW6"
+    ],
+    "hex": "#45b381",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048028/00401-7053-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Emerald Green 16 oz Can",
+    "pigments": [
+      "PG36",
+      "PY74",
+      "PW6"
+    ],
+    "hex": "#45b381",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048028/00401-7053-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Fast Dry Titanium White",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#dbdbdb",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048446/00401-1044-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Flake White Replacement",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#e6e7e9",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048393/00401-1275-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Flake White Replacement 8 oz Can",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#e6e7e9",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048393/00401-1275-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Flake White Replacement 16 oz Can",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#e6e7e9",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048393/00401-1275-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Flake White Replacement 32 oz Can",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#e6e7e9",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048393/00401-1275-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Forest Floor Green",
+    "pigments": [],
+    "hex": "#445335",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767909857/00401-7223-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Gold Ochre",
+    "pigments": [
+      "PY83",
+      "PY43"
+    ],
+    "hex": "#c99435",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047936/00401-9034-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Gold Ochre 8 oz Can",
+    "pigments": [
+      "PY83",
+      "PY43"
+    ],
+    "hex": "#c99435",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047936/00401-9034-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Gold Ochre 16 oz Can",
+    "pigments": [
+      "PY83",
+      "PY43"
+    ],
+    "hex": "#c99435",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047936/00401-9034-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Green Gold",
+    "pigments": [
+      "PY129"
+    ],
+    "hex": "#7c6f24",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047925/00401-9703-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Green Gold 8 oz can",
+    "pigments": [
+      "PY129"
+    ],
+    "hex": "#7c6f24",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047925/00401-9703-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Green Gold 16 oz can",
+    "pigments": [
+      "PY129"
+    ],
+    "hex": "#7c6f24",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047925/00401-9703-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Hansa Yellow Deep",
+    "pigments": [
+      "PY75"
+    ],
+    "hex": "#f7ad24",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048141/00401-4974-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Hansa Yellow Deep 8 oz Can",
+    "pigments": [
+      "PY75"
+    ],
+    "hex": "#f7ad24",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048141/00401-4974-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Hansa Yellow Deep 16 oz Can",
+    "pigments": [
+      "PY75"
+    ],
+    "hex": "#f7ad24",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048141/00401-4974-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Hansa Yellow Light",
+    "pigments": [
+      "PY3"
+    ],
+    "hex": "#f0dc53",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048185/00401-4704-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Hansa Yellow Light 8 oz Can",
+    "pigments": [
+      "PY3"
+    ],
+    "hex": "#f0dc53",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048185/00401-4704-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Hansa Yellow Light 16 oz Can",
+    "pigments": [
+      "PY3"
+    ],
+    "hex": "#f0dc53",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048185/00401-4704-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Hansa Yellow Medium",
+    "pigments": [
+      "PY74"
+    ],
+    "hex": "#f7da24",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048172/00401-4716-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Hansa Yellow Medium 8 oz Can",
+    "pigments": [
+      "PY74"
+    ],
+    "hex": "#f7da24",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048172/00401-4716-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Hansa Yellow Medium 16 oz Can",
+    "pigments": [
+      "PY74"
+    ],
+    "hex": "#f7da24",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048172/00401-4716-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Indanthrone Blue",
+    "pigments": [
+      "PB60"
+    ],
+    "hex": "#1a387c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048083/00401-5343-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Indanthrone Blue 8 oz Can",
+    "pigments": [
+      "PB60"
+    ],
+    "hex": "#1a387c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048083/00401-5343-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Indanthrone Blue 16 oz Can",
+    "pigments": [
+      "PB60"
+    ],
+    "hex": "#1a387c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048083/00401-5343-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "India Red",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#83402f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048249/00401-3253-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "India Red 8 oz Can",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#83402f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048249/00401-3253-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "India Red 16 oz Can",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#83402f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048249/00401-3253-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "India Yellow",
+    "pigments": [
+      "PY83"
+    ],
+    "hex": "#e3791e",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048195/00401-4163-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "India Yellow 8 oz Can",
+    "pigments": [
+      "PY83"
+    ],
+    "hex": "#e3791e",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048195/00401-4163-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "India Yellow 16 oz Can",
+    "pigments": [
+      "PY83"
+    ],
+    "hex": "#e3791e",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048195/00401-4163-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Indigo",
+    "pigments": [],
+    "hex": "#292d35",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767909835/00401-5523-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Ivory Black",
+    "pigments": [
+      "PBk9"
+    ],
+    "hex": "#313232",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048366/00401-2253-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Ivory Black 8 oz Can",
+    "pigments": [
+      "PBk9"
+    ],
+    "hex": "#313232",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048366/00401-2253-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Ivory Black 16 oz Can",
+    "pigments": [
+      "PBk9"
+    ],
+    "hex": "#313232",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048366/00401-2253-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Ivory Black 32 oz Can",
+    "pigments": [
+      "PBk9"
+    ],
+    "hex": "#313232",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048366/00401-2253-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Kings Blue",
+    "pigments": [],
+    "hex": "#6182d6",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767909813/00401-5503-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Manganese Blue Hue",
+    "pigments": [
+      "PB15:4"
+    ],
+    "hex": "#2c97c1",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048074/00401-5336-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Manganese Blue Hue 8 oz Can",
+    "pigments": [
+      "PB15:4"
+    ],
+    "hex": "#2c97c1",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048074/00401-5336-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Manganese Blue Hue 16 oz Can",
+    "pigments": [
+      "PB15:4"
+    ],
+    "hex": "#2c97c1",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048074/00401-5336-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Manganese Violet",
+    "pigments": [
+      "PV16"
+    ],
+    "hex": "#482e4c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048040/00401-6623-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Manganese Violet 8 oz Can",
+    "pigments": [
+      "PV16"
+    ],
+    "hex": "#482e4c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048040/00401-6623-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Manganese Violet 16 oz Can",
+    "pigments": [
+      "PV16"
+    ],
+    "hex": "#482e4c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048040/00401-6623-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Mars Black",
+    "pigments": [
+      "PBk11"
+    ],
+    "hex": "#414140",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048362/00401-2043-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Mars Black 8 oz Can",
+    "pigments": [
+      "PBk11"
+    ],
+    "hex": "#414140",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048362/00401-2043-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Mars Black 16 oz Can",
+    "pigments": [
+      "PBk11"
+    ],
+    "hex": "#414140",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048362/00401-2043-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Mars Black 32 oz Can",
+    "pigments": [
+      "PBk11"
+    ],
+    "hex": "#414140",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048362/00401-2043-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Naphthol Red",
+    "pigments": [
+      "PR112"
+    ],
+    "hex": "#df3c2f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048248/00401-3603-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Naphthol Red 8 oz Can",
+    "pigments": [
+      "PR112"
+    ],
+    "hex": "#df3c2f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048248/00401-3603-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Naphthol Red 16 oz Can",
+    "pigments": [
+      "PR112"
+    ],
+    "hex": "#df3c2f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048248/00401-3603-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Naphthol Scarlet",
+    "pigments": [
+      "PR188"
+    ],
+    "hex": "#d73125",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048157/00401-4943-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Naphthol Scarlet 8 oz Can",
+    "pigments": [
+      "PR188"
+    ],
+    "hex": "#d73125",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048157/00401-4943-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Naphthol Scarlet 16 oz Can",
+    "pigments": [
+      "PR188"
+    ],
+    "hex": "#d73125",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048157/00401-4943-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Naples Orange",
+    "pigments": [
+      "PW6",
+      "PR108",
+      "PY43"
+    ],
+    "hex": "#dfb08c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048235/00401-3875-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Naples Orange 8 oz Can",
+    "pigments": [
+      "PW6",
+      "PR108",
+      "PY43"
+    ],
+    "hex": "#dfb08c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048235/00401-3875-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Naples Orange 16 oz Can",
+    "pigments": [
+      "PW6",
+      "PR108",
+      "PY43"
+    ],
+    "hex": "#dfb08c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048235/00401-3875-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Naples Yellow",
+    "pigments": [
+      "PW6",
+      "PY75",
+      "PY43"
+    ],
+    "hex": "#dbc073",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048179/00401-4243-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Naples Yellow 8 oz Can",
+    "pigments": [
+      "PY42",
+      "PW6",
+      "PY75"
+    ],
+    "hex": "#dbc073",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048179/00401-4243-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Naples Yellow 16 oz Can",
+    "pigments": [
+      "PY42",
+      "PY75",
+      "PW6"
+    ],
+    "hex": "#dbc073",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048179/00401-4243-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Nickel Titanate Yellow",
+    "pigments": [
+      "PY53"
+    ],
+    "hex": "#e0c963",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048177/00401-4833-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Nickel Titanate Yellow 8 oz can",
+    "pigments": [
+      "PY53"
+    ],
+    "hex": "#e0c963",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048177/00401-4833-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Nickel Titanate Yellow 16 oz can",
+    "pigments": [
+      "PY53"
+    ],
+    "hex": "#e0c963",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048177/00401-4833-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Olive Green",
+    "pigments": [
+      "PB15:1",
+      "PY74",
+      "PBr7"
+    ],
+    "hex": "#565e34",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048017/00401-7073-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Olive Green 8 oz Can",
+    "pigments": [
+      "PB15:1",
+      "PY74",
+      "PBr7"
+    ],
+    "hex": "#565e34",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048017/00401-7073-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Olive Green 16 oz Can",
+    "pigments": [
+      "PB15:1",
+      "PY74",
+      "PBr7"
+    ],
+    "hex": "#565e34",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048017/00401-7073-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Pale Gold",
+    "pigments": [],
+    "hex": "#c2b383",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047937/00401-9243-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Payne's Grey",
+    "pigments": [
+      "PBk11",
+      "PY42",
+      "PB29"
+    ],
+    "hex": "#292929",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048346/00401-2566-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Permanent Green Light",
+    "pigments": [
+      "PG7",
+      "PY74"
+    ],
+    "hex": "#58ad3d",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047977/00401-7315-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Permanent Green Light 8 oz Can",
+    "pigments": [
+      "PG7",
+      "PY74"
+    ],
+    "hex": "#58ad3d",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047977/00401-7315-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Permanent Green Light 16 oz can",
+    "pigments": [
+      "PG7",
+      "PY74"
+    ],
+    "hex": "#58ad3d",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047977/00401-7315-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Permanent Orange",
+    "pigments": [
+      "PO62"
+    ],
+    "hex": "#ee7d2a",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048160/00401-4934-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Permanent Orange 8 oz Can",
+    "pigments": [
+      "PO62"
+    ],
+    "hex": "#ee7d2a",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048160/00401-4934-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Permanent Orange 16 oz Can",
+    "pigments": [
+      "PO62"
+    ],
+    "hex": "#ee7d2a",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048160/00401-4934-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Perylene Red",
+    "pigments": [
+      "PR149"
+    ],
+    "hex": "#c31b2f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048246/00401-3724-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Perylene Red 8 oz Can",
+    "pigments": [
+      "PR149"
+    ],
+    "hex": "#c31b2f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048246/00401-3724-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Perylene Red 16 oz Can",
+    "pigments": [
+      "PR149"
+    ],
+    "hex": "#c31b2f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048246/00401-3724-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Phthalo Blue",
+    "pigments": [
+      "PB15:1"
+    ],
+    "hex": "#2f333e",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048117/00401-5144-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Phthalo Blue 8 oz Can",
+    "pigments": [
+      "PB15:1"
+    ],
+    "hex": "#2f333e",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048117/00401-5144-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Phthalo Blue 16 oz Can",
+    "pigments": [
+      "PB15:1"
+    ],
+    "hex": "#2f333e",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048117/00401-5144-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Phthalo Emerald",
+    "pigments": [
+      "PG36"
+    ],
+    "hex": "#1f5c3d",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047984/00401-7564-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Phthalo Emerald 8 oz Can",
+    "pigments": [
+      "PG36"
+    ],
+    "hex": "#1f5c3d",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047984/00401-7564-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Phthalo Emerald 16 oz Can",
+    "pigments": [
+      "PG36"
+    ],
+    "hex": "#1f5c3d",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047984/00401-7564-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Phthalo Green",
+    "pigments": [
+      "PG7"
+    ],
+    "hex": "#3d5252",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048021/00401-7063-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Phthalo Green 8 oz Can",
+    "pigments": [
+      "PG7"
+    ],
+    "hex": "#3d5252",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048021/00401-7063-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Phthalo Green 16 oz can",
+    "pigments": [
+      "PG7"
+    ],
+    "hex": "#3d5252",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048021/00401-7063-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Phthalo Turquoise",
+    "pigments": [
+      "PB15:2",
+      "PG7"
+    ],
+    "hex": "#295361",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048083/00401-5423-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Phthalo Turquoise 8 oz Can",
+    "pigments": [
+      "PB15:2",
+      "PG7"
+    ],
+    "hex": "#295361",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048083/00401-5423-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Phthalo Turquoise 16 oz Can",
+    "pigments": [
+      "PB15:2",
+      "PG7"
+    ],
+    "hex": "#295361",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048083/00401-5423-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Portland Cool Gray",
+    "pigments": [
+      "PBk11",
+      "PW6",
+      "PB29"
+    ],
+    "hex": "#868c96",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048330/00401-2643-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Portland Cool Gray 8 oz can",
+    "pigments": [
+      "PBk11",
+      "PW6",
+      "PB29"
+    ],
+    "hex": "#868c96",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048330/00401-2643-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Portland Cool Gray 16 oz can",
+    "pigments": [
+      "PBk11",
+      "PW6",
+      "PB29"
+    ],
+    "hex": "#868c96",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048330/00401-2643-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Portland Gray Deep",
+    "pigments": [
+      "PW6",
+      "PBk9",
+      "PW4"
+    ],
+    "hex": "#777d7f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048349/00401-2613-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Portland Gray Deep 8 oz Can",
+    "pigments": [
+      "PW6",
+      "PBk9",
+      "PW4"
+    ],
+    "hex": "#777d7f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048349/00401-2613-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Portland Gray Deep 16 oz Can",
+    "pigments": [
+      "PW6",
+      "PBk9",
+      "PW4"
+    ],
+    "hex": "#777d7f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048349/00401-2613-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Portland Gray Light",
+    "pigments": [
+      "PW6",
+      "PBk9",
+      "PW4"
+    ],
+    "hex": "#b7bcba",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048345/00401-2634-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Portland Gray Light 8 oz Can",
+    "pigments": [
+      "PW6",
+      "PBk9",
+      "PW4"
+    ],
+    "hex": "#b7bcba",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048345/00401-2634-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Portland Gray Light 16 oz Can",
+    "pigments": [
+      "PW6",
+      "PBk9",
+      "PW4"
+    ],
+    "hex": "#b7bcba",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048345/00401-2634-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Portland Gray Medium",
+    "pigments": [
+      "PW6",
+      "PBk9",
+      "PW4"
+    ],
+    "hex": "#9c9f9c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048348/00401-2624-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Portland Gray Medium 8 oz Can",
+    "pigments": [
+      "PW6",
+      "PBk9",
+      "PW4"
+    ],
+    "hex": "#9c9f9c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048348/00401-2624-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Portland Gray Medium 16 oz Can",
+    "pigments": [
+      "PW6",
+      "PBk9",
+      "PW4"
+    ],
+    "hex": "#9c9f9c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048348/00401-2624-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Portland Warm Gray",
+    "pigments": [
+      "PBk11",
+      "PW6",
+      "PR101"
+    ],
+    "hex": "#ad9996",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048327/00401-2654-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Portland Warm Gray 8 oz can",
+    "pigments": [
+      "PBk11",
+      "PW6",
+      "PR101"
+    ],
+    "hex": "#ad9996",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048327/00401-2654-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Portland Warm Gray 16 oz can",
+    "pigments": [
+      "PBk11",
+      "PW6",
+      "PR101"
+    ],
+    "hex": "#ad9996",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048327/00401-2654-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Prussian Blue",
+    "pigments": [
+      "PB27:1"
+    ],
+    "hex": "#313e57",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048101/00401-5224-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Prussian Blue 8 oz Can",
+    "pigments": [
+      "PB27:1"
+    ],
+    "hex": "#313e57",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048101/00401-5224-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Prussian Blue 16 oz Can",
+    "pigments": [
+      "PB27:1"
+    ],
+    "hex": "#313e57",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048101/00401-5224-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Quick Dry White 8 oz Can",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#dbdbdb",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048446/00401-1044-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Quick Dry White 16 oz Can",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#dbdbdb",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048446/00401-1044-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Quick Dry White 32 oz Can",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#dbdbdb",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048446/00401-1044-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Quinacridone Magenta",
+    "pigments": [
+      "PR122"
+    ],
+    "hex": "#6a242d",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048252/00401-3624-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Quinacridone Magenta 8 oz Can",
+    "pigments": [
+      "PR122"
+    ],
+    "hex": "#6a242d",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048252/00401-3624-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Quinacridone Magenta 16 oz Can",
+    "pigments": [
+      "PR122"
+    ],
+    "hex": "#6a242d",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048252/00401-3624-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Quinacridone Red",
+    "pigments": [
+      "PV19"
+    ],
+    "hex": "#a4373d",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048259/00401-3274-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Quinacridone Red 8 oz Can",
+    "pigments": [
+      "PV19"
+    ],
+    "hex": "#a4373d",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048259/00401-3274-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Quinacridone Red 16 oz Can",
+    "pigments": [
+      "PV19"
+    ],
+    "hex": "#a4373d",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048259/00401-3274-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Quinacridone Violet",
+    "pigments": [
+      "PV19"
+    ],
+    "hex": "#642a39",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048056/00401-6514-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Quinacridone Violet 8 oz Can",
+    "pigments": [
+      "PV19"
+    ],
+    "hex": "#642a39",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048056/00401-6514-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Quinacridone Violet 16 oz Can",
+    "pigments": [
+      "PV19"
+    ],
+    "hex": "#642a39",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048056/00401-6514-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Blue",
+    "pigments": [
+      "PW6",
+      "PB29"
+    ],
+    "hex": "#b5c6d7",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048144/00401-5194-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Blue 8 oz can",
+    "pigments": [
+      "PW6",
+      "PB29"
+    ],
+    "hex": "#b5c6d7",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048146/00401-5015-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Blue 16 oz can",
+    "pigments": [
+      "PW6",
+      "PB29"
+    ],
+    "hex": "#b5c6d7",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048146/00401-5015-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Green",
+    "pigments": [
+      "PG36",
+      "PW6",
+      "PY3"
+    ],
+    "hex": "#78d39c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048025/00401-7014-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Green 8 oz can",
+    "pigments": [
+      "PG36",
+      "PW6",
+      "PY3"
+    ],
+    "hex": "#78d39c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048017/00401-7015-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Green 16 oz can",
+    "pigments": [
+      "PG36",
+      "PW6",
+      "PY3"
+    ],
+    "hex": "#78d39c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048017/00401-7015-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Lemon",
+    "pigments": [
+      "PW6",
+      "PY3"
+    ],
+    "hex": "#ece380",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048207/00401-4064-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Lemon 8 oz Can",
+    "pigments": [
+      "PW6",
+      "PY3"
+    ],
+    "hex": "#ebe380",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048207/00401-4065-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Lemon 16 oz Can",
+    "pigments": [
+      "PW6",
+      "PY3"
+    ],
+    "hex": "#ebe380",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048207/00401-4065-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Magenta",
+    "pigments": [
+      "PW6",
+      "PV19"
+    ],
+    "hex": "#e793af",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048307/00401-3044-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Magenta 8 oz Can",
+    "pigments": [
+      "PW6",
+      "PV19"
+    ],
+    "hex": "#e793af",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048307/00401-3046-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Magenta 16 oz Can",
+    "pigments": [
+      "PW6",
+      "PV19"
+    ],
+    "hex": "#e793af",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048307/00401-3046-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Orange",
+    "pigments": [],
+    "hex": "#f5a456",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767909818/00401-4543-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Red",
+    "pigments": [
+      "PW6",
+      "PR149"
+    ],
+    "hex": "#e8a3ac",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048319/00401-3014-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Red 8 oz Can",
+    "pigments": [
+      "PW6",
+      "PR149"
+    ],
+    "hex": "#e8a3ac",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048327/00401-3015-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Red 16 oz Can",
+    "pigments": [
+      "PW6",
+      "PR149"
+    ],
+    "hex": "#e8a3ac",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048327/00401-3015-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Turquoise",
+    "pigments": [
+      "PB15",
+      "PG7",
+      "PW6"
+    ],
+    "hex": "#80c4ca",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048118/00401-5124-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Turquoise 8 oz Can",
+    "pigments": [
+      "PB15",
+      "PG7",
+      "PW6"
+    ],
+    "hex": "#80c4ca",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048123/00401-5115-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Turquoise 16 oz Can",
+    "pigments": [
+      "PB15",
+      "PG7",
+      "PW6"
+    ],
+    "hex": "#80c4ca",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048123/00401-5115-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Violet",
+    "pigments": [
+      "PV23",
+      "PW6"
+    ],
+    "hex": "#baadca",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048042/00401-6694-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Violet 8 oz Can",
+    "pigments": [
+      "PV23",
+      "PW6"
+    ],
+    "hex": "#baadc9",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048037/00401-6696-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Violet 16 oz Can",
+    "pigments": [
+      "PV23",
+      "PW6"
+    ],
+    "hex": "#baadc9",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048037/00401-6696-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Warm Green",
+    "pigments": [],
+    "hex": "#95c55d",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767909784/00401-7233-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant White",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#dddcd3",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048457/00401-1024-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant White 8 oz Can",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#dddcd3",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048428/00401-1055-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant White 16 oz Can",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#dddcd3",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048428/00401-1055-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Yellow",
+    "pigments": [
+      "PY83",
+      "PW6"
+    ],
+    "hex": "#edd26b",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048237/00401-4014-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Yellow 8 oz Can",
+    "pigments": [
+      "PY83",
+      "PW6"
+    ],
+    "hex": "#edd26b",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048243/00401-4015-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Yellow 16 oz Can",
+    "pigments": [
+      "PY83",
+      "PW6"
+    ],
+    "hex": "#edd26b",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048243/00401-4015-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Raw Sienna",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#a0713a",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047968/00401-8064-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Raw Sienna 8 oz Can",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#a0713a",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047968/00401-8064-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Raw Sienna 16 oz Can",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#a0713a",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047968/00401-8064-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Raw Umber",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#473f33",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047965/00401-8074-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Raw Umber 8 oz Can",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#473f33",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047965/00401-8074-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Raw Umber 16 oz Can",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#473f33",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047965/00401-8074-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Rich Gold",
+    "pigments": [],
+    "hex": "#c3ad84",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047941/00401-9264-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Sap Green",
+    "pigments": [
+      "PY83",
+      "PB15:1"
+    ],
+    "hex": "#2e5228",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048005/00401-7094-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Sap Green 8 oz Can",
+    "pigments": [
+      "PY83",
+      "PB15:1"
+    ],
+    "hex": "#2e5228",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048005/00401-7094-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Sap Green 16 oz Can",
+    "pigments": [
+      "PY83",
+      "PB15:1"
+    ],
+    "hex": "#2e5228",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048005/00401-7094-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Sevres Blue",
+    "pigments": [],
+    "hex": "#0a7bc5",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767909827/00401-5513-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Shell Pink",
+    "pigments": [],
+    "hex": "#eeb3b4",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767909790/00401-3263-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Silver",
+    "pigments": [],
+    "hex": "#acafad",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047927/00401-9304-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Terre Verte",
+    "pigments": [
+      "PY43",
+      "PBk9",
+      "PG18"
+    ],
+    "hex": "#676947",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048011/00401-7134-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Terre Verte 8 oz Can",
+    "pigments": [
+      "PY43",
+      "PBk9",
+      "PG18"
+    ],
+    "hex": "#676947",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048011/00401-7134-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Terre Verte 16 oz Can",
+    "pigments": [
+      "PY43",
+      "PBk9",
+      "PG18"
+    ],
+    "hex": "#676947",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048011/00401-7134-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Titanium Buff",
+    "pigments": [
+      "PY53"
+    ],
+    "hex": "#bea270",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047939/00401-8624-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Titanium Buff 8 oz can",
+    "pigments": [
+      "PY53"
+    ],
+    "hex": "#bea270",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047939/00401-8624-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Titanium Buff 16 oz can",
+    "pigments": [
+      "PY53"
+    ],
+    "hex": "#bea270",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047939/00401-8624-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Titanium White",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#e1e1e1",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048431/00401-1114-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Titanium White 8 oz Can",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#e1e1e1",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048431/00401-1114-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Titanium White 16 oz Can",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#e1e1e1",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048431/00401-1114-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Titanium White 32 oz Can",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#e1e1e1",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048431/00401-1114-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Titanium-Zinc White",
+    "pigments": [
+      "PW6",
+      "PW4"
+    ],
+    "hex": "#e0e0de",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048374/00401-1334-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Transparent Earth Orange",
+    "pigments": [
+      "PY42",
+      "PR101"
+    ],
+    "hex": "#956050",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048158/00401-4954-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Transparent Earth Orange 8 oz Can",
+    "pigments": [
+      "PY42",
+      "PR101"
+    ],
+    "hex": "#956050",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048158/00401-4954-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Transparent Earth Orange 16 oz can",
+    "pigments": [
+      "PY42",
+      "PR101"
+    ],
+    "hex": "#956050",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048158/00401-4954-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Transparent Earth Red",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#593d34",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048245/00401-3734-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Transparent Earth Red 8 oz Can",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#593d34",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048245/00401-3734-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Transparent Earth Red 16 oz Can",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#593d34",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048245/00401-3734-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Transparent Earth Yellow",
+    "pigments": [
+      "PY42"
+    ],
+    "hex": "#6e4d29",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048148/00401-4984-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Transparent Earth Yellow 8 oz Can",
+    "pigments": [
+      "PY42"
+    ],
+    "hex": "#6e4d29",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048148/00401-4984-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Transparent Earth Yellow 16 oz Can",
+    "pigments": [
+      "PY42"
+    ],
+    "hex": "#6e4d29",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048148/00401-4984-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Transparent Orange",
+    "pigments": [
+      "PY83",
+      "PR149"
+    ],
+    "hex": "#d64822",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048146/00401-4964-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Transparent Orange 8 oz Can",
+    "pigments": [
+      "PY83",
+      "PR149"
+    ],
+    "hex": "#d64822",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048146/00401-4964-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Transparent Orange 16 oz Can",
+    "pigments": [
+      "PY83",
+      "PR149"
+    ],
+    "hex": "#d64822",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048146/00401-4964-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Ultramarine Blue",
+    "pigments": [
+      "PB29"
+    ],
+    "hex": "#2d385c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048101/00401-5234-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Ultramarine Blue 8 oz Can",
+    "pigments": [
+      "PB29"
+    ],
+    "hex": "#2d385c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048101/00401-5234-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Ultramarine Blue 16 oz Can",
+    "pigments": [
+      "PB29"
+    ],
+    "hex": "#2d385c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048101/00401-5234-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Ultramarine Blue 32 oz Can",
+    "pigments": [
+      "PB29"
+    ],
+    "hex": "#2d385c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048101/00401-5234-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Ultramarine Violet",
+    "pigments": [
+      "PV15"
+    ],
+    "hex": "#393847",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048042/00401-6644-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Ultramarine Violet 8 oz Can",
+    "pigments": [
+      "PV15"
+    ],
+    "hex": "#393847",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048042/00401-6644-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Ultramarine Violet 16 oz Can",
+    "pigments": [
+      "PB29"
+    ],
+    "hex": "#393847",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048042/00401-6644-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Van Dyke Brown",
+    "pigments": [
+      "PBr7",
+      "PBk9"
+    ],
+    "hex": "#3c3832",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047946/00401-8314-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Van Dyke Brown 8 oz Can",
+    "pigments": [
+      "PBr7",
+      "PBk9"
+    ],
+    "hex": "#3c3832",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047946/00401-8314-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Van Dyke Brown 16 oz Can",
+    "pigments": [
+      "PBr7",
+      "PBk9"
+    ],
+    "hex": "#3c3832",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047946/00401-8314-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Venetian Red",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#985033",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048273/00401-4924-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Venetian Red 8 oz Can",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#985033",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048273/00401-4924-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Venetian Red 16 oz Can",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#985033",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048273/00401-4924-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Viridian",
+    "pigments": [
+      "PG18"
+    ],
+    "hex": "#395751",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048008/00401-7104-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Viridian 8 oz Can",
+    "pigments": [
+      "PG18"
+    ],
+    "hex": "#395751",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048008/00401-7104-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Viridian 16 oz Can",
+    "pigments": [
+      "PG18"
+    ],
+    "hex": "#395751",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048008/00401-7104-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Warm White",
+    "pigments": [
+      "PO62",
+      "PY74",
+      "PW6",
+      "PW4"
+    ],
+    "hex": "#e3dcd9",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048382/00401-1884-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Warm White 8 oz can",
+    "pigments": [
+      "PO62",
+      "PY74",
+      "PW6",
+      "PW4"
+    ],
+    "hex": "#e3dcd9",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048382/00401-1884-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Warm White 16 oz can",
+    "pigments": [
+      "PO62",
+      "PY74",
+      "PW6",
+      "PW4"
+    ],
+    "hex": "#e3dcd9",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048382/00401-1884-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Yellow Ochre",
+    "pigments": [
+      "PY43"
+    ],
+    "hex": "#ba8734",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048231/00401-4044-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Yellow Ochre 8 oz Can",
+    "pigments": [
+      "PY43"
+    ],
+    "hex": "#ba8734",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048231/00401-4044-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Yellow Ochre 16 oz Can",
+    "pigments": [
+      "PY43"
+    ],
+    "hex": "#ba8734",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048231/00401-4044-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Zinc White",
+    "pigments": [
+      "PW4"
+    ],
+    "hex": "#e0dedd",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048458/00401-1034-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Zinc White 8 oz Can",
+    "pigments": [
+      "PW4"
+    ],
+    "hex": "#e0dedd",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048458/00401-1034-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Zinc White 16 oz Can",
+    "pigments": [
+      "PW4"
+    ],
+    "hex": "#e0dedd",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048458/00401-1034-s-4ww.jpg"
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Zinc White 32 oz Can",
+    "pigments": [
+      "PW4"
+    ],
+    "hex": "#e0dedd",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048458/00401-1034-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Azo Brown",
+    "pigments": [
+      "PV23",
+      "PY74"
+    ],
+    "hex": "#675424",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748458292/00430-8583-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Azo Yellow Green",
+    "pigments": [
+      "PG7",
+      "PR101",
+      "PY42",
+      "PY74"
+    ],
+    "hex": "#b0932e",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748458298/00430-4453-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Burnt Sienna",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Burnt Umber",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Lemon",
+    "pigments": [
+      "PY35"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Orange",
+    "pigments": [
+      "PR108",
+      "PO20"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Orange Hue",
+    "pigments": [
+      "PO73",
+      "PY65"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Red Deep Hue",
+    "pigments": [
+      "PR170",
+      "PO36"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Red Hue",
+    "pigments": [
+      "PR188",
+      "PR170"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Red Light",
+    "pigments": [
+      "PR108"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Red Medium",
+    "pigments": [
+      "PR108"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Scarlet Hue",
+    "pigments": [
+      "PO73",
+      "PR188",
+      "PV19"
+    ],
+    "hex": "#dc2c29",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748458307/00430-3563-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Yellow Deep Hue",
+    "pigments": [
+      "PY65",
+      "PO65"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Yellow Hue",
+    "pigments": [
+      "PY65"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Yellow Light",
+    "pigments": [
+      "PY35"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Yellow Medium",
+    "pigments": [
+      "PY35"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Yellow Pale Hue",
+    "pigments": [
+      "PY74"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cerulean Blue",
+    "pigments": [
+      "PB35"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cerulean Blue Hue",
+    "pigments": [
+      "PB15",
+      "PG7",
+      "PW4"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cobalt Blue",
+    "pigments": [
+      "PB28"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cobalt Blue Hue",
+    "pigments": [
+      "PB15",
+      "PB29",
+      "PW4"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cobalt Violet Hue",
+    "pigments": [
+      "PV16",
+      "PB29"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Dark Verdigris",
+    "pigments": [
+      "PB29",
+      "PY74"
+    ],
+    "hex": "#144733",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748458296/00430-7123-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Dioxazine Blue",
+    "pigments": [
+      "PB29",
+      "PV23"
+    ],
+    "hex": "#211f4d",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748458290/00430-5203-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Dioxazine Purple",
+    "pigments": [
+      "PV23"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "French Ultramarine",
+    "pigments": [
+      "PB29"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Indian Red",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Ivory Black",
+    "pigments": [
+      "PBk9"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Lamp Black",
+    "pigments": [
+      "PBk6"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Lemon Yellow Hue",
+    "pigments": [
+      "PY3"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Light Red",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Magenta",
+    "pigments": [
+      "PB15",
+      "PR122"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Naples Yellow Hue",
+    "pigments": [
+      "PY42",
+      "PW6",
+      "PR101"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Oxide of Chromium",
+    "pigments": [
+      "PG17"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Pale Rose Blush",
+    "pigments": [
+      "PY42",
+      "PW6",
+      "PV19",
+      "PW4"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Payne's Gray",
+    "pigments": [
+      "PBk19",
+      "PB29",
+      "PBk6"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Permanent Alizarin Crimson",
+    "pigments": [
+      "PR177"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Permanent Green Light",
+    "pigments": [
+      "PB15",
+      "PY74",
+      "PW6"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Permanent Rose",
+    "pigments": [
+      "PV19"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Phthalo Blue",
+    "pigments": [
+      "PB15"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Phthalo Deep Green",
+    "pigments": [
+      "PG7",
+      "PR177"
+    ],
+    "hex": "#172e39",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748458293/00430-7823-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Phthalo Yellow Green",
+    "pigments": [
+      "PG7",
+      "PY74"
+    ],
+    "hex": "#12a049",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748458297/00430-4463-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Prussian Blue",
+    "pigments": [
+      "PB27"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Quinacridone Deep Pink",
+    "pigments": [
+      "PB29",
+      "PV19"
+    ],
+    "hex": "#511d2e",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748458309/00430-3273-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Raw Sienna",
+    "pigments": [
+      "PY43",
+      "PY42"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Raw Umber",
+    "pigments": [
+      "PBk9",
+      "PBr7"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Sap Green",
+    "pigments": [
+      "PB15",
+      "PY110"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Soft Mixing White",
+    "pigments": [
+      "PW6",
+      "PW4"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Terre Verte",
+    "pigments": [
+      "PG23",
+      "PG7"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Titanium White",
+    "pigments": [
+      "PW6",
+      "PW4"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Vandyke Brown",
+    "pigments": [
+      "PBr7",
+      "PR101",
+      "PBk7"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Vermilion Hue",
+    "pigments": [
+      "PR170",
+      "PO36",
+      "PW4"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Viridian Hue",
+    "pigments": [
+      "PG7"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Yellow Ochre",
+    "pigments": [
+      "PY43"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Viridian Hue (Blue Shade)",
+    "pigments": [
+      "PG7"
+    ],
+    "hex": "#0f4328",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1757937999/00430-5213-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Zinc White",
+    "pigments": [
+      "PW4"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Titanium White and Ivory Black",
+    "pigments": [],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Blue Gray",
+    "pigments": [
+      "PW6",
+      "PW4",
+      "PB29",
+      "PBk9"
+    ],
+    "hex": "#c3d0db",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748448416/01557-5860-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Brilliant Rose",
+    "pigments": [
+      "PR5",
+      "PW6",
+      "PR112"
+    ],
+    "hex": "#f15d6e",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449933/01557-3170-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Buff Titanium",
+    "pigments": [
+      "PW6",
+      "PY42",
+      "PR101",
+      "PBk11",
+      "PG17"
+    ],
+    "hex": "#ddd0ac",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449936/01557-1123-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Burnt Sienna",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#b85c37",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449949/01557-8043-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Burnt Umber",
+    "pigments": [
+      "PR101",
+      "PBr7",
+      "PBk11"
+    ],
+    "hex": "#4e3a2a",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449923/01557-8053-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Cadmium Orange Hue",
+    "pigments": [
+      "PY73",
+      "PO34"
+    ],
+    "hex": "#ea611d",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449941/01557-4543-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Cadmium Red Deep Hue",
+    "pigments": [
+      "PY73",
+      "PR5",
+      "PR101"
+    ],
+    "hex": "#b34145",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449956/01557-3323-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Cadmium Red Hue",
+    "pigments": [
+      "PY73",
+      "PR112",
+      "PO34"
+    ],
+    "hex": "#e42a26",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449930/01557-3543-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Cadmium Red Light Hue",
+    "pigments": [
+      "PO73"
+    ],
+    "hex": "#e74b36",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748464118/01557-3093-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Cadmium Yellow Deep Hue",
+    "pigments": [
+      "PY83",
+      "PY3"
+    ],
+    "hex": "#fde00c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449954/01557-4303-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Cadmium Yellow Hue",
+    "pigments": [
+      "PY83",
+      "PY73"
+    ],
+    "hex": "#fbd615",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449955/01557-4353-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Cadmium Yellow Pale Hue",
+    "pigments": [
+      "PY73",
+      "PY3"
+    ],
+    "hex": "#fde00c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449954/01557-4303-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Cerulean Blue Hue",
+    "pigments": [
+      "PB15",
+      "PW6",
+      "PW4",
+      "PY184"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Cobalt Blue Hue",
+    "pigments": [
+      "PB29",
+      "PB27"
+    ],
+    "hex": "#385687",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449959/01557-5193-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Cobalt Violet Hue",
+    "pigments": [
+      "PV23",
+      "PR122"
+    ],
+    "hex": "#632e5c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449939/01557-6573-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Crimson Alizarin",
+    "pigments": [
+      "PR177"
+    ],
+    "hex": "#892a31",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449934/01557-3063-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Dioxazine Purple",
+    "pigments": [
+      "PV23"
+    ],
+    "hex": "#5c3b72",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449925/01557-6023-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Emerald Green Hue",
+    "pigments": [
+      "PG7",
+      "PY3",
+      "PW4"
+    ],
+    "hex": "#28ae82",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449950/01557-7050-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Flake White Hue",
+    "pigments": [
+      "PW6",
+      "PW4"
+    ],
+    "hex": "#deddd9",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449951/01557-1040-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Hooker's Green",
+    "pigments": [
+      "PG7",
+      "PR101"
+    ],
+    "hex": "#06553a",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449951/01557-7123-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Ivory Black",
+    "pigments": [
+      "PBk7",
+      "PBk9"
+    ],
+    "hex": "#252b2c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449934/01557-2253-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Lamp Black",
+    "pigments": [
+      "PBk7"
+    ],
+    "hex": "#212a2c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449960/01557-2023-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Lemon Yellow",
+    "pigments": [
+      "PY3"
+    ],
+    "hex": "#fcdd35",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449958/01557-4063-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Light Blue",
+    "pigments": [
+      "PB15",
+      "PW6",
+      "PB29"
+    ],
+    "hex": "#a2c4e7",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449928/01557-5020-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Mixing White",
+    "pigments": [
+      "PW6",
+      "PW4"
+    ],
+    "hex": "#e9eae8",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449960/01557-1303-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Naphthol Crimson",
+    "pigments": [
+      "PR254"
+    ],
+    "hex": "#cf3b41",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449945/01557-3223-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Naples Yellow",
+    "pigments": [
+      "PW6",
+      "PY65",
+      "PY42",
+      "PY1:1"
+    ],
+    "hex": "#edcf92",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449948/01557-4143-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Payne's Gray",
+    "pigments": [
+      "PBk7",
+      "PB29"
+    ],
+    "hex": "#2a2b2a",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449946/01557-2563-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Permanent Blue",
+    "pigments": [
+      "PB29"
+    ],
+    "hex": "#4b5e8f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449958/01557-5780-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Permanent Light Green",
+    "pigments": [
+      "PG7",
+      "PY42",
+      "PY3"
+    ],
+    "hex": "#2ea53f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449953/01557-7313-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Phthalo Blue",
+    "pigments": [
+      "PB15"
+    ],
+    "hex": "#173d73",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449928/01557-5163-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Phthalo Green",
+    "pigments": [
+      "PG7"
+    ],
+    "hex": "#084842",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449947/01557-7803-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Primary Magenta",
+    "pigments": [
+      "PR122",
+      "PV23"
+    ],
+    "hex": "#9e364d",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449930/01557-3700-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Primary Yellow",
+    "pigments": [
+      "PY73"
+    ],
+    "hex": "#fdda39",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449955/01557-4530-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Prussian Blue",
+    "pigments": [
+      "PB27"
+    ],
+    "hex": "#1b232a",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449927/01557-5223-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Raw Sienna",
+    "pigments": [
+      "PY42",
+      "PR101"
+    ],
+    "hex": "#cb8738",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449922/01557-8063-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Raw Umber",
+    "pigments": [
+      "PY42",
+      "PBk11",
+      "PR101"
+    ],
+    "hex": "#524533",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449920/01557-8073-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Rose Madder",
+    "pigments": [
+      "PR5",
+      "PW6",
+      "PV19",
+      "PR122"
+    ],
+    "hex": "#e54a64",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449914/01557-3500-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Rosy Beige",
+    "pigments": [
+      "PR101",
+      "PY42",
+      "PW4",
+      "PW6"
+    ],
+    "hex": "#eea379",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449929/01557-3713-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Sap Green",
+    "pigments": [
+      "PY73",
+      "PG7",
+      "PR101"
+    ],
+    "hex": "#5b7534",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449924/01557-7093-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Scarlet Lake",
+    "pigments": [
+      "PR5",
+      "PR112"
+    ],
+    "hex": "#ee4a4c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449920/01557-9940-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Terre Verte Hue",
+    "pigments": [
+      "PY42",
+      "PBr7",
+      "PG7"
+    ],
+    "hex": "#465c33",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449924/01557-7133-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Titanium White",
+    "pigments": [
+      "PW4",
+      "PW6",
+      "PB29"
+    ],
+    "hex": "#dadad9",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449937/01557-1023-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Ultramarine Blue",
+    "pigments": [
+      "PB29"
+    ],
+    "hex": "#36428d",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449938/01557-5133-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Vandyke Brown Hue",
+    "pigments": [
+      "PR170",
+      "PBr7",
+      "PBk9"
+    ],
+    "hex": "#382e26",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449920/01557-8313-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Violet Grey",
+    "pigments": [
+      "PW6",
+      "PB29",
+      "PV23",
+      "PR122",
+      "PB15:3"
+    ],
+    "hex": "#8388c1",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449925/01557-6680-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Viridian Hue",
+    "pigments": [
+      "PG7"
+    ],
+    "hex": "#027359",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449914/01557-7933-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Yellow Green",
+    "pigments": [
+      "PY74",
+      "PW6",
+      "PG17"
+    ],
+    "hex": "#b1bb4a",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449945/01557-4753-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Studio",
+    "grade": "student",
+    "name": "Yellow Ochre",
+    "pigments": [
+      "PY42"
+    ],
+    "hex": "#d19a35",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748449929/01557-4043-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Alizarin Crimson",
+    "pigments": [
+      "PR83"
+    ],
+    "hex": "#b92324",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313047/01595-3713-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Blush Tint",
+    "pigments": [
+      "PY42",
+      "PR208",
+      "PW6",
+      "PR101"
+    ],
+    "hex": "#cf8671",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313419/01595-3723-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Burnt Sienna",
+    "pigments": [
+      "PBk11",
+      "PR101"
+    ],
+    "hex": "#743f28",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313216/01595-8043-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Burnt Umber",
+    "pigments": [
+      "PBk11",
+      "PW6",
+      "PR101"
+    ],
+    "hex": "#53372c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313288/01595-8053-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Red Deep",
+    "pigments": [
+      "PR108"
+    ],
+    "hex": "#bc3229",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313067/01595-3203-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Red Light",
+    "pigments": [
+      "PR108"
+    ],
+    "hex": "#e14127",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313292/01595-3093-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Red Medium",
+    "pigments": [
+      "PR108"
+    ],
+    "hex": "#bc2c25",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313202/01595-3233-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Red Orange",
+    "pigments": [
+      "PO20"
+    ],
+    "hex": "#e85720",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313290/01595-3223-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Yellow Deep",
+    "pigments": [
+      "PY35"
+    ],
+    "hex": "#faad15",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313430/01595-4123-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Yellow Lemon",
+    "pigments": [
+      "PY35"
+    ],
+    "hex": "#f9e727",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313320/01595-4173-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Yellow Light",
+    "pigments": [
+      "PY35"
+    ],
+    "hex": "#f9dc1d",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313374/01595-4183-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Yellow Medium",
+    "pigments": [
+      "PY35"
+    ],
+    "hex": "#f1c723",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313301/01595-4093-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Yellow Orange",
+    "pigments": [
+      "PY35",
+      "PO20"
+    ],
+    "hex": "#fb9416",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313405/01595-4223-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cerulean Blue",
+    "pigments": [
+      "PB35"
+    ],
+    "hex": "#3071c3",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313343/01595-5173-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Chromium Oxide Green",
+    "pigments": [
+      "PG17"
+    ],
+    "hex": "#5f8057",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313033/01595-7113-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cobalt Blue",
+    "pigments": [
+      "PB72"
+    ],
+    "hex": "#2650b7",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313309/01595-5183-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cobalt Green Light",
+    "pigments": [
+      "PG19"
+    ],
+    "hex": "#488c87",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313415/01595-7913-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cobalt Turquoise",
+    "pigments": [
+      "PG50",
+      "PG7",
+      "PB15:3"
+    ],
+    "hex": "#1e96a7",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313056/01595-5373-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "English Red",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#8e3a30",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313445/01595-3403-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "French Ultramarine",
+    "pigments": [
+      "PB29"
+    ],
+    "hex": "#2b2e6b",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313236/01595-5273-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Green Earth",
+    "pigments": [
+      "PG23"
+    ],
+    "hex": "#41573e",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313266/01595-7213-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Indian Red",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#69211b",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313051/01595-3253-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Indian Yellow",
+    "pigments": [
+      "PY13",
+      "PG17"
+    ],
+    "hex": "#bb8c10",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313269/01595-4163-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Indigo",
+    "pigments": [
+      "PBk8",
+      "PB15:3",
+      "PBk9"
+    ],
+    "hex": "#283037",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313273/01595-5203-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Ivory Black",
+    "pigments": [
+      "PBk9"
+    ],
+    "hex": "#25292b",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313271/01595-2253-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Lemon Yellow",
+    "pigments": [
+      "PY3"
+    ],
+    "hex": "#f1e129",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313197/01595-4063-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Magenta",
+    "pigments": [
+      "PV19"
+    ],
+    "hex": "#652048",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313108/01595-3043-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Manganese Violet",
+    "pigments": [
+      "PV16"
+    ],
+    "hex": "#513466",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313180/01595-6623-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Mars Black",
+    "pigments": [
+      "PBk11"
+    ],
+    "hex": "#222222",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313204/01595-2043-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Naples Yellow",
+    "pigments": [
+      "PY74",
+      "PW6",
+      "PY3",
+      "PW4"
+    ],
+    "hex": "#e8de75",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313402/01595-4143-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Naples Yellow Light",
+    "pigments": [
+      "PY154",
+      "PW6",
+      "PY153",
+      "PW4"
+    ],
+    "hex": "#dcd39d",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313325/01595-4013-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Olive Green",
+    "pigments": [
+      "PG36",
+      "PR102"
+    ],
+    "hex": "#28422b",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313395/01595-7073-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Payne's Gray",
+    "pigments": [
+      "PBk7",
+      "PB60",
+      "PV19"
+    ],
+    "hex": "#272b2e",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313276/01595-2563-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Permanent Alizarin Crimson",
+    "pigments": [
+      "PR202",
+      "PR209",
+      "PR179"
+    ],
+    "hex": "#881c2d",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313417/01595-3393-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Permanent Green",
+    "pigments": [
+      "PG36",
+      "PY3"
+    ],
+    "hex": "#1a9538",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313036/01595-7553-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Permanent Rose",
+    "pigments": [
+      "PR208",
+      "PR209",
+      "PW6"
+    ],
+    "hex": "#df516e",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313361/01595-3263-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Permanent Tuscan Earth",
+    "pigments": [
+      "PY42",
+      "PY83",
+      "PR209",
+      "PR101",
+      "PR254"
+    ],
+    "hex": "#8d3222",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313228/01595-8833-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Permanent Yellow Green",
+    "pigments": [
+      "PY35",
+      "PG17"
+    ],
+    "hex": "#a7c52c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313238/01595-4753-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Phthalo Blue",
+    "pigments": [
+      "PB15:1"
+    ],
+    "hex": "#19284a",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313070/01595-5163-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Prussian Blue",
+    "pigments": [
+      "PB27"
+    ],
+    "hex": "#0c0e13",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313316/01595-5223-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Quinacridone Magenta",
+    "pigments": [
+      "PR122"
+    ],
+    "hex": "#942049",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313367/01595-3623-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Raw Sienna",
+    "pigments": [
+      "PBk11",
+      "PY83"
+    ],
+    "hex": "#926632",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313440/01595-8063-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Raw Umber",
+    "pigments": [
+      "PBk11"
+    ],
+    "hex": "#534a3c",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313257/01595-8073-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Red Ochre Tint",
+    "pigments": [
+      "PY43",
+      "PR102",
+      "PW4"
+    ],
+    "hex": "#965038",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313233/01595-3733-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Rose Madder Lake",
+    "pigments": [
+      "PR209"
+    ],
+    "hex": "#c71a39",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313351/01595-3753-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Sap Green",
+    "pigments": [
+      "PG36"
+    ],
+    "hex": "#548435",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313381/01595-7093-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Sepia",
+    "pigments": [
+      "PY83",
+      "PBk9",
+      "PR101"
+    ],
+    "hex": "#484942",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313079/01595-8083-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Titanium White",
+    "pigments": [
+      "PW6",
+      "PW4"
+    ],
+    "hex": "#eeeff1",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313244/01595-1023-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Turquoise Light",
+    "pigments": [
+      "PG50"
+    ],
+    "hex": "#45b3b1",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313335/01595-5253-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Ultramarine Rose",
+    "pigments": [
+      "PR259"
+    ],
+    "hex": "#8a4b81",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313399/01595-3763-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Ultramarine Violet",
+    "pigments": [
+      "PV15"
+    ],
+    "hex": "#503b8f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313348/01595-6733-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Venetian Red",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#964830",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313363/01595-3133-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Viridian",
+    "pigments": [
+      "PG18"
+    ],
+    "hex": "#1d5c4e",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313178/01595-7483-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Warm Gray",
+    "pigments": [
+      "PBk11",
+      "PY42",
+      "PW6",
+      "PR101"
+    ],
+    "hex": "#b0a38a",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313408/01595-2323-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Yellow Ochre",
+    "pigments": [
+      "PBk11",
+      "PY42",
+      "PR101"
+    ],
+    "hex": "#b48845",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313284/01595-4043-s-4ww.jpg"
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Zinc White",
+    "pigments": [
+      "PW6",
+      "PW4"
+    ],
+    "hex": "#e8e8e6",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768313314/01595-1034-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Alizarin Crimson",
+    "pigments": [
+      "PR83"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Bismuth Yellow",
+    "pigments": [
+      "PY184"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Blue Black",
+    "pigments": [
+      "PB29",
+      "PBk9"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Bright Red",
+    "pigments": [
+      "PR254"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Brilliant Yellow",
+    "pigments": [
+      "PY138",
+      "PY42",
+      "PR188",
+      "PW6"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Bronze",
+    "pigments": [],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Brown Madder",
+    "pigments": [
+      "PR177",
+      "PBr7"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Brown Ochre",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Burnt Sienna",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Burnt Umber",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Free Green Pale",
+    "pigments": [],
+    "hex": "#6bb345",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748458328/00461-7613-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Free Lemon",
+    "pigments": [],
+    "hex": "#ecd516",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748458332/00461-4193-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Free Orange",
+    "pigments": [],
+    "hex": "#f2692b",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748458327/00461-4545-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Free Red",
+    "pigments": [],
+    "hex": "#b12227",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748458344/00461-3323-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Free Red Deep",
+    "pigments": [],
+    "hex": "#821d27",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748458344/00461-3213-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Free Scarlet",
+    "pigments": [],
+    "hex": "#df2f29",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748458343/00461-3553-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Free Yellow",
+    "pigments": [],
+    "hex": "#faa31a",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748458339/00461-4113-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Free Yellow Pale",
+    "pigments": [],
+    "hex": "#ecd516",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748458332/00461-4193-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Free Yellow Deep",
+    "pigments": [],
+    "hex": "#f57e21",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748458337/00461-4133-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Green Pale",
+    "pigments": [
+      "PY35",
+      "PG18"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Lemon",
+    "pigments": [
+      "PY35"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Orange",
+    "pigments": [
+      "PR108",
+      "PO20"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Red",
+    "pigments": [
+      "PR108"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Red Deep",
+    "pigments": [
+      "PR108"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Scarlet",
+    "pigments": [
+      "PR108"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Yellow",
+    "pigments": [
+      "PY35"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Yellow Deep",
+    "pigments": [
+      "PY35",
+      "PO20"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Yellow Pale",
+    "pigments": [
+      "PY35"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cerulean Blue",
+    "pigments": [
+      "PB35"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Charcoal Gray",
+    "pigments": [
+      "PBk8"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Chrome Yellow Hue",
+    "pigments": [
+      "PO62",
+      "PY74"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Chromium Green Deep Hue",
+    "pigments": [
+      "PB15",
+      "PY42",
+      "PG7"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cinnabar Green",
+    "pigments": [
+      "PY138",
+      "PG36"
+    ],
+    "hex": "#02652d",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1759424708/00461-7253-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cobalt Blue",
+    "pigments": [
+      "PB28"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cobalt Blue Deep",
+    "pigments": [
+      "PB74"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cobalt Chromite Green",
+    "pigments": [
+      "PG26"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cobalt Green",
+    "pigments": [
+      "PG50",
+      "PG26"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cobalt Turquoise",
+    "pigments": [
+      "PB36"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cobalt Turquoise Light",
+    "pigments": [
+      "PG50"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cobalt Violet",
+    "pigments": [
+      "PV14"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Copper",
+    "pigments": [],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Davy's Gray",
+    "pigments": [
+      "PBk7",
+      "PY42",
+      "PBk19"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Flake White Hue",
+    "pigments": [
+      "PW6",
+      "PW4"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "French Ultramarine",
+    "pigments": [
+      "PB29"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Gold",
+    "pigments": [],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Gold Ochre",
+    "pigments": [
+      "PY42"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Green Gold",
+    "pigments": [
+      "PY129"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Indanthrene Blue",
+    "pigments": [
+      "PB60"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Indian Red",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Indian Yellow",
+    "pigments": [
+      "PY139",
+      "PR101"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Indian Yellow Deep",
+    "pigments": [
+      "PY150"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Indigo",
+    "pigments": [
+      "PBk7",
+      "PB15",
+      "PB29"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Iridescent White",
+    "pigments": [],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Ivory Black",
+    "pigments": [
+      "PBk9"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Lamp Black",
+    "pigments": [
+      "PBk6"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Lemon Yellow Hue",
+    "pigments": [
+      "PY53"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Light Red",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Magenta",
+    "pigments": [
+      "PR122",
+      "PV23"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Manganese Blue Hue",
+    "pigments": [
+      "PB15",
+      "PG7"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Mars Black",
+    "pigments": [
+      "PBk11"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Mars Violet Deep",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Mauve Blue Shade",
+    "pigments": [
+      "PB15",
+      "PV15",
+      "PV19"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Mineral Green Deep",
+    "pigments": [
+      "PG26"
+    ],
+    "hex": "#054040",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748372295/00461-7153-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Mineral Grey",
+    "pigments": [
+      "PBk19",
+      "PB29"
+    ],
+    "hex": "#93939f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1758916879/00461-2593-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Naples Yellow",
+    "pigments": [
+      "PW5",
+      "PBr24",
+      "PY42"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Naples Yellow Deep",
+    "pigments": [
+      "PBr24"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Naples Yellow Light",
+    "pigments": [
+      "PO62",
+      "PY138",
+      "PW6"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Olive Green",
+    "pigments": [
+      "PY110",
+      "PBk6"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Orange Laque Mineral",
+    "pigments": [
+      "PO67"
+    ],
+    "hex": "#ec4b27",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748372311/00461-4753-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Oriental Blue",
+    "pigments": [
+      "PB15:6"
+    ],
+    "hex": "#161c38",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748372307/00461-5893-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Oxide of Chromium",
+    "pigments": [
+      "PG17"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Pale Rose Blush",
+    "pigments": [
+      "PY42",
+      "PV19",
+      "PW4"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Payne's Gray",
+    "pigments": [
+      "PBk19",
+      "PB29",
+      "PR101",
+      "PBk6"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Permanent Alizarin Crimson Hue",
+    "pigments": [
+      "PR177"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Permanent Carmine",
+    "pigments": [
+      "PV19"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Permanent Green",
+    "pigments": [
+      "PY138",
+      "PG7",
+      "PW6"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Permanent Green Deep",
+    "pigments": [
+      "PY138",
+      "PG7",
+      "PW6"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Permanent Green Light",
+    "pigments": [
+      "PG7",
+      "PY74",
+      "PW6"
+    ],
+    "hex": "#288a46",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748462442/00461-7313-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Permanent Magenta",
+    "pigments": [
+      "PV19"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Permanent Mauve",
+    "pigments": [
+      "PV16"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Permanent Rose",
+    "pigments": [
+      "PV19"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Perylene Black",
+    "pigments": [
+      "PBk31"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Pewter",
+    "pigments": [],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Phthalo Turquoise",
+    "pigments": [
+      "PB15",
+      "PG7"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Prussian Blue",
+    "pigments": [
+      "PB27"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Prussian Green",
+    "pigments": [
+      "PB15",
+      "PY110"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Purple Lake",
+    "pigments": [
+      "PV23",
+      "PBr25"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Purple Madder",
+    "pigments": [
+      "PV19",
+      "PBr25"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Quinacridone Magenta",
+    "pigments": [
+      "PR122"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Quinacridone Red",
+    "pigments": [
+      "PR209"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Raw Sienna",
+    "pigments": [
+      "PY43",
+      "PY42"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Raw Umber",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Raw Umber (Green Shade)",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Raw Umber Light",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Renaissance Gold",
+    "pigments": [],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Rose Dore",
+    "pigments": [],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Rose Madder Genuine",
+    "pigments": [],
+    "hex": "#d03349",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748462689/00461-3713-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Royal Blue",
+    "pigments": [
+      "PB29",
+      "PW5"
+    ],
+    "hex": "#778ee3",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1759424698/00461-5053-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Ruby Madder Alizarin",
+    "pigments": [
+      "PR187"
+    ],
+    "hex": "#5f141f",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748372300/00461-3773-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Sap Green",
+    "pigments": [
+      "PB15",
+      "PY110"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Scarlet Lake",
+    "pigments": [
+      "PR255"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Silver",
+    "pigments": [
+      "PM1"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Smalt (Dumont's Blue)",
+    "pigments": [
+      "PV15"
+    ],
+    "hex": "#212050",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748371682/00461-5913-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Terra Rosa",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Terre Verte",
+    "pigments": [
+      "PG23",
+      "PG18"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Titanium White",
+    "pigments": [
+      "PW6",
+      "PW4"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Transparent Brown Oxide",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Transparent Gold Ochre",
+    "pigments": [
+      "PY42",
+      "PBr7"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Transparent Maroon",
+    "pigments": [
+      "PBr25"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Transparent Orange",
+    "pigments": [],
+    "hex": "#ae2325",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748372293/00461-4953-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Transparent Red Ochre",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Transparent Yellow",
+    "pigments": [
+      "PY128"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Ultramarine Ash",
+    "pigments": [
+      "PG23",
+      "PB29"
+    ],
+    "hex": "#3984a1",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1759424725/00461-2753-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Ultramarine Green Shade",
+    "pigments": [
+      "PB29"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Ultramarine Pink",
+    "pigments": [
+      "PR259"
+    ],
+    "hex": "#3c1932",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748372297/00461-3783-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Ultramarine Violet",
+    "pigments": [
+      "PV15"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Underpainting White",
+    "pigments": [
+      "PW4",
+      "PW6"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Van Dyke Brown",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Venetian Red",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Viridian",
+    "pigments": [
+      "PG18"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Viridian Hue",
+    "pigments": [],
+    "hex": "#0a563e",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1758916904/00461-7193-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Warm Brown Pink",
+    "pigments": [
+      "PY164"
+    ],
+    "hex": "#503734",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748372304/00461-8903-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Warm White",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#edeee8",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1759424482/00461-1193-s-4ww.jpg"
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Winsor Blue (Green Shade)",
+    "pigments": [
+      "PB15"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Winsor Blue (Red Shade)",
+    "pigments": [
+      "PB15"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Winsor Emerald",
+    "pigments": [
+      "PG36",
+      "PW4"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Winsor Green",
+    "pigments": [
+      "PG7"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Winsor Green (Yellow Shade)",
+    "pigments": [
+      "PG36"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Winsor Lemon",
+    "pigments": [
+      "PY3"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Winsor Orange",
+    "pigments": [
+      "PO73"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Winsor Red",
+    "pigments": [
+      "PR255",
+      "PR254"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Winsor Red Deep",
+    "pigments": [
+      "PR149"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Winsor Violet Dioxazine",
+    "pigments": [
+      "PV23"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Winsor Yellow",
+    "pigments": [
+      "PY74"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Winsor Yellow Deep",
+    "pigments": [
+      "PY65"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Yellow Ochre",
+    "pigments": [
+      "PY43"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Yellow Ochre Light",
+    "pigments": [
+      "PY43"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Yellow Ochre Pale",
+    "pigments": [
+      "PY42"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Zinc White",
+    "pigments": [
+      "PW4"
+    ],
+    "hex": "#888888",
+    "swatch": null
+  }
+]
