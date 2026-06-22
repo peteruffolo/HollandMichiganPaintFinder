@@ -27,9 +27,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import ROOT
 from blick_scraper import LINES, fetch, product_group, display_name, UA
 
-PIG_RE = re.compile(r'\bP[A-Z]{1,3}\d{1,3}(?::\d+)?\b')
+PIG_RE = re.compile(r"\bP(?:Bk|Br|B|G|M|O|R|V|W|Y)\d{1,3}(?::\d+)?\b", re.IGNORECASE)
 SWATCH_RE = re.compile(r"https://cld-assets\.dick-blick\.com/image/upload/[^\"'\s)]*?-s-4ww[^\"'\s)]*")
 SITE = "https://www.dickblick.com"
+
+
+def _norm_pig(c):
+    c = c.upper().replace("PBR", "PBr").replace("PBK", "PBk")
+    return c
 
 
 def next_data(page):
@@ -69,7 +74,7 @@ def pigments_from_item(html):
             break
     codes = []
     for c in PIG_RE.findall(region):
-        c = c.upper()
+        c = _norm_pig(c)
         if c not in codes:
             codes.append(c)
     return codes
@@ -88,9 +93,8 @@ def sample_hex(url):
             data = r.read()
         im = Image.open(io.BytesIO(data)).convert("RGB")
         w, h = im.size
-        box = im.crop((int(w * 0.3), int(h * 0.3), int(w * 0.7), int(h * 0.7))).resize((16, 16))
-        px = sorted(box.getdata(), key=lambda p: p[0] + p[1] + p[2])
-        r_, g_, b_ = px[len(px) // 2]   # median pixel of the swatch center
+        box = im.crop((int(w * 0.3), int(h * 0.3), int(w * 0.7), int(h * 0.7)))
+        r_, g_, b_ = box.resize((1, 1)).getpixel((0, 0))   # average color of swatch center
         return "#%02x%02x%02x" % (r_, g_, b_)
     except Exception:
         return None
