@@ -4,13 +4,69 @@
   "name": "Cadmium Yellow Light",
   "dist": "Hope College Bookstore",
   "price": 15.99, "size": 37, "unit": "ml",
-  "manual": true, "verified": "2026-06-18"
+  "manual": true, "verified": "2026-06-22"
 },
 {
   "brand": "Windsor and Newton", "line": "Winton", "grade": "student",
   "name": "Indian Red",
   "dist": "Hope College Bookstore",
   "price": 7.99, "size": 37, "unit": "ml",
-  "manual": true, "verified": "2026-06-18"
-}
+  "manual": true, "verified": "2026-06-22"
+},
+{
+  "brand": "Windsor and Newton", "line": "Winton", "grade": "student",
+  "name": "Cadmium Orange",
+  "dist": "Hope College Bookstore",
+  "price": 10.99, "size": 37, "unit": "ml",
+  "manual": true, "verified": "2026-06-22"
+},
+{
+  "brand": "Windsor and Newton", "line": "Winton", "grade": "student",
+  "name": "Cadmium Red Light",
+  "dist": "Hope College Bookstore",
+  "price": 11.99, "size": 37, "unit": "ml",
+  "manual": true, "verified": "2026-06-22"
+},
+{
+  "brand": "Windsor and Newton", "line": "Winton", "grade": "student",
+  "name": "Cadmium Red Medium",
+  "dist": "Hope College Bookstore",
+  "price": 15.99, "size": 37, "unit": "ml",
+  "manual": true, "verified": "2026-06-22"
+},
+{
+  "brand": "Windsor and Newton", "line": "Winton", "grade": "student",
+  "name": "Cadmium Yellow Light",
+  "dist": "Hope College Bookstore",
+  "price": 15.99, "size": 37, "unit": "ml",
+  "manual": true, "verified": "2026-06-22"
+},
+{
+  "brand": "Windsor and Newton", "line": "Winton", "grade": "student",
+  "name": "Cadmium Yellow Medium",
+  "dist": "Hope College Bookstore",
+  "price": 11.99, "size": 37, "unit": "ml",
+  "manual": true, "verified": "2026-06-22"
+},
+{
+  "brand": "Windsor and Newton", "line": "Winton", "grade": "student",
+  "name": "Cobalt Blue",
+  "dist": "Hope College Bookstore",
+  "price": 16.99, "size": 37, "unit": "ml",
+  "manual": true, "verified": "2026-06-22"
+},
+{
+  "brand": "Windsor and Newton", "line": "Winton", "grade": "student",
+  "name": "Viridian",
+  "dist": "Hope College Bookstore",
+  "price": 11.99, "size": 37, "unit": "ml",
+  "manual": true, "verified": "2026-06-22"
+},
+{
+  "brand": "Windsor and Newton", "line": "Winton", "grade": "student",
+  "name": "French Ultramarine",
+  "dist": "Hope College Bookstore",
+  "price": 11.99, "size": 37, "unit": "ml",
+  "manual": false, "verified": "2026-06-22"
+},
 ]
