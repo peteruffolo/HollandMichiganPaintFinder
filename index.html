@@ -48,6 +48,7 @@
   .count{font-family:var(--mono);font-size:12px;color:#9c9079;margin:22px 0 10px;text-transform:uppercase;letter-spacing:.12em}
   .grouphead{font-weight:800;font-size:19px;color:#efe6d2;margin:26px 0 2px;padding-bottom:5px;border-bottom:1px solid #ffffff22;text-transform:capitalize}
   .empty.small{font-size:13px;margin:6px 0 12px;padding:8px 0}
+  .note.small{font-size:12px;padding:8px 10px;margin:8px 0 4px}
   .card{display:grid;grid-template-columns:64px 1fr auto;gap:16px;align-items:center;background:var(--paper);
     color:var(--ink);border-radius:var(--radius);padding:14px 16px;margin-bottom:10px;border:1px solid var(--paper-line);}
   .card.best{border:2px solid var(--good);box-shadow:0 0 0 4px #3f6f4a22}
@@ -102,7 +103,7 @@
 
   <div class="searchcard">
     <div class="searchrow">
-      <input id="q" type="text" placeholder="color, pigment (PB29), or “yellow” — separate several with commas" autocomplete="off" aria-label="Color to search">
+      <input id="q" type="text" placeholder="exact color name — e.g. cadmium yellow light; switch Match to Partial/Color, or type a code like PB29" autocomplete="off" aria-label="Color to search">
       <button class="go" id="goBtn">Search</button>
     </div>
     <div class="examples" id="examples"></div>
@@ -120,6 +121,13 @@
           <button data-s="small" title="37–40 mL tubes">Small</button>
           <button data-s="large" title="150–200 mL tubes">Large</button>
           <button data-s="xlarge" title="8–16 oz cans">X-Large</button>
+        </span>
+      </div>
+      <div><span class="seglabel">Match</span>
+        <span class="seg" id="matchSeg">
+          <button data-m="exact" class="on" title="Exact color name">Exact</button>
+          <button data-m="partial" title="Name contains your words — e.g. all “cadmium”">Partial</button>
+          <button data-m="color" title="By actual color — e.g. all yellows">Color</button>
         </span>
       </div>
       <div><span class="seglabel">Pigment</span>
@@ -221,56 +229,67 @@ function hueFamily(h,l){
   if(h<255)return "blue";
   return "violet";
 }
-function entryFamilies(e){
-  const set=new Set();
-  const pigs=(e.pigments||[]).map(canonPig).filter(Boolean);
-  const fams=pigs.map(pigFamily);
-  fams.forEach(f=>{if(["yellow","orange","red","violet","blue","green"].includes(f))set.add(f);});
-  if(pigs.length&&fams.every(f=>f==="white"))set.add("white");
-  if(pigs.length&&fams.every(f=>f==="black"))set.add("black");
-  if(pigs.length&&fams.every(f=>f==="brown"))set.add("brown");
+function colorFamily(e){
   const hi=hexInfo(e.hex);
   if(hi){
-    if(hi.l>0.86) set.add("white");
-    else if(hi.l<0.10) set.add("black");
-    else if(hi.s<0.12) set.add(hi.l<0.30?"black":(hi.l>0.70?"white":"grey"));
-    else set.add(hueFamily(hi.h,hi.l));
+    if(hi.l>0.86) return "white";
+    if(hi.l<0.10) return "black";
+    if(hi.s<0.16) return hi.l<0.30?"black":(hi.l>0.70?"white":"grey");
+    return hueFamily(hi.h,hi.l);
   }
-  return set;
+  // no real swatch sampled -> fall back to the dominant pigment's family
+  const fams=(e.pigments||[]).map(canonPig).map(pigFamily);
+  return fams.find(f=>["yellow","orange","red","violet","blue","green"].includes(f)) || fams[0] || null;
 }
 function lev1(a,b){if(a===b)return true;if(Math.abs(a.length-b.length)>1)return false;let i=0,j=0,e=0;
   while(i<a.length&&j<b.length){if(a[i]===b[j]){i++;j++;continue;}if(++e>1)return false;
   if(a.length>b.length)i++;else if(a.length<b.length)j++;else{i++;j++;}}if(i<a.length||j<b.length)e++;return e<=1;}
 function tokenIn(t,set){if(set.has(t))return true;if(t.length<4)return false;for(const x of set){if(x.length>=4&&lev1(t,x))return true;}return false;}
 
-function matchEntry(entry,query,pigMode){
-  const qPigs=extractPigCodes(query);
-  const qCore=coreTokens(query.replace(PIG_RE_RAW," "));
-  // color-family query: a single color word, no pigment codes (e.g. "yellow")
-  if(!qPigs.length && qCore.length===1 && FAMILY_WORDS[qCore[0]]){
-    const fam=FAMILY_WORDS[qCore[0]];
-    return entryFamilies(entry).has(fam) ? {coverage:1,intentMatch:true,badge:null} : null;
-  }
-  const intentPermanent=tokens(query).some(t=>t==="permanent"||t==="perm");
-  const nameSet=new Set(coreTokens(entry.name));
+function matchEntry(entry,term,opts){
+  const matchMode=opts.matchMode, pigMode=opts.pigMode;
+  const qPigs=extractPigCodes(term);
+  const qCore=coreTokens(term.replace(PIG_RE_RAW," "));
   const entryPigs=(entry.pigments||[]).map(canonPig);
   const isGenuine=entryPigs.includes(FUGITIVE_GENUINE);
+
+  // COLOR FAMILY mode: term is one or more color words
+  if(matchMode==="color"){
+    const fams=qCore.map(t=>FAMILY_WORDS[t]).filter(Boolean);
+    if(!fams.length) return null;
+    const fam=colorFamily(entry);
+    return (fam && fams.includes(fam)) ? {intentMatch:true,badge:null} : null;
+  }
+
+  // pigment-code filter (applies in exact/partial)
   if(qPigs.length){
     if(pigMode==="only"){
       const a=[...new Set(entryPigs)].sort(), b=[...new Set(qPigs)].sort();
-      if(a.length!==b.length||!a.every((x,i)=>x===b[i])) return null;
+      if(a.length!==b.length || !a.every((x,i)=>x===b[i])) return null;
     } else if(!qPigs.every(p=>entryPigs.includes(p))) return null;
   }
-  let found=0; for(const t of qCore){if(tokenIn(t,nameSet))found++;}
-  const coverage=qCore.length?found/qCore.length:(qPigs.length?1:0);
-  const need=qCore.length<=2?qCore.length:qCore.length-1;
-  if(qCore.length && found<need && !qPigs.length) return null;
-  if(!qCore.length && !qPigs.length) return null;
-  const entryNameHasPerm=tokens(entry.name).includes("permanent");
+
+  // name filter
+  const nameCore=coreTokens(entry.name);
+  if(qCore.length){
+    if(matchMode==="exact"){
+      const a=[...new Set(nameCore)].sort(), b=[...new Set(qCore)].sort();
+      if(a.length!==b.length || !a.every((x,i)=>x===b[i])) return null;
+    } else { // partial: every query word appears in the name
+      const nameSet=new Set(nameCore);
+      if(!qCore.every(t=>tokenIn(t,nameSet))) return null;
+    }
+  } else if(!qPigs.length){
+    return null;
+  }
+
+  // permanent / genuine-PR83 intent + badge
+  const entryNameHasPerm=nameCore.includes("permanent");
+  const intentPermanent=qCore.includes("permanent")||qCore.includes("perm");
   let intentMatch=true, badge=null;
   if(intentPermanent){ if(isGenuine){intentMatch=false;badge="genuine";} else badge="perm"; }
-  else { if(nameSet.has("alizarin")){ badge=isGenuine?"literal":"perm"; } else if(entryNameHasPerm) badge="perm"; }
-  return {coverage,intentMatch,badge,isGenuine};
+  else { if(nameCore.includes("alizarin")){ badge=isGenuine?"literal":"perm"; } else if(entryNameHasPerm) badge="perm"; }
+  return {intentMatch,badge,isGenuine};
 }
 
 /* ===== state ===== */
@@ -278,6 +297,7 @@ let CATALOG=SAMPLE.slice();
 let gradeFilter="all";
 let sizeFilter="all";
 let pigMode="contains";
+let matchMode="exact";
 function sizeBucket(e){
   const s=e.size;
   if(s==null) return "other";
@@ -291,39 +311,42 @@ function couponPct(){const v=parseFloat(document.getElementById("coupon").value)
 function effPrice(e){const c=couponPct(); return (c>0 && DISTRIBUTORS[e.dist] && DISTRIBUTORS[e.dist].coupon) ? e.price*(1-c/100) : e.price;}
 function isLocal(e){return DISTRIBUTORS[e.dist] && DISTRIBUTORS[e.dist].loc==="local";}
 
-function matchRows(term){
+function matchRows(term,mode){
   const localOnly=document.getElementById("localOnly").checked;
   let rows=[];
   for(const e of CATALOG){
     if(gradeFilter!=="all" && e.grade!==gradeFilter) continue;
     if(sizeFilter!=="all" && sizeBucket(e)!==sizeFilter) continue;
     if(localOnly && !isLocal(e)) continue;
-    const m=matchEntry(e,term,pigMode); if(!m) continue;
+    const m=matchEntry(e,term,{matchMode:mode,pigMode}); if(!m) continue;
     rows.push({e,m,eff:effPrice(e)});
   }
   rows.sort((a,b)=> a.m.intentMatch!==b.m.intentMatch ? (a.m.intentMatch?-1:1) : a.eff-b.eff);
   return rows;
 }
-
+function resolve(term){
+  if(matchMode==="exact"){
+    const exact=matchRows(term,"exact");
+    if(exact.length) return {term,rows:exact,note:null};
+    const partial=matchRows(term,"partial");
+    return {term,rows:partial,note:partial.length?"No exact match — showing partial matches":null};
+  }
+  return {term,rows:matchRows(term,matchMode),note:null};
+}
 function search(raw){
-  const hideMismatch=document.getElementById("hideMismatch").checked;
   const banner=document.getElementById("banner");
   const terms=raw.split(/[;,]/).map(t=>t.trim()).filter(Boolean);
-  if(terms.length>1){
-    banner.innerHTML="";
-    renderMulti(terms.map(t=>({term:t,rows:matchRows(t)})),hideMismatch);
-    return;
-  }
-  const query=terms[0]||raw.trim();
-  const rows=matchRows(query);
-  const wantAliz=tokens(query).includes("alizarin");
-  const typedPerm=tokens(query).some(t=>t==="permanent"||t==="perm");
-  if(wantAliz && !typedPerm && extractPigCodes(query).length===0 && rows.length){
+  if(!terms.length){ banner.innerHTML=""; document.getElementById("results").innerHTML=""; return; }
+  const groups=terms.map(resolve);
+  const q=terms.length===1?terms[0]:"";
+  const wantAliz=q && tokens(q).includes("alizarin");
+  const typedPerm=q && tokens(q).some(t=>t==="permanent"||t==="perm");
+  if(matchMode!=="color" && wantAliz && !typedPerm && extractPigCodes(q).length===0 && groups[0].rows.length){
     banner.innerHTML=`<div class="note"><b>Heads up:</b> plain “alizarin crimson” is ambiguous.
       The <b>genuine</b> color uses pigment <b>PR83</b> (it fades); “permanent” versions use mixes like
       <b>PR177</b> that don’t. Both are shown — add “permanent”, or a code like <b>PR83</b>, to narrow it.</div>`;
   } else banner.innerHTML="";
-  render(rows,query,hideMismatch);
+  renderResults(groups,terms.length>1);
 }
 
 function daysSince(iso){return Math.floor((Date.now()-new Date(iso+"T00:00:00").getTime())/86400000);}
@@ -378,36 +401,27 @@ function cardHtml(r,B){
         <a href="${esc(e.url)}" target="_blank" rel="noopener">View →</a>
       </div></div>`;
 }
-function render(rows,query,hideMismatch){
-  const out=document.getElementById("results");
-  const visible=hideMismatch?rows.filter(r=>r.m.intentMatch):rows;
-  if(!visible.length){ out.innerHTML=emptyHtml(query); return; }
-  const B=bestsOf(rows);
+function groupHtml(g,multi){
+  const hideMismatch=document.getElementById("hideMismatch").checked;
+  const visible=hideMismatch?g.rows.filter(r=>r.m.intentMatch):g.rows;
+  let h="";
+  if(multi) h+=`<div class="grouphead">${esc(g.term)}</div>`;
+  if(g.note) h+=`<div class="note small">${esc(g.note)} for “${esc(g.term)}”.</div>`;
+  if(!visible.length){ h+=`<div class="empty${multi?" small":""}">No matches for “${esc(g.term)}” with these filters.</div>`; return h; }
+  const B=bestsOf(g.rows);
   const shown=visible.slice(0,CAP);
   const cap=visible.length>CAP?` · showing cheapest ${CAP}`:"";
-  let html=`<div class="count">${visible.length} tube${visible.length>1?"s":""} found · cheapest first${cap}</div>`;
-  for(const r of shown) html+=cardHtml(r,B);
-  out.innerHTML=html;
+  h+=`<div class="count">${visible.length} tube${visible.length>1?"s":""}${multi?"":" found"} · cheapest first${cap}</div>`;
+  for(const r of shown) h+=cardHtml(r,B);
+  return h;
 }
-function renderMulti(groups,hideMismatch){
-  const out=document.getElementById("results");
-  let html="";
-  for(const g of groups){
-    const visible=hideMismatch?g.rows.filter(r=>r.m.intentMatch):g.rows;
-    html+=`<div class="grouphead">${esc(g.term)}</div>`;
-    if(!visible.length){ html+=`<div class="empty small">No matches for “${esc(g.term)}”.</div>`; continue; }
-    const B=bestsOf(g.rows);
-    const shown=visible.slice(0,CAP);
-    const cap=visible.length>CAP?` · showing cheapest ${CAP}`:"";
-    html+=`<div class="count">${visible.length} tube${visible.length>1?"s":""} · cheapest first${cap}</div>`;
-    for(const r of shown) html+=cardHtml(r,B);
-  }
-  out.innerHTML=html||emptyHtml("");
+function renderResults(groups,multi){
+  document.getElementById("results").innerHTML = groups.map(g=>groupHtml(g,multi)).join("") || emptyHtml("");
 }
 function esc(s){return (s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
 
 /* ===== wiring ===== */
-const EXAMPLES=["alizarin crimson permanent","PB29","ultramarine blue, french ultramarine","yellow","cadmium red, cadmium yellow, cadmium orange"];
+const EXAMPLES=["cadmium yellow light","cadmium","PB29","ultramarine blue, french ultramarine","alizarin crimson permanent"];
 const exWrap=document.getElementById("examples");
 EXAMPLES.forEach(x=>{const b=document.createElement("button");b.className="ex";b.textContent=x;
   b.onclick=()=>{document.getElementById("q").value=x;search(x);};exWrap.appendChild(b);});
@@ -422,6 +436,7 @@ function segHandler(id,set){const el=document.getElementById(id); if(!el)return;
     [...e.currentTarget.children].forEach(c=>c.classList.toggle("on",c===b)); run();});}
 segHandler("gradeSeg",b=>gradeFilter=b.dataset.g);
 segHandler("sizeSeg",b=>sizeFilter=b.dataset.s);
+segHandler("matchSeg",b=>matchMode=b.dataset.m);
 segHandler("pigSeg",b=>pigMode=b.dataset.p);
 
 fetch("data.json").then(r=>{if(!r.ok)throw 0;return r.json();})
