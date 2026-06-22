@@ -49,6 +49,7 @@
   .grouphead{font-weight:800;font-size:19px;color:#efe6d2;margin:26px 0 2px;padding-bottom:5px;border-bottom:1px solid #ffffff22;text-transform:capitalize}
   .empty.small{font-size:13px;margin:6px 0 12px;padding:8px 0}
   .note.small{font-size:12px;padding:8px 10px;margin:8px 0 4px}
+  .tag.near{background:#00000010;color:#6b6353;border:1px dashed #00000033}
   .card{display:grid;grid-template-columns:64px 1fr auto;gap:16px;align-items:center;background:var(--paper);
     color:var(--ink);border-radius:var(--radius);padding:14px 16px;margin-bottom:10px;border:1px solid var(--paper-line);}
   .card.best{border:2px solid var(--good);box-shadow:0 0 0 4px #3f6f4a22}
@@ -126,7 +127,7 @@
       <div><span class="seglabel">Match</span>
         <span class="seg" id="matchSeg">
           <button data-m="exact" class="on" title="Exact color name">Exact</button>
-          <button data-m="partial" title="Name contains your words — e.g. all “cadmium”">Partial</button>
+          <button data-m="partial" title="Best match — names sharing most of your words, closest first">Partial</button>
           <button data-m="color" title="By actual color — e.g. all yellows">Color</button>
         </span>
       </div>
@@ -258,7 +259,7 @@ function matchEntry(entry,term,opts){
     const fams=qCore.map(t=>FAMILY_WORDS[t]).filter(Boolean);
     if(!fams.length) return null;
     const fam=colorFamily(entry);
-    return (fam && fams.includes(fam)) ? {intentMatch:true,badge:null} : null;
+    return (fam && fams.includes(fam)) ? {intentMatch:true,badge:null,score:1} : null;
   }
 
   // pigment-code filter (applies in exact/partial)
@@ -271,13 +272,18 @@ function matchEntry(entry,term,opts){
 
   // name filter
   const nameCore=coreTokens(entry.name);
+  let nMatched=0, nTotal=qCore.length, score=1;
   if(qCore.length){
+    const nameSet=new Set(nameCore);
     if(matchMode==="exact"){
       const a=[...new Set(nameCore)].sort(), b=[...new Set(qCore)].sort();
       if(a.length!==b.length || !a.every((x,i)=>x===b[i])) return null;
-    } else { // partial: every query word appears in the name
-      const nameSet=new Set(nameCore);
-      if(!qCore.every(t=>tokenIn(t,nameSet))) return null;
+      nMatched=nTotal;
+    } else { // partial = best match: keep ~70% of words, rank by how many match
+      for(const t of qCore){ if(tokenIn(t,nameSet)) nMatched++; }
+      const need=Math.max(1,Math.ceil(qCore.length*0.7));
+      if(nMatched<need) return null;
+      score=nMatched/nTotal;
     }
   } else if(!qPigs.length){
     return null;
@@ -289,7 +295,7 @@ function matchEntry(entry,term,opts){
   let intentMatch=true, badge=null;
   if(intentPermanent){ if(isGenuine){intentMatch=false;badge="genuine";} else badge="perm"; }
   else { if(nameCore.includes("alizarin")){ badge=isGenuine?"literal":"perm"; } else if(entryNameHasPerm) badge="perm"; }
-  return {intentMatch,badge,isGenuine};
+  return {intentMatch,badge,isGenuine,score,nMatched,nTotal};
 }
 
 /* ===== state ===== */
@@ -321,7 +327,11 @@ function matchRows(term,mode){
     const m=matchEntry(e,term,{matchMode:mode,pigMode}); if(!m) continue;
     rows.push({e,m,eff:effPrice(e)});
   }
-  rows.sort((a,b)=> a.m.intentMatch!==b.m.intentMatch ? (a.m.intentMatch?-1:1) : a.eff-b.eff);
+  rows.sort((a,b)=>{
+    if(a.m.intentMatch!==b.m.intentMatch) return a.m.intentMatch?-1:1;
+    const sd=(b.m.score||1)-(a.m.score||1); if(Math.abs(sd)>1e-9) return sd;
+    return a.eff-b.eff;
+  });
   return rows;
 }
 function resolve(term){
@@ -374,6 +384,7 @@ function cardHtml(r,B){
   if(m.badge==="genuine") badge+=`<span class="tag genuine">Genuine PR83 · fades</span>`;
   if(m.badge==="literal") badge+=`<span class="tag literal">Literal “alizarin crimson”</span>`;
   badge+=`<span class="tag grade-${e.grade}">${e.grade}</span>`;
+  if(m.nTotal && m.nMatched<m.nTotal) badge+=`<span class="tag near">${m.nMatched}/${m.nTotal} words</span>`;
   const couponed = couponPct()>0 && D.coupon;
   const priceHtml = couponed ? `<span class="was">$${e.price.toFixed(2)}</span>$${eff.toFixed(2)}` : `$${e.price.toFixed(2)}`;
   let fresh="";
