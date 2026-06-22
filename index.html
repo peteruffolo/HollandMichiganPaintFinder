@@ -139,8 +139,6 @@
       </div>
       <div class="filters">
         <label>Michael's coupon <input type="number" id="coupon" min="0" max="90" step="5" value="0">%</label>
-        <label><input type="checkbox" id="localOnly"> Local (Holland) only</label>
-        <label><input type="checkbox" id="hideMismatch" checked> Hide poor matches</label>
       </div>
     </div>
   </div>
@@ -318,12 +316,10 @@ function effPrice(e){const c=couponPct(); return (c>0 && DISTRIBUTORS[e.dist] &&
 function isLocal(e){return DISTRIBUTORS[e.dist] && DISTRIBUTORS[e.dist].loc==="local";}
 
 function matchRows(term,mode){
-  const localOnly=document.getElementById("localOnly").checked;
   let rows=[];
   for(const e of CATALOG){
     if(gradeFilter!=="all" && e.grade!==gradeFilter) continue;
     if(sizeFilter!=="all" && sizeBucket(e)!==sizeFilter) continue;
-    if(localOnly && !isLocal(e)) continue;
     const m=matchEntry(e,term,{matchMode:mode,pigMode}); if(!m) continue;
     rows.push({e,m,eff:effPrice(e)});
   }
@@ -413,8 +409,7 @@ function cardHtml(r,B){
       </div></div>`;
 }
 function groupHtml(g,multi){
-  const hideMismatch=document.getElementById("hideMismatch").checked;
-  const visible=hideMismatch?g.rows.filter(r=>r.m.intentMatch):g.rows;
+  const visible=g.rows;
   let h="";
   if(multi) h+=`<div class="grouphead">${esc(g.term)}</div>`;
   if(g.note) h+=`<div class="note small">${esc(g.note)} for “${esc(g.term)}”.</div>`;
@@ -439,9 +434,7 @@ EXAMPLES.forEach(x=>{const b=document.createElement("button");b.className="ex";b
 function run(){const q=document.getElementById("q").value.trim();if(q)search(q);}
 document.getElementById("goBtn").onclick=run;
 document.getElementById("q").addEventListener("keydown",e=>{if(e.key==="Enter")run();});
-["hideMismatch","localOnly","coupon"].forEach(id=>{
-  const el=document.getElementById(id); el.addEventListener(id==="coupon"?"input":"change",run);
-});
+document.getElementById("coupon").addEventListener("input",run);
 function segHandler(id,set){const el=document.getElementById(id); if(!el)return;
   el.addEventListener("click",e=>{const b=e.target.closest("button"); if(!b)return; set(b);
     [...e.currentTarget.children].forEach(c=>c.classList.toggle("on",c===b)); run();});}
