@@ -22942,434 +22942,6 @@
     "brand": "Gamblin",
     "line": "1980",
     "grade": "student",
-    "name": "Quinacridone Red",
-    "pigments": [
-      "PV19"
-    ],
-    "hex": "#c62d3b",
-    "size": 37,
-    "unit": "ml",
-    "price": 9.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514536/01587-3273-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576997",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Cadmium Green",
-    "pigments": [
-      "PY35",
-      "PG18"
-    ],
-    "hex": "#5a8f4a",
-    "size": 37,
-    "unit": "ml",
-    "price": 13.49,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576950",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Ultramarine Violet",
-    "pigments": [
-      "PB29"
-    ],
-    "hex": "#26307f",
-    "size": 37,
-    "unit": "ml",
-    "price": 9.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10598207",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Transparent Yellow Oxide",
-    "pigments": [
-      "PY42"
-    ],
-    "hex": "#9a6542",
-    "size": 37,
-    "unit": "ml",
-    "price": 9.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514539/01587-4983-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10598210",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Titanium White",
-    "pigments": [
-      "PW6"
-    ],
-    "hex": "#f7f5f0",
-    "size": 37,
-    "unit": "ml",
-    "price": 8.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576996",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Chromium Oxide Green",
-    "pigments": [
-      "PG17"
-    ],
-    "hex": "#5a6b4a",
-    "size": 37,
-    "unit": "ml",
-    "price": 9.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10598208",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Turquoise",
-    "pigments": [
-      "PB15:4",
-      "PG7",
-      "PW6"
-    ],
-    "hex": "#23b1bf",
-    "size": 37,
-    "unit": "ml",
-    "price": 9.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768593742/01587-5113-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576988",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Phthalo Blue",
-    "pigments": [
-      "PB15:2"
-    ],
-    "hex": "#174ba6",
-    "size": 37,
-    "unit": "ml",
-    "price": 9.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768503685/01587-5163-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576987",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Blush",
-    "pigments": [
-      "PW6",
-      "PR101"
-    ],
-    "hex": "#efb4ab",
-    "size": 37,
-    "unit": "ml",
-    "price": 9.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767823501/01587-3153-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576944",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Burnt Sienna",
-    "pigments": [
-      "PBr7"
-    ],
-    "hex": "#7a3b22",
-    "size": 37,
-    "unit": "ml",
-    "price": 8.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576946",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Cadmium Red Light",
-    "pigments": [
-      "PR108"
-    ],
-    "hex": "#d2241f",
-    "size": 37,
-    "unit": "ml",
-    "price": 13.49,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576954",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Burnt Umber",
-    "pigments": [
-      "PBr7"
-    ],
-    "hex": "#4a3122",
-    "size": 37,
-    "unit": "ml",
-    "price": 8.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576948",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Hansa Yellow Medium",
-    "pigments": [
-      "PY74"
-    ],
-    "hex": "#f5da11",
-    "size": 37,
-    "unit": "ml",
-    "price": 9.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500175/01587-4713-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576973",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Sap Green",
-    "pigments": [
-      "PY83",
-      "PB15:2"
-    ],
-    "hex": "#4a6a2a",
-    "size": 37,
-    "unit": "ml",
-    "price": 9.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10577004",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Olive Green",
-    "pigments": [
-      "PBr7",
-      "PY75",
-      "PB29"
-    ],
-    "hex": "#5a5a2a",
-    "size": 37,
-    "unit": "ml",
-    "price": 9.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10598209",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Cadmium Orange",
-    "pigments": [
-      "PO20"
-    ],
-    "hex": "#f26a1b",
-    "size": 37,
-    "unit": "ml",
-    "price": 13.49,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576952",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Yellow Ochre",
-    "pigments": [
-      "PY42"
-    ],
-    "hex": "#c08a2c",
-    "size": 37,
-    "unit": "ml",
-    "price": 8.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576995",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Transparent Red Oxide",
-    "pigments": [
-      "PR101"
-    ],
-    "hex": "#7a5448",
-    "size": 37,
-    "unit": "ml",
-    "price": 9.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514555/01587-3123-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10577006",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Permanent Green Light",
-    "pigments": [
-      "PY74",
-      "PG7"
-    ],
-    "hex": "#5aa23a",
-    "size": 37,
-    "unit": "ml",
-    "price": 9.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576985",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Indian Yellow",
-    "pigments": [
-      "PY83"
-    ],
-    "hex": "#f78037",
-    "size": 37,
-    "unit": "ml",
-    "price": 9.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500300/01587-4163-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576975",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Venetian Red",
-    "pigments": [
-      "PR101"
-    ],
-    "hex": "#a8472a",
-    "size": 37,
-    "unit": "ml",
-    "price": 8.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768593697/01587-3133-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10598211",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
     "name": "Cadmium Red Medium",
     "pigments": [
       "PR112",
@@ -23383,169 +22955,6 @@
     "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767823507/01587-3103-s-4ww.jpg",
     "dist": "Michael's",
     "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576956",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Phthalo Green",
-    "pigments": [
-      "PG7"
-    ],
-    "hex": "#0d5b4b",
-    "size": 37,
-    "unit": "ml",
-    "price": 9.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576989",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Cadmium Yellow Medium",
-    "pigments": [
-      "PY37",
-      "PY74"
-    ],
-    "hex": "#f9d91b",
-    "size": 37,
-    "unit": "ml",
-    "price": 13.49,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767823626/01587-4093-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576960",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Viridian",
-    "pigments": [
-      "PG18",
-      "PBk11",
-      "PG7"
-    ],
-    "hex": "#1a6b5a",
-    "size": 37,
-    "unit": "ml",
-    "price": 13.49,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576992",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Raw Sienna",
-    "pigments": [
-      "PBr7"
-    ],
-    "hex": "#a66c29",
-    "size": 37,
-    "unit": "ml",
-    "price": 8.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514524/01587-8063-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10577001",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Permanent Orange",
-    "pigments": [
-      "PO62"
-    ],
-    "hex": "#fd811f",
-    "size": 37,
-    "unit": "ml",
-    "price": 13.49,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768503636/01587-4913-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-MMACGB198037",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Cadmium Yellow Light",
-    "pigments": [
-      "PY35"
-    ],
-    "hex": "#ffd21a",
-    "size": 37,
-    "unit": "ml",
-    "price": 13.49,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576958",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Quinacridone Magenta",
-    "pigments": [
-      "PR122"
-    ],
-    "hex": "#a42c47",
-    "size": 37,
-    "unit": "ml",
-    "price": 9.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514561/01587-3623-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576994",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Titanium Buff",
-    "pigments": [
-      "PW6"
-    ],
-    "hex": "#dcd2b4",
-    "size": 37,
-    "unit": "ml",
-    "price": 8.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514505/01587-1004-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576999",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -23574,18 +22983,80 @@
     "brand": "Gamblin",
     "line": "1980",
     "grade": "student",
-    "name": "Napthol Red",
+    "name": "Cadmium Yellow Light",
     "pigments": [
-      "PR112"
+      "PY35"
     ],
-    "hex": "#d4352c",
+    "hex": "#ffd21a",
+    "size": 37,
+    "unit": "ml",
+    "price": 13.49,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576958",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Mars Black",
+    "pigments": [
+      "PBk11"
+    ],
+    "hex": "#303232",
+    "size": 37,
+    "unit": "ml",
+    "price": 8.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500159/01587-2044-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576978",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Yellow Ochre",
+    "pigments": [
+      "PY42"
+    ],
+    "hex": "#c08a2c",
+    "size": 37,
+    "unit": "ml",
+    "price": 8.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576995",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Olive Green",
+    "pigments": [
+      "PBr7",
+      "PY75",
+      "PB29"
+    ],
+    "hex": "#5a5a2a",
     "size": 37,
     "unit": "ml",
     "price": 9.99,
     "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500154/01587-3604-s-4ww.jpg",
+    "swatch": null,
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576982",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10598209",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -23627,7 +23098,130 @@
     "sizeLabel": null,
     "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768503636/01587-4913-s-4ww.jpg",
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10598206",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-MMACGB198037",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Burnt Umber",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#4a3122",
+    "size": 37,
+    "unit": "ml",
+    "price": 8.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576948",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Cobalt Blue",
+    "pigments": [
+      "PB15:1",
+      "PB28"
+    ],
+    "hex": "#1e4f6c",
+    "size": 37,
+    "unit": "ml",
+    "price": 13.49,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500093/01587-5184-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576964",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Ivory Black",
+    "pigments": [
+      "PBk9"
+    ],
+    "hex": "#1c1b1a",
+    "size": 37,
+    "unit": "ml",
+    "price": 8.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576976",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Sap Green",
+    "pigments": [
+      "PY83",
+      "PB15:2"
+    ],
+    "hex": "#4a6a2a",
+    "size": 37,
+    "unit": "ml",
+    "price": 9.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10577004",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Phthalo Blue",
+    "pigments": [
+      "PB15:2"
+    ],
+    "hex": "#174ba6",
+    "size": 37,
+    "unit": "ml",
+    "price": 9.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768503685/01587-5163-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576987",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Cerulean Blue",
+    "pigments": [
+      "PB35",
+      "PB15:2"
+    ],
+    "hex": "#3076ca",
+    "size": 37,
+    "unit": "ml",
+    "price": 13.49,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500233/01587-5193-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576963",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -23657,19 +23251,241 @@
     "brand": "Gamblin",
     "line": "1980",
     "grade": "student",
-    "name": "Cerulean Blue",
+    "name": "Alizarin Crimson",
     "pigments": [
-      "PB35",
-      "PB15:2"
+      "PR177"
     ],
-    "hex": "#3076ca",
+    "hex": "#90203b",
+    "size": 37,
+    "unit": "ml",
+    "price": 9.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576942",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Transparent White",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#f1f1f1",
+    "size": 37,
+    "unit": "ml",
+    "price": 8.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514495/01587-1733-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10598214",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Raw Sienna",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#a66c29",
+    "size": 37,
+    "unit": "ml",
+    "price": 8.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514524/01587-8063-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10577001",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Cadmium Orange",
+    "pigments": [
+      "PO20"
+    ],
+    "hex": "#f26a1b",
     "size": 37,
     "unit": "ml",
     "price": 13.49,
     "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500233/01587-5193-s-4ww.jpg",
+    "swatch": null,
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576963",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576952",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Prussian Blue",
+    "pigments": [
+      "PB27:1"
+    ],
+    "hex": "#303546",
+    "size": 37,
+    "unit": "ml",
+    "price": 9.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514604/01587-5223-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576993",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Ultramarine Violet",
+    "pigments": [
+      "PB29"
+    ],
+    "hex": "#26307f",
+    "size": 37,
+    "unit": "ml",
+    "price": 9.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10598207",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Permanent Green Light",
+    "pigments": [
+      "PY74",
+      "PG7"
+    ],
+    "hex": "#5aa23a",
+    "size": 37,
+    "unit": "ml",
+    "price": 9.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576985",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Viridian",
+    "pigments": [
+      "PG18",
+      "PBk11",
+      "PG7"
+    ],
+    "hex": "#1a6b5a",
+    "size": 37,
+    "unit": "ml",
+    "price": 13.49,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576992",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Quinacridone Red",
+    "pigments": [
+      "PV19"
+    ],
+    "hex": "#c62d3b",
+    "size": 37,
+    "unit": "ml",
+    "price": 9.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514536/01587-3273-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576997",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Burnt Sienna",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#7a3b22",
+    "size": 37,
+    "unit": "ml",
+    "price": 8.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576946",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Raw Umber",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#5a4a32",
+    "size": 37,
+    "unit": "ml",
+    "price": 8.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10577002",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Phthalo Green",
+    "pigments": [
+      "PG7"
+    ],
+    "hex": "#0d5b4b",
+    "size": 37,
+    "unit": "ml",
+    "price": 9.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576989",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -23700,6 +23516,228 @@
     "brand": "Gamblin",
     "line": "1980",
     "grade": "student",
+    "name": "Ultramarine Blue",
+    "pigments": [
+      "PB29"
+    ],
+    "hex": "#26307f",
+    "size": 37,
+    "unit": "ml",
+    "price": 9.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576990",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Quinacridone Magenta",
+    "pigments": [
+      "PR122"
+    ],
+    "hex": "#a42c47",
+    "size": 37,
+    "unit": "ml",
+    "price": 9.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514561/01587-3623-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576994",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Transparent Red Oxide",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#7a5448",
+    "size": 37,
+    "unit": "ml",
+    "price": 9.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514555/01587-3123-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10577006",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Titanium Buff",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#dcd2b4",
+    "size": 37,
+    "unit": "ml",
+    "price": 8.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514505/01587-1004-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576999",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Venetian Red",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#a8472a",
+    "size": 37,
+    "unit": "ml",
+    "price": 8.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768593697/01587-3133-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10598211",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Chromium Oxide Green",
+    "pigments": [
+      "PG17"
+    ],
+    "hex": "#5a6b4a",
+    "size": 37,
+    "unit": "ml",
+    "price": 9.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10598208",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Cadmium Yellow Medium",
+    "pigments": [
+      "PY37",
+      "PY74"
+    ],
+    "hex": "#f9d91b",
+    "size": 37,
+    "unit": "ml",
+    "price": 13.49,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767823626/01587-4093-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576960",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Titanium White",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#f7f5f0",
+    "size": 37,
+    "unit": "ml",
+    "price": 8.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576996",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Cadmium Green",
+    "pigments": [
+      "PY35",
+      "PG18"
+    ],
+    "hex": "#5a8f4a",
+    "size": 37,
+    "unit": "ml",
+    "price": 13.49,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576950",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Cadmium Red Light",
+    "pigments": [
+      "PR108"
+    ],
+    "hex": "#d2241f",
+    "size": 37,
+    "unit": "ml",
+    "price": 13.49,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576954",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Transparent Yellow Oxide",
+    "pigments": [
+      "PY42"
+    ],
+    "hex": "#9a6542",
+    "size": 37,
+    "unit": "ml",
+    "price": 9.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514539/01587-4983-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10598210",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
     "name": "Neutral Grey",
     "pigments": [
       "PBk7",
@@ -23722,47 +23760,6 @@
     "brand": "Gamblin",
     "line": "1980",
     "grade": "student",
-    "name": "Cobalt Blue",
-    "pigments": [
-      "PB15:1",
-      "PB28"
-    ],
-    "hex": "#1e4f6c",
-    "size": 37,
-    "unit": "ml",
-    "price": 13.49,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500093/01587-5184-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576964",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Ultramarine Blue",
-    "pigments": [
-      "PB29"
-    ],
-    "hex": "#26307f",
-    "size": 37,
-    "unit": "ml",
-    "price": 9.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576990",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
     "name": "Dioxazine Purple",
     "pigments": [
       "PV23"
@@ -23775,6 +23772,88 @@
     "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500317/01587-6023-s-4ww.jpg",
     "dist": "Michael's",
     "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576968",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Indian Yellow",
+    "pigments": [
+      "PY83"
+    ],
+    "hex": "#f78037",
+    "size": 37,
+    "unit": "ml",
+    "price": 9.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500300/01587-4163-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576975",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Quinacridone Violet",
+    "pigments": [
+      "PV19"
+    ],
+    "hex": "#772e48",
+    "size": 37,
+    "unit": "ml",
+    "price": 9.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514503/01587-6203-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576998",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Turquoise",
+    "pigments": [
+      "PB15:4",
+      "PG7",
+      "PW6"
+    ],
+    "hex": "#23b1bf",
+    "size": 37,
+    "unit": "ml",
+    "price": 9.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768593742/01587-5113-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576988",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Hansa Yellow Medium",
+    "pigments": [
+      "PY74"
+    ],
+    "hex": "#f5da11",
+    "size": 37,
+    "unit": "ml",
+    "price": 9.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500175/01587-4713-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576973",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -23805,18 +23884,19 @@
     "brand": "Gamblin",
     "line": "1980",
     "grade": "student",
-    "name": "Alizarin Crimson",
+    "name": "Blush",
     "pigments": [
-      "PR177"
+      "PW6",
+      "PR101"
     ],
-    "hex": "#90203b",
+    "hex": "#efb4ab",
     "size": 37,
     "unit": "ml",
     "price": 9.99,
     "sizeLabel": null,
-    "swatch": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1767823501/01587-3153-s-4ww.jpg",
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576942",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576944",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -23825,18 +23905,18 @@
     "brand": "Gamblin",
     "line": "1980",
     "grade": "student",
-    "name": "Mars Black",
+    "name": "Permanent Orange",
     "pigments": [
-      "PBk11"
+      "PO62"
     ],
-    "hex": "#303232",
+    "hex": "#fd811f",
     "size": 37,
     "unit": "ml",
-    "price": 8.99,
+    "price": 13.49,
     "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500159/01587-2044-s-4ww.jpg",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768503636/01587-4913-s-4ww.jpg",
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576978",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10598206",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -23845,98 +23925,18 @@
     "brand": "Gamblin",
     "line": "1980",
     "grade": "student",
-    "name": "Transparent White",
+    "name": "Napthol Red",
     "pigments": [
-      "PW6"
+      "PR112"
     ],
-    "hex": "#f1f1f1",
-    "size": 37,
-    "unit": "ml",
-    "price": 8.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514495/01587-1733-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10598214",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Quinacridone Violet",
-    "pigments": [
-      "PV19"
-    ],
-    "hex": "#772e48",
+    "hex": "#d4352c",
     "size": 37,
     "unit": "ml",
     "price": 9.99,
     "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514503/01587-6203-s-4ww.jpg",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768500154/01587-3604-s-4ww.jpg",
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576998",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Ivory Black",
-    "pigments": [
-      "PBk9"
-    ],
-    "hex": "#1c1b1a",
-    "size": 37,
-    "unit": "ml",
-    "price": 8.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576976",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Prussian Blue",
-    "pigments": [
-      "PB27:1"
-    ],
-    "hex": "#303546",
-    "size": 37,
-    "unit": "ml",
-    "price": 9.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/v1768514604/01587-5223-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576993",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
-    "name": "Raw Umber",
-    "pigments": [
-      "PBr7"
-    ],
-    "hex": "#5a4a32",
-    "size": 37,
-    "unit": "ml",
-    "price": 8.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10577002",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-37ml-10576982",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -23957,6 +23957,26 @@
     "swatch": null,
     "dist": "Michael's",
     "url": "https://www.michaels.com/product/gamblin-1980-oil-color-150ml-10577027",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "1980",
+    "grade": "student",
+    "name": "Ivory Black",
+    "pigments": [
+      "PBk9"
+    ],
+    "hex": "#1c1b1a",
+    "size": 150,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-150ml-10577016",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -24003,20 +24023,82 @@
   },
   {
     "brand": "Gamblin",
-    "line": "1980",
-    "grade": "student",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Radiant Violet",
+    "pigments": [
+      "PV23",
+      "PW6"
+    ],
+    "hex": "#baadca",
+    "size": 37,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048042/00401-6694-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518350",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Orange",
+    "pigments": [
+      "PO20"
+    ],
+    "hex": "#f38d23",
+    "size": 37,
+    "unit": "ml",
+    "price": 32.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048183/00401-4533-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518340",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Phthalo Turquoise",
+    "pigments": [
+      "PB15:2",
+      "PG7"
+    ],
+    "hex": "#295361",
+    "size": 37,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048083/00401-5423-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518358",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
     "name": "Ivory Black",
     "pigments": [
       "PBk9"
     ],
-    "hex": "#1c1b1a",
-    "size": 150,
+    "hex": "#313232",
+    "size": 37,
     "unit": "ml",
-    "price": 19.99,
+    "price": 14.99,
     "sizeLabel": null,
-    "swatch": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048366/00401-2253-s-4ww.jpg",
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-1980-oil-color-150ml-10577016",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518371",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -24025,20 +24107,38 @@
     "brand": "Gamblin",
     "line": "Artist's Oil",
     "grade": "artist",
-    "name": "Naples Yellow Hue",
+    "name": "Quinacridone Magenta",
     "pigments": [
-      "PW6",
-      "PY75",
-      "PY43"
+      "PR122"
     ],
-    "hex": "#dbc073",
+    "hex": "#6a242d",
+    "size": 37,
+    "unit": "ml",
+    "price": 24.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048252/00401-3624-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518347",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Napthol Red",
+    "pigments": [
+      "PR112"
+    ],
+    "hex": "#df3c2f",
     "size": 37,
     "unit": "ml",
     "price": 19.99,
     "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048179/00401-4243-s-4ww.jpg",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048248/00401-3603-s-4ww.jpg",
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518364",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518344",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -24047,203 +24147,18 @@
     "brand": "Gamblin",
     "line": "Artist's Oil",
     "grade": "artist",
-    "name": "Payne's Grey",
+    "name": "Ultramarine Blue",
     "pigments": [
-      "PBk11",
-      "PY42",
       "PB29"
     ],
-    "hex": "#292929",
+    "hex": "#2d385c",
     "size": 37,
     "unit": "ml",
     "price": 19.99,
     "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048346/00401-2566-s-4ww.jpg",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048101/00401-5234-s-4ww.jpg",
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518374",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Quinacridone Violet",
-    "pigments": [
-      "PV19"
-    ],
-    "hex": "#642a39",
-    "size": 37,
-    "unit": "ml",
-    "price": 24.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048056/00401-6514-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518348",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Cadmium Yellow Deep",
-    "pigments": [
-      "PY37"
-    ],
-    "hex": "#888888",
-    "size": 37,
-    "unit": "ml",
-    "price": 32.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518336",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Cadmium Yellow Medium",
-    "pigments": [
-      "PY37"
-    ],
-    "hex": "#f1c31f",
-    "size": 37,
-    "unit": "ml",
-    "price": 32.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048215/00401-4094-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518335",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Hansa Yellow Light",
-    "pigments": [
-      "PY3"
-    ],
-    "hex": "#f0dc53",
-    "size": 37,
-    "unit": "ml",
-    "price": 24.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048185/00401-4704-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518337",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Chromatic Black",
-    "pigments": [
-      "PG36",
-      "PV19"
-    ],
-    "hex": "#434446",
-    "size": 37,
-    "unit": "ml",
-    "price": 19.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048366/00401-2143-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518373",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Dioxazine Purple",
-    "pigments": [
-      "PV23"
-    ],
-    "hex": "#383651",
-    "size": 37,
-    "unit": "ml",
-    "price": 19.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048082/00401-6023-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518349",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Raw Sienna",
-    "pigments": [
-      "PBr7"
-    ],
-    "hex": "#a0713a",
-    "size": 37,
-    "unit": "ml",
-    "price": 14.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047968/00401-8064-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518366",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Naples Orange",
-    "pigments": [
-      "PW6",
-      "PR108",
-      "PY43"
-    ],
-    "hex": "#dfb08c",
-    "size": 37,
-    "unit": "ml",
-    "price": 19.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048235/00401-3875-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518341",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Titanium Buff",
-    "pigments": [
-      "PY53"
-    ],
-    "hex": "#bea270",
-    "size": 37,
-    "unit": "ml",
-    "price": 14.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047939/00401-8624-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518379",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518351",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -24275,128 +24190,6 @@
     "brand": "Gamblin",
     "line": "Artist's Oil",
     "grade": "artist",
-    "name": "Hansa Yellow Medium",
-    "pigments": [
-      "PY74"
-    ],
-    "hex": "#f7da24",
-    "size": 37,
-    "unit": "ml",
-    "price": 24.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048172/00401-4716-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518338",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Radiant Violet",
-    "pigments": [
-      "PV23",
-      "PW6"
-    ],
-    "hex": "#baadca",
-    "size": 37,
-    "unit": "ml",
-    "price": 19.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048042/00401-6694-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518350",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Cadmium Red Light",
-    "pigments": [
-      "PR108"
-    ],
-    "hex": "#df4822",
-    "size": 37,
-    "unit": "ml",
-    "price": 42.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048288/00401-3094-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518342",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Yellow Ochre",
-    "pigments": [
-      "PY43"
-    ],
-    "hex": "#ba8734",
-    "size": 37,
-    "unit": "ml",
-    "price": 14.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048231/00401-4044-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518365",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Cadmium Red Medium",
-    "pigments": [
-      "PR108"
-    ],
-    "hex": "#dc3526",
-    "size": 37,
-    "unit": "ml",
-    "price": 42.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048277/00401-3156-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518343",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Radiant Blue",
-    "pigments": [
-      "PW6",
-      "PB29"
-    ],
-    "hex": "#b5c6d7",
-    "size": 37,
-    "unit": "ml",
-    "price": 19.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048144/00401-5194-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518352",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
     "name": "Sap Green",
     "pigments": [
       "PY83",
@@ -24410,150 +24203,6 @@
     "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048005/00401-7094-s-4ww.jpg",
     "dist": "Michael's",
     "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518362",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Portland Grey Medium",
-    "pigments": [
-      "PW6",
-      "PBk9",
-      "PW4"
-    ],
-    "hex": "#9c9f9c",
-    "size": 37,
-    "unit": "ml",
-    "price": 19.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048348/00401-2624-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518375",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Napthol Red",
-    "pigments": [
-      "PR112"
-    ],
-    "hex": "#df3c2f",
-    "size": 37,
-    "unit": "ml",
-    "price": 19.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048248/00401-3603-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518344",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Phthalo Turquoise",
-    "pigments": [
-      "PB15:2",
-      "PG7"
-    ],
-    "hex": "#295361",
-    "size": 37,
-    "unit": "ml",
-    "price": 19.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048083/00401-5423-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518358",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Burnt Sienna",
-    "pigments": [
-      "PBr7"
-    ],
-    "hex": "#774835",
-    "size": 37,
-    "unit": "ml",
-    "price": 14.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047981/00401-8046-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518368",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Cadmium Lemon",
-    "pigments": [
-      "PY35"
-    ],
-    "hex": "#edd83b",
-    "size": 37,
-    "unit": "ml",
-    "price": 32.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048197/00401-4183-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518333",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Quinacridone Magenta",
-    "pigments": [
-      "PR122"
-    ],
-    "hex": "#6a242d",
-    "size": 37,
-    "unit": "ml",
-    "price": 24.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048252/00401-3624-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518347",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Cadmium Green",
-    "pigments": [
-      "PY35",
-      "PG18"
-    ],
-    "hex": "#9cbd34",
-    "size": 37,
-    "unit": "ml",
-    "price": 32.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047999/00401-7214-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518363",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -24604,20 +24253,98 @@
     "brand": "Gamblin",
     "line": "Artist's Oil",
     "grade": "artist",
-    "name": "Portland Cool Grey",
+    "name": "Quinacridone Violet",
     "pigments": [
-      "PBk11",
-      "PW6",
-      "PB29"
+      "PV19"
     ],
-    "hex": "#868c96",
+    "hex": "#642a39",
     "size": 37,
     "unit": "ml",
-    "price": 19.99,
+    "price": 24.99,
     "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048330/00401-2643-s-4ww.jpg",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048056/00401-6514-s-4ww.jpg",
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518376",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518348",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Lemon",
+    "pigments": [
+      "PY35"
+    ],
+    "hex": "#edd83b",
+    "size": 37,
+    "unit": "ml",
+    "price": 32.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048197/00401-4183-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518333",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Raw Sienna",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#a0713a",
+    "size": 37,
+    "unit": "ml",
+    "price": 14.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047968/00401-8064-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518366",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Red Light",
+    "pigments": [
+      "PR108"
+    ],
+    "hex": "#df4822",
+    "size": 37,
+    "unit": "ml",
+    "price": 42.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048288/00401-3094-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518342",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cerulean Blue",
+    "pigments": [
+      "PB36"
+    ],
+    "hex": "#2065ab",
+    "size": 37,
+    "unit": "ml",
+    "price": 49.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048114/00401-5163-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518356",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -24646,18 +24373,80 @@
     "brand": "Gamblin",
     "line": "Artist's Oil",
     "grade": "artist",
-    "name": "Phthalo Green",
+    "name": "Chromatic Black",
     "pigments": [
-      "PG7"
+      "PG36",
+      "PV19"
     ],
-    "hex": "#3d5252",
+    "hex": "#434446",
     "size": 37,
     "unit": "ml",
     "price": 19.99,
     "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048021/00401-7063-s-4ww.jpg",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048366/00401-2143-s-4ww.jpg",
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518360",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518373",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Green",
+    "pigments": [
+      "PY35",
+      "PG18"
+    ],
+    "hex": "#9cbd34",
+    "size": 37,
+    "unit": "ml",
+    "price": 32.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047999/00401-7214-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518363",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Burnt Umber",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#483b33",
+    "size": 37,
+    "unit": "ml",
+    "price": 14.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047961/00401-8053-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518369",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Burnt Sienna",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#774835",
+    "size": 37,
+    "unit": "ml",
+    "price": 14.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047981/00401-8046-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518368",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -24678,6 +24467,516 @@
     "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048273/00401-4924-s-4ww.jpg",
     "dist": "Michael's",
     "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518370",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Yellow Deep",
+    "pigments": [
+      "PY37"
+    ],
+    "hex": "#888888",
+    "size": 37,
+    "unit": "ml",
+    "price": 32.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518336",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Viridian",
+    "pigments": [
+      "PG18"
+    ],
+    "hex": "#395751",
+    "size": 37,
+    "unit": "ml",
+    "price": 36.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048008/00401-7104-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518361",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Titanium White",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#e1e1e1",
+    "size": 37,
+    "unit": "ml",
+    "price": 14.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048431/00401-1114-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518380",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Red Medium",
+    "pigments": [
+      "PR108"
+    ],
+    "hex": "#dc3526",
+    "size": 37,
+    "unit": "ml",
+    "price": 42.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048277/00401-3156-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518343",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Dioxazine Purple",
+    "pigments": [
+      "PV23"
+    ],
+    "hex": "#383651",
+    "size": 37,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048082/00401-6023-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518349",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Hansa Yellow Medium",
+    "pigments": [
+      "PY74"
+    ],
+    "hex": "#f7da24",
+    "size": 37,
+    "unit": "ml",
+    "price": 24.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048172/00401-4716-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518338",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Payne's Grey",
+    "pigments": [
+      "PBk11",
+      "PY42",
+      "PB29"
+    ],
+    "hex": "#292929",
+    "size": 37,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048346/00401-2566-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518374",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Hansa Yellow Light",
+    "pigments": [
+      "PY3"
+    ],
+    "hex": "#f0dc53",
+    "size": 37,
+    "unit": "ml",
+    "price": 24.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048185/00401-4704-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518337",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Phthalo Blue",
+    "pigments": [
+      "PB15:1"
+    ],
+    "hex": "#2f333e",
+    "size": 37,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048117/00401-5144-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518353",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Phthalo Green",
+    "pigments": [
+      "PG7"
+    ],
+    "hex": "#3d5252",
+    "size": 37,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048021/00401-7063-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518360",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Raw Umber",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#473f33",
+    "size": 37,
+    "unit": "ml",
+    "price": 14.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047965/00401-8074-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518367",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Naples Orange",
+    "pigments": [
+      "PW6",
+      "PR108",
+      "PY43"
+    ],
+    "hex": "#dfb08c",
+    "size": 37,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048235/00401-3875-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518341",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Yellow Ochre",
+    "pigments": [
+      "PY43"
+    ],
+    "hex": "#ba8734",
+    "size": 37,
+    "unit": "ml",
+    "price": 14.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048231/00401-4044-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518365",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Mars Black",
+    "pigments": [
+      "PBk11"
+    ],
+    "hex": "#414140",
+    "size": 37,
+    "unit": "ml",
+    "price": 14.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048362/00401-2043-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518372",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Indian Yellow",
+    "pigments": [
+      "PY83"
+    ],
+    "hex": "#e3791e",
+    "size": 37,
+    "unit": "ml",
+    "price": 24.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048195/00401-4163-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518339",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Portland Grey Medium",
+    "pigments": [
+      "PW6",
+      "PBk9",
+      "PW4"
+    ],
+    "hex": "#9c9f9c",
+    "size": 37,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048348/00401-2624-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518375",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Quinacridone Red",
+    "pigments": [
+      "PV19"
+    ],
+    "hex": "#a4373d",
+    "size": 37,
+    "unit": "ml",
+    "price": 24.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048259/00401-3274-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518346",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Yellow Light",
+    "pigments": [
+      "PY35"
+    ],
+    "hex": "#f4dd17",
+    "size": 37,
+    "unit": "ml",
+    "price": 32.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048213/00401-4076-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518334",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Naples Yellow Hue",
+    "pigments": [
+      "PW6",
+      "PY75",
+      "PY43"
+    ],
+    "hex": "#dbc073",
+    "size": 37,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048179/00401-4243-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518364",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Portland Cool Grey",
+    "pigments": [
+      "PBk11",
+      "PW6",
+      "PB29"
+    ],
+    "hex": "#868c96",
+    "size": 37,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048330/00401-2643-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518376",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Cadmium Yellow Medium",
+    "pigments": [
+      "PY37"
+    ],
+    "hex": "#f1c31f",
+    "size": 37,
+    "unit": "ml",
+    "price": 32.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048215/00401-4094-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518335",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Alizarin Crimson",
+    "pigments": [
+      "PR83"
+    ],
+    "hex": "#8f2829",
+    "size": 37,
+    "unit": "ml",
+    "price": 24.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048287/00401-3063-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518345",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Titanium Zinc White",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#e1e1e1",
+    "size": 37,
+    "unit": "ml",
+    "price": 14.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048431/00401-1114-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518381",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Prussian Blue",
+    "pigments": [
+      "PB27:1"
+    ],
+    "hex": "#313e57",
+    "size": 37,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048101/00401-5224-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518355",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Titanium Buff",
+    "pigments": [
+      "PY53"
+    ],
+    "hex": "#bea270",
+    "size": 37,
+    "unit": "ml",
+    "price": 14.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047939/00401-8624-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518379",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -24708,338 +25007,19 @@
     "brand": "Gamblin",
     "line": "Artist's Oil",
     "grade": "artist",
-    "name": "Ivory Black",
+    "name": "Radiant Blue",
     "pigments": [
-      "PBk9"
-    ],
-    "hex": "#313232",
-    "size": 37,
-    "unit": "ml",
-    "price": 14.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048366/00401-2253-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518371",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Burnt Umber",
-    "pigments": [
-      "PBr7"
-    ],
-    "hex": "#483b33",
-    "size": 37,
-    "unit": "ml",
-    "price": 14.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047961/00401-8053-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518369",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Titanium Zinc White",
-    "pigments": [
-      "PW6"
-    ],
-    "hex": "#e1e1e1",
-    "size": 37,
-    "unit": "ml",
-    "price": 14.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048431/00401-1114-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518381",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Cadmium Orange",
-    "pigments": [
-      "PO20"
-    ],
-    "hex": "#f38d23",
-    "size": 37,
-    "unit": "ml",
-    "price": 32.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048183/00401-4533-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518340",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Phthalo Blue",
-    "pigments": [
-      "PB15:1"
-    ],
-    "hex": "#2f333e",
-    "size": 37,
-    "unit": "ml",
-    "price": 19.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048117/00401-5144-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518353",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Cerulean Blue",
-    "pigments": [
-      "PB36"
-    ],
-    "hex": "#2065ab",
-    "size": 37,
-    "unit": "ml",
-    "price": 49.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048114/00401-5163-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518356",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Titanium White",
-    "pigments": [
-      "PW6"
-    ],
-    "hex": "#e1e1e1",
-    "size": 37,
-    "unit": "ml",
-    "price": 14.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048431/00401-1114-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518380",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Alizarin Crimson",
-    "pigments": [
-      "PR83"
-    ],
-    "hex": "#8f2829",
-    "size": 37,
-    "unit": "ml",
-    "price": 24.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048287/00401-3063-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518345",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Quinacridone Red",
-    "pigments": [
-      "PV19"
-    ],
-    "hex": "#a4373d",
-    "size": 37,
-    "unit": "ml",
-    "price": 24.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048259/00401-3274-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518346",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Raw Umber",
-    "pigments": [
-      "PBr7"
-    ],
-    "hex": "#473f33",
-    "size": 37,
-    "unit": "ml",
-    "price": 14.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748047965/00401-8074-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518367",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Ultramarine Blue",
-    "pigments": [
+      "PW6",
       "PB29"
     ],
-    "hex": "#2d385c",
+    "hex": "#b5c6d7",
     "size": 37,
     "unit": "ml",
     "price": 19.99,
     "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048101/00401-5234-s-4ww.jpg",
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048144/00401-5194-s-4ww.jpg",
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518351",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Cadmium Yellow Light",
-    "pigments": [
-      "PY35"
-    ],
-    "hex": "#f4dd17",
-    "size": 37,
-    "unit": "ml",
-    "price": 32.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048213/00401-4076-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518334",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Mars Black",
-    "pigments": [
-      "PBk11"
-    ],
-    "hex": "#414140",
-    "size": 37,
-    "unit": "ml",
-    "price": 14.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048362/00401-2043-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518372",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Viridian",
-    "pigments": [
-      "PG18"
-    ],
-    "hex": "#395751",
-    "size": 37,
-    "unit": "ml",
-    "price": 36.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048008/00401-7104-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518361",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Indian Yellow",
-    "pigments": [
-      "PY83"
-    ],
-    "hex": "#e3791e",
-    "size": 37,
-    "unit": "ml",
-    "price": 24.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048195/00401-4163-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518339",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Prussian Blue",
-    "pigments": [
-      "PB27:1"
-    ],
-    "hex": "#313e57",
-    "size": 37,
-    "unit": "ml",
-    "price": 19.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048101/00401-5224-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518355",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Gamblin",
-    "line": "Artist's Oil",
-    "grade": "artist",
-    "name": "Ultramarine Blue",
-    "pigments": [
-      "PB29"
-    ],
-    "hex": "#2d385c",
-    "size": 150,
-    "unit": "ml",
-    "price": 49.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048101/00401-5234-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/gamblin-150ml-artist-grade-oil-colors-10518384",
+    "url": "https://www.michaels.com/product/gamblin-artist-grade-oil-colors-37ml--10518352",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -25105,12 +25085,72 @@
     "verified": null
   },
   {
+    "brand": "Gamblin",
+    "line": "Artist's Oil",
+    "grade": "artist",
+    "name": "Ultramarine Blue",
+    "pigments": [
+      "PB29"
+    ],
+    "hex": "#2d385c",
+    "size": 150,
+    "unit": "ml",
+    "price": 49.99,
+    "sizeLabel": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748048101/00401-5234-s-4ww.jpg",
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/gamblin-150ml-artist-grade-oil-colors-10518384",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
     "brand": "Winsor & Newton",
     "line": "Winton",
     "grade": "student",
-    "name": "Cadmium Lemon",
+    "name": "Permanent Alizarin Crimson",
     "pigments": [
-      "PY35"
+      "PR177"
+    ],
+    "hex": "#871832",
+    "size": 37,
+    "unit": "ml",
+    "price": 5.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014714",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cobalt Blue Hue",
+    "pigments": [
+      "PB28"
+    ],
+    "hex": "#888888",
+    "size": 37,
+    "unit": "ml",
+    "price": 5.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014733",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cerulean Blue",
+    "pigments": [
+      "PB35"
     ],
     "hex": "#888888",
     "size": 37,
@@ -25119,7 +25159,128 @@
     "sizeLabel": null,
     "swatch": null,
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014717",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014730",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Permanent Rose",
+    "pigments": [
+      "PV19"
+    ],
+    "hex": "#888888",
+    "size": 37,
+    "unit": "ml",
+    "price": 5.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014751",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Phthalo Blue",
+    "pigments": [
+      "PB15"
+    ],
+    "hex": "#888888",
+    "size": 37,
+    "unit": "ml",
+    "price": 5.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014752",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Titanium White",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#f7f5f0",
+    "size": 37,
+    "unit": "ml",
+    "price": 5.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014759",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Yellow Light",
+    "pigments": [
+      "PY65"
+    ],
+    "hex": "#888888",
+    "size": 37,
+    "unit": "ml",
+    "price": 14.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014726",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Yellow Pale Hue",
+    "pigments": [
+      "PY65"
+    ],
+    "hex": "#888888",
+    "size": 37,
+    "unit": "ml",
+    "price": 5.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-winton-oil-colour-tube-37ml-MD002570S",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Orange Hue",
+    "pigments": [
+      "PR108",
+      "PO20"
+    ],
+    "hex": "#888888",
+    "size": 37,
+    "unit": "ml",
+    "price": 5.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014719",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -25149,69 +25310,6 @@
     "brand": "Winsor & Newton",
     "line": "Winton",
     "grade": "student",
-    "name": "Cadmium Yellow Pale Hue",
-    "pigments": [
-      "PY65"
-    ],
-    "hex": "#888888",
-    "size": 37,
-    "unit": "ml",
-    "price": 5.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014729",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Cadmium Red Hue",
-    "pigments": [
-      "PR188",
-      "PR170"
-    ],
-    "hex": "#888888",
-    "size": 37,
-    "unit": "ml",
-    "price": 5.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014721",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Vandyke Brown",
-    "pigments": [
-      "PBr7",
-      "PR101",
-      "PBk7"
-    ],
-    "hex": "#888888",
-    "size": 37,
-    "unit": "ml",
-    "price": 5.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014760",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
     "name": "Cadmium Red Deep Hue",
     "pigments": [
       "PR170",
@@ -25225,189 +25323,6 @@
     "swatch": null,
     "dist": "Michael's",
     "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014722",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Burnt Sienna",
-    "pigments": [
-      "PR101"
-    ],
-    "hex": "#888888",
-    "size": 37,
-    "unit": "ml",
-    "price": 5.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014715",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Lemon Yellow Hue",
-    "pigments": [
-      "PY3"
-    ],
-    "hex": "#888888",
-    "size": 37,
-    "unit": "ml",
-    "price": 5.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014743",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Raw Sienna",
-    "pigments": [
-      "PY43",
-      "PY42"
-    ],
-    "hex": "#888888",
-    "size": 37,
-    "unit": "ml",
-    "price": 5.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014755",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Permanent Alizarin Crimson",
-    "pigments": [
-      "PR177"
-    ],
-    "hex": "#871832",
-    "size": 37,
-    "unit": "ml",
-    "price": 5.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014714",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Cadmium Orange",
-    "pigments": [
-      "PR108",
-      "PO20"
-    ],
-    "hex": "#888888",
-    "size": 37,
-    "unit": "ml",
-    "price": 14.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014718",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Ivory Black",
-    "pigments": [
-      "PBk9"
-    ],
-    "hex": "#888888",
-    "size": 37,
-    "unit": "ml",
-    "price": 5.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014741",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Phthalo Yellow Green",
-    "pigments": [
-      "PG7",
-      "PY74"
-    ],
-    "hex": "#12a049",
-    "size": 37,
-    "unit": "ml",
-    "price": 5.99,
-    "sizeLabel": null,
-    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748458297/00430-4463-s-4ww.jpg",
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10641884",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Phthalo Blue",
-    "pigments": [
-      "PB15"
-    ],
-    "hex": "#888888",
-    "size": 37,
-    "unit": "ml",
-    "price": 5.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014752",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Permanent Rose",
-    "pigments": [
-      "PV19"
-    ],
-    "hex": "#888888",
-    "size": 37,
-    "unit": "ml",
-    "price": 5.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014751",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -25438,201 +25353,19 @@
     "brand": "Winsor & Newton",
     "line": "Winton",
     "grade": "student",
-    "name": "Cadmium Red Medium",
+    "name": "Phthalo Yellow Green",
     "pigments": [
-      "PR188",
-      "PR170"
+      "PG7",
+      "PY74"
     ],
-    "hex": "#888888",
-    "size": 37,
-    "unit": "ml",
-    "price": 14.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014723",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Cerulean Blue",
-    "pigments": [
-      "PB35"
-    ],
-    "hex": "#888888",
-    "size": 37,
-    "unit": "ml",
-    "price": 14.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014730",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "French Ultramarine",
-    "pigments": [
-      "PB29"
-    ],
-    "hex": "#23357a",
+    "hex": "#12a049",
     "size": 37,
     "unit": "ml",
     "price": 5.99,
     "sizeLabel": null,
-    "swatch": null,
+    "swatch": "https://cld-assets.dick-blick.com/image/upload/f_auto/q_auto/v1748458297/00430-4463-s-4ww.jpg",
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014739",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Burnt Umber",
-    "pigments": [
-      "PBr7"
-    ],
-    "hex": "#888888",
-    "size": 37,
-    "unit": "ml",
-    "price": 5.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014716",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Cadmium Red Light",
-    "pigments": [
-      "PR188",
-      "PR170"
-    ],
-    "hex": "#888888",
-    "size": 37,
-    "unit": "ml",
-    "price": 14.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014724",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Yellow Ochre",
-    "pigments": [
-      "PY43"
-    ],
-    "hex": "#888888",
-    "size": 37,
-    "unit": "ml",
-    "price": 5.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014765",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Viridian Hue",
-    "pigments": [
-      "PG7"
-    ],
-    "hex": "#888888",
-    "size": 37,
-    "unit": "ml",
-    "price": 5.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014764",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Raw Umber",
-    "pigments": [
-      "PBk9",
-      "PBr7"
-    ],
-    "hex": "#888888",
-    "size": 37,
-    "unit": "ml",
-    "price": 5.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014756",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Lamp Black",
-    "pigments": [
-      "PBk6"
-    ],
-    "hex": "#888888",
-    "size": 37,
-    "unit": "ml",
-    "price": 5.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014742",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Cadmium Yellow Medium",
-    "pigments": [
-      "PY65"
-    ],
-    "hex": "#888888",
-    "size": 37,
-    "unit": "ml",
-    "price": 14.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014728",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10641884",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -25661,10 +25394,9 @@
     "brand": "Winsor & Newton",
     "line": "Winton",
     "grade": "student",
-    "name": "Cadmium Orange Hue",
+    "name": "Viridian Hue",
     "pigments": [
-      "PR108",
-      "PO20"
+      "PG7"
     ],
     "hex": "#888888",
     "size": 37,
@@ -25673,7 +25405,47 @@
     "sizeLabel": null,
     "swatch": null,
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014719",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014764",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Lemon",
+    "pigments": [
+      "PY35"
+    ],
+    "hex": "#888888",
+    "size": 37,
+    "unit": "ml",
+    "price": 14.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014717",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Lemon Yellow Hue",
+    "pigments": [
+      "PY3"
+    ],
+    "hex": "#888888",
+    "size": 37,
+    "unit": "ml",
+    "price": 5.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014743",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -25704,6 +25476,70 @@
     "brand": "Winsor & Newton",
     "line": "Winton",
     "grade": "student",
+    "name": "Raw Sienna",
+    "pigments": [
+      "PY43",
+      "PY42"
+    ],
+    "hex": "#888888",
+    "size": 37,
+    "unit": "ml",
+    "price": 5.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014755",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Red Light",
+    "pigments": [
+      "PR188",
+      "PR170"
+    ],
+    "hex": "#888888",
+    "size": 37,
+    "unit": "ml",
+    "price": 14.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014724",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Vandyke Brown",
+    "pigments": [
+      "PBr7",
+      "PR101",
+      "PBk7"
+    ],
+    "hex": "#888888",
+    "size": 37,
+    "unit": "ml",
+    "price": 5.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014760",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
     "name": "Dioxazine Purple",
     "pigments": [
       "PV23"
@@ -25724,7 +25560,190 @@
     "brand": "Winsor & Newton",
     "line": "Winton",
     "grade": "student",
-    "name": "Cadmium Yellow Light",
+    "name": "Yellow Ochre",
+    "pigments": [
+      "PY43"
+    ],
+    "hex": "#888888",
+    "size": 37,
+    "unit": "ml",
+    "price": 5.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014765",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "French Ultramarine",
+    "pigments": [
+      "PB29"
+    ],
+    "hex": "#23357a",
+    "size": 37,
+    "unit": "ml",
+    "price": 5.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014739",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Orange",
+    "pigments": [
+      "PR108",
+      "PO20"
+    ],
+    "hex": "#888888",
+    "size": 37,
+    "unit": "ml",
+    "price": 14.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014718",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Lamp Black",
+    "pigments": [
+      "PBk6"
+    ],
+    "hex": "#888888",
+    "size": 37,
+    "unit": "ml",
+    "price": 5.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014742",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Yellow Pale Hue",
+    "pigments": [
+      "PY65"
+    ],
+    "hex": "#888888",
+    "size": 37,
+    "unit": "ml",
+    "price": 5.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014729",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Burnt Umber",
+    "pigments": [
+      "PBr7"
+    ],
+    "hex": "#888888",
+    "size": 37,
+    "unit": "ml",
+    "price": 5.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014716",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Ivory Black",
+    "pigments": [
+      "PBk9"
+    ],
+    "hex": "#888888",
+    "size": 37,
+    "unit": "ml",
+    "price": 5.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014741",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Red Hue",
+    "pigments": [
+      "PR188",
+      "PR170"
+    ],
+    "hex": "#888888",
+    "size": 37,
+    "unit": "ml",
+    "price": 5.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014721",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Red Medium",
+    "pigments": [
+      "PR188",
+      "PR170"
+    ],
+    "hex": "#888888",
+    "size": 37,
+    "unit": "ml",
+    "price": 14.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014723",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Yellow Medium",
     "pigments": [
       "PY65"
     ],
@@ -25735,27 +25754,7 @@
     "sizeLabel": null,
     "swatch": null,
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014726",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Cerulean Blue Hue",
-    "pigments": [
-      "PB35"
-    ],
-    "hex": "#888888",
-    "size": 37,
-    "unit": "ml",
-    "price": 5.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014731",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014728",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -25784,29 +25783,10 @@
     "brand": "Winsor & Newton",
     "line": "Winton",
     "grade": "student",
-    "name": "Titanium White",
+    "name": "Raw Umber",
     "pigments": [
-      "PW6"
-    ],
-    "hex": "#f7f5f0",
-    "size": 37,
-    "unit": "ml",
-    "price": 5.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014759",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Cadmium Yellow Pale Hue",
-    "pigments": [
-      "PY65"
+      "PBk9",
+      "PBr7"
     ],
     "hex": "#888888",
     "size": 37,
@@ -25815,7 +25795,7 @@
     "sizeLabel": null,
     "swatch": null,
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-winton-oil-colour-tube-37ml-MD002570S",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014756",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -25824,9 +25804,9 @@
     "brand": "Winsor & Newton",
     "line": "Winton",
     "grade": "student",
-    "name": "Cobalt Blue Hue",
+    "name": "Burnt Sienna",
     "pigments": [
-      "PB28"
+      "PR101"
     ],
     "hex": "#888888",
     "size": 37,
@@ -25835,7 +25815,7 @@
     "sizeLabel": null,
     "swatch": null,
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014733",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014715",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -25844,9 +25824,30 @@
     "brand": "Winsor & Newton",
     "line": "Winton",
     "grade": "student",
-    "name": "Lamp Black",
+    "name": "Cerulean Blue Hue",
     "pigments": [
-      "PBk6"
+      "PB35"
+    ],
+    "hex": "#888888",
+    "size": 37,
+    "unit": "ml",
+    "price": 5.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-125oz-winton-oil-colour-tube-10014731",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Raw Sienna",
+    "pigments": [
+      "PY43",
+      "PY42"
     ],
     "hex": "#888888",
     "size": 200,
@@ -25855,27 +25856,7 @@
     "sizeLabel": null,
     "swatch": null,
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019713",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Yellow Ochre",
-    "pigments": [
-      "PY43"
-    ],
-    "hex": "#888888",
-    "size": 200,
-    "unit": "ml",
-    "price": 19.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019727",
+    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019719",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -25897,6 +25878,68 @@
     "swatch": null,
     "dist": "Michael's",
     "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019700",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Phthalo Blue",
+    "pigments": [
+      "PB15"
+    ],
+    "hex": "#888888",
+    "size": 200,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019717",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Red Hue",
+    "pigments": [
+      "PR188",
+      "PR170"
+    ],
+    "hex": "#888888",
+    "size": 200,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019701",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Soft Mixing White",
+    "pigments": [
+      "PW6",
+      "PW4"
+    ],
+    "hex": "#888888",
+    "size": 200,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10475053",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -25927,38 +25970,18 @@
     "brand": "Winsor & Newton",
     "line": "Winton",
     "grade": "student",
-    "name": "French Ultramarine",
+    "name": "Yellow Ochre",
     "pigments": [
-      "PB29"
+      "PY43"
     ],
-    "hex": "#23357a",
+    "hex": "#888888",
     "size": 200,
     "unit": "ml",
     "price": 19.99,
     "sizeLabel": null,
     "swatch": null,
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019710",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Zinc White",
-    "pigments": [
-      "PW4"
-    ],
-    "hex": "#888888",
-    "size": 200,
-    "unit": "ml",
-    "price": 21.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019728",
+    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019727",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -25987,40 +26010,18 @@
     "brand": "Winsor & Newton",
     "line": "Winton",
     "grade": "student",
-    "name": "Sap Green",
+    "name": "Zinc White",
     "pigments": [
-      "PB15",
-      "PY110"
-    ],
-    "hex": "#888888",
-    "size": 200,
-    "unit": "ml",
-    "price": 19.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019721",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Soft Mixing White",
-    "pigments": [
-      "PW6",
       "PW4"
     ],
     "hex": "#888888",
     "size": 200,
     "unit": "ml",
-    "price": 19.99,
+    "price": 21.99,
     "sizeLabel": null,
     "swatch": null,
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10475053",
+    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019728",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -26029,9 +26030,10 @@
     "brand": "Winsor & Newton",
     "line": "Winton",
     "grade": "student",
-    "name": "Cadmium Yellow Hue",
+    "name": "Cadmium Red Deep Hue",
     "pigments": [
-      "PY65"
+      "PR170",
+      "PO36"
     ],
     "hex": "#888888",
     "size": 200,
@@ -26040,7 +26042,7 @@
     "sizeLabel": null,
     "swatch": null,
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019704",
+    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019702",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -26049,18 +26051,18 @@
     "brand": "Winsor & Newton",
     "line": "Winton",
     "grade": "student",
-    "name": "Prussian Blue",
+    "name": "French Ultramarine",
     "pigments": [
-      "PB27"
+      "PB29"
     ],
-    "hex": "#888888",
+    "hex": "#23357a",
     "size": 200,
     "unit": "ml",
     "price": 19.99,
     "sizeLabel": null,
     "swatch": null,
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019718",
+    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019710",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -26091,48 +26093,6 @@
     "brand": "Winsor & Newton",
     "line": "Winton",
     "grade": "student",
-    "name": "Naples Yellow Hue",
-    "pigments": [
-      "PY42",
-      "PW6",
-      "PR101"
-    ],
-    "hex": "#888888",
-    "size": 200,
-    "unit": "ml",
-    "price": 19.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019715",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Titanium White",
-    "pigments": [
-      "PW6"
-    ],
-    "hex": "#f7f5f0",
-    "size": 200,
-    "unit": "ml",
-    "price": 19.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019723",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
     "name": "Burnt Umber",
     "pigments": [
       "PBr7"
@@ -26153,9 +26113,9 @@
     "brand": "Winsor & Newton",
     "line": "Winton",
     "grade": "student",
-    "name": "Ivory Black",
+    "name": "Prussian Blue",
     "pigments": [
-      "PBk9"
+      "PB27"
     ],
     "hex": "#888888",
     "size": 200,
@@ -26164,150 +26124,7 @@
     "sizeLabel": null,
     "swatch": null,
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019712",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Permanent Alizarin Crimson",
-    "pigments": [
-      "PR177"
-    ],
-    "hex": "#871832",
-    "size": 200,
-    "unit": "ml",
-    "price": 19.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019697",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Burnt Sienna",
-    "pigments": [
-      "PR101"
-    ],
-    "hex": "#888888",
-    "size": 200,
-    "unit": "ml",
-    "price": 19.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019698",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Cadmium Red Hue",
-    "pigments": [
-      "PR188",
-      "PR170"
-    ],
-    "hex": "#888888",
-    "size": 200,
-    "unit": "ml",
-    "price": 19.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019701",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Phthalo Blue",
-    "pigments": [
-      "PB15"
-    ],
-    "hex": "#888888",
-    "size": 200,
-    "unit": "ml",
-    "price": 19.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019717",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Raw Sienna",
-    "pigments": [
-      "PY43",
-      "PY42"
-    ],
-    "hex": "#888888",
-    "size": 200,
-    "unit": "ml",
-    "price": 19.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019719",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Raw Umber",
-    "pigments": [
-      "PBk9",
-      "PBr7"
-    ],
-    "hex": "#888888",
-    "size": 200,
-    "unit": "ml",
-    "price": 19.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019720",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Viridian Hue",
-    "pigments": [
-      "PG7"
-    ],
-    "hex": "#888888",
-    "size": 200,
-    "unit": "ml",
-    "price": 19.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019726",
+    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019718",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -26336,9 +26153,9 @@
     "brand": "Winsor & Newton",
     "line": "Winton",
     "grade": "student",
-    "name": "Cerulean Blue Hue",
+    "name": "Ivory Black",
     "pigments": [
-      "PB35"
+      "PBk9"
     ],
     "hex": "#888888",
     "size": 200,
@@ -26347,27 +26164,7 @@
     "sizeLabel": null,
     "swatch": null,
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019706",
-    "inStock": true,
-    "manual": false,
-    "verified": null
-  },
-  {
-    "brand": "Winsor & Newton",
-    "line": "Winton",
-    "grade": "student",
-    "name": "Light Red",
-    "pigments": [
-      "PR101"
-    ],
-    "hex": "#888888",
-    "size": 200,
-    "unit": "ml",
-    "price": 19.99,
-    "sizeLabel": null,
-    "swatch": null,
-    "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10475077",
+    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019712",
     "inStock": true,
     "manual": false,
     "verified": null
@@ -26398,10 +26195,9 @@
     "brand": "Winsor & Newton",
     "line": "Winton",
     "grade": "student",
-    "name": "Cadmium Red Deep Hue",
+    "name": "Burnt Sienna",
     "pigments": [
-      "PR170",
-      "PO36"
+      "PR101"
     ],
     "hex": "#888888",
     "size": 200,
@@ -26410,7 +26206,211 @@
     "sizeLabel": null,
     "swatch": null,
     "dist": "Michael's",
-    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019702",
+    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019698",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cerulean Blue Hue",
+    "pigments": [
+      "PB35"
+    ],
+    "hex": "#888888",
+    "size": 200,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019706",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Cadmium Yellow Hue",
+    "pigments": [
+      "PY65"
+    ],
+    "hex": "#888888",
+    "size": 200,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019704",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Naples Yellow Hue",
+    "pigments": [
+      "PY42",
+      "PW6",
+      "PR101"
+    ],
+    "hex": "#888888",
+    "size": 200,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019715",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Raw Umber",
+    "pigments": [
+      "PBk9",
+      "PBr7"
+    ],
+    "hex": "#888888",
+    "size": 200,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019720",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Sap Green",
+    "pigments": [
+      "PB15",
+      "PY110"
+    ],
+    "hex": "#888888",
+    "size": 200,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019721",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Lamp Black",
+    "pigments": [
+      "PBk6"
+    ],
+    "hex": "#888888",
+    "size": 200,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019713",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Titanium White",
+    "pigments": [
+      "PW6"
+    ],
+    "hex": "#f7f5f0",
+    "size": 200,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019723",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Permanent Alizarin Crimson",
+    "pigments": [
+      "PR177"
+    ],
+    "hex": "#871832",
+    "size": 200,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019697",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Viridian Hue",
+    "pigments": [
+      "PG7"
+    ],
+    "hex": "#888888",
+    "size": 200,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10019726",
+    "inStock": true,
+    "manual": false,
+    "verified": null
+  },
+  {
+    "brand": "Winsor & Newton",
+    "line": "Winton",
+    "grade": "student",
+    "name": "Light Red",
+    "pigments": [
+      "PR101"
+    ],
+    "hex": "#888888",
+    "size": 200,
+    "unit": "ml",
+    "price": 19.99,
+    "sizeLabel": null,
+    "swatch": null,
+    "dist": "Michael's",
+    "url": "https://www.michaels.com/product/winsor-newton-winton-675oz-oil-colour-paint-10475077",
     "inStock": true,
     "manual": false,
     "verified": null
