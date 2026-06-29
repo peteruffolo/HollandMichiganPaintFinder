@@ -1229,11 +1229,11 @@
     "grade": "artist",
     "name": "Radiant Orange",
     "dist": "Fris Supply Shop",
-    "price": 13.31,
+    "price": 13.13,
     "size": 37.0,
     "unit": "ml",
     "url": "https://www.frissupplyshop.com/shop/Paints-and-Mediums/Oil-Paints/p/Gamblin-37ml-Artist-Oils-x91667672.htm",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -1349,11 +1349,11 @@
     "grade": "student",
     "name": "Burnt Sienna",
     "dist": "Fris Supply Shop",
-    "price": 8.75,
+    "price": 6.13,
     "size": 37.0,
     "unit": "ml",
     "url": "https://www.frissupplyshop.com/shop/Paints-and-Mediums/Oil-Paints/p/GAMBLIN-1980s-OIL-37ML-x64486982.htm",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -1541,11 +1541,11 @@
     "grade": "student",
     "name": "Ivory Black",
     "dist": "Fris Supply Shop",
-    "price": 8.75,
+    "price": 6.13,
     "size": 37.0,
     "unit": "ml",
     "url": "https://www.frissupplyshop.com/shop/Paints-and-Mediums/Oil-Paints/p/GAMBLIN-1980s-OIL-37ML-x64486982.htm",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -1553,11 +1553,11 @@
     "grade": "student",
     "name": "Mars Black",
     "dist": "Fris Supply Shop",
-    "price": 8.75,
+    "price": 6.13,
     "size": 37.0,
     "unit": "ml",
     "url": "https://www.frissupplyshop.com/shop/Paints-and-Mediums/Oil-Paints/p/GAMBLIN-1980s-OIL-37ML-x64486982.htm",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -1649,11 +1649,11 @@
     "grade": "student",
     "name": "Phthalo Blue",
     "dist": "Fris Supply Shop",
-    "price": 10.0,
+    "price": 7.0,
     "size": 37.0,
     "unit": "ml",
     "url": "https://www.frissupplyshop.com/shop/Paints-and-Mediums/Oil-Paints/p/GAMBLIN-1980s-OIL-37ML-x64486982.htm",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -1817,11 +1817,11 @@
     "grade": "student",
     "name": "Turquoise",
     "dist": "Fris Supply Shop",
-    "price": 10.0,
+    "price": 7.0,
     "size": 37.0,
     "unit": "ml",
     "url": "https://www.frissupplyshop.com/shop/Paints-and-Mediums/Oil-Paints/p/GAMBLIN-1980s-OIL-37ML-x64486982.htm",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -1829,11 +1829,11 @@
     "grade": "student",
     "name": "Ultramarine Blue",
     "dist": "Fris Supply Shop",
-    "price": 10.0,
+    "price": 7.0,
     "size": 37.0,
     "unit": "ml",
     "url": "https://www.frissupplyshop.com/shop/Paints-and-Mediums/Oil-Paints/p/GAMBLIN-1980s-OIL-37ML-x64486982.htm",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -1877,11 +1877,11 @@
     "grade": "student",
     "name": "Viridian",
     "dist": "Fris Supply Shop",
-    "price": 13.0,
+    "price": 9.1,
     "size": 37.0,
     "unit": "ml",
     "url": "https://www.frissupplyshop.com/shop/Paints-and-Mediums/Oil-Paints/p/GAMBLIN-1980s-OIL-37ML-x64486982.htm",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -1889,11 +1889,11 @@
     "grade": "student",
     "name": "Yellow Ochre",
     "dist": "Fris Supply Shop",
-    "price": 8.75,
+    "price": 6.13,
     "size": 37.0,
     "unit": "ml",
     "url": "https://www.frissupplyshop.com/shop/Paints-and-Mediums/Oil-Paints/p/GAMBLIN-1980s-OIL-37ML-x64486982.htm",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
