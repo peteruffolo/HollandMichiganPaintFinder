@@ -1517,11 +1517,11 @@
     "grade": "student",
     "name": "Hansa Yellow Medium",
     "dist": "Fris Supply Shop",
-    "price": 10.0,
+    "price": 7.0,
     "size": 37.0,
     "unit": "ml",
     "url": "https://www.frissupplyshop.com/shop/Paints-and-Mediums/Oil-Paints/p/GAMBLIN-1980s-OIL-37ML-x64486982.htm",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -1629,7 +1629,7 @@
     "size": 37.0,
     "unit": "ml",
     "url": "https://www.frissupplyshop.com/shop/Paints-and-Mediums/Oil-Paints/p/GAMBLIN-1980s-OIL-37ML-x64486982.htm",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Gamblin",
@@ -1661,7 +1661,7 @@
     "grade": "student",
     "name": "Phthalo Green",
     "dist": "Fris Supply Shop",
-    "price": 7.0,
+    "price": 10.0,
     "size": 37.0,
     "unit": "ml",
     "url": "https://www.frissupplyshop.com/shop/Paints-and-Mediums/Oil-Paints/p/GAMBLIN-1980s-OIL-37ML-x64486982.htm",
@@ -1745,11 +1745,11 @@
     "grade": "student",
     "name": "Sap Green",
     "dist": "Fris Supply Shop",
-    "price": 10.0,
+    "price": 7.0,
     "size": 37.0,
     "unit": "ml",
     "url": "https://www.frissupplyshop.com/shop/Paints-and-Mediums/Oil-Paints/p/GAMBLIN-1980s-OIL-37ML-x64486982.htm",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -1769,11 +1769,11 @@
     "grade": "student",
     "name": "Titanium White",
     "dist": "Fris Supply Shop",
-    "price": 8.75,
+    "price": 6.13,
     "size": 37.0,
     "unit": "ml",
     "url": "https://www.frissupplyshop.com/shop/Paints-and-Mediums/Oil-Paints/p/GAMBLIN-1980s-OIL-37ML-x64486982.htm",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",

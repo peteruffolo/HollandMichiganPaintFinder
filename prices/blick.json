@@ -1396,7 +1396,7 @@
     "grade": "artist",
     "name": "Alizarin Crimson",
     "dist": "Blick",
-    "price": 18.0,
+    "price": 17.49,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -1747,7 +1747,7 @@
     "grade": "artist",
     "name": "Cadmium Green",
     "dist": "Blick",
-    "price": 24.74,
+    "price": 23.09,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -1791,7 +1791,7 @@
     "unit": "ml",
     "sizeLabel": "473 ml (16 oz)",
     "url": "https://www.dickblick.com/products/gamblin-artists-oil-colors/?Item=00401-7216",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -1799,7 +1799,7 @@
     "grade": "artist",
     "name": "Cadmium Lemon",
     "dist": "Blick",
-    "price": 24.74,
+    "price": 23.09,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -1843,7 +1843,7 @@
     "unit": "ml",
     "sizeLabel": "473 ml (16 oz)",
     "url": "https://www.dickblick.com/products/gamblin-artists-oil-colors/?Item=00401-4186",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -1851,7 +1851,7 @@
     "grade": "artist",
     "name": "Cadmium Orange",
     "dist": "Blick",
-    "price": 24.74,
+    "price": 23.09,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -2111,7 +2111,7 @@
     "grade": "artist",
     "name": "Cadmium Yellow Deep",
     "dist": "Blick",
-    "price": 24.74,
+    "price": 23.09,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -2163,7 +2163,7 @@
     "grade": "artist",
     "name": "Cadmium Yellow Light",
     "dist": "Blick",
-    "price": 24.74,
+    "price": 23.09,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -2215,7 +2215,7 @@
     "grade": "artist",
     "name": "Cadmium Yellow Medium",
     "dist": "Blick",
-    "price": 24.74,
+    "price": 23.09,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -2280,7 +2280,7 @@
     "grade": "artist",
     "name": "Cerulean Blue",
     "dist": "Blick",
-    "price": 36.0,
+    "price": 34.99,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -2571,7 +2571,7 @@
     "unit": "ml",
     "sizeLabel": "237 ml (8 oz)",
     "url": "https://www.dickblick.com/products/gamblin-artists-oil-colors/?Item=00401-7165",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Gamblin",
@@ -2987,7 +2987,7 @@
     "unit": "ml",
     "sizeLabel": "946 ml (32 oz)",
     "url": "https://www.dickblick.com/products/gamblin-artists-oil-colors/?Item=00401-1277",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -3039,7 +3039,7 @@
     "unit": "ml",
     "sizeLabel": "237 ml (8 oz)",
     "url": "https://www.dickblick.com/products/gamblin-artists-oil-colors/?Item=00401-9035",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Gamblin",
@@ -3164,7 +3164,7 @@
     "grade": "artist",
     "name": "Hansa Yellow Light",
     "dist": "Blick",
-    "price": 18.0,
+    "price": 17.49,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -3216,7 +3216,7 @@
     "grade": "artist",
     "name": "Hansa Yellow Medium",
     "dist": "Blick",
-    "price": 18.0,
+    "price": 17.49,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -3364,7 +3364,7 @@
     "unit": "ml",
     "sizeLabel": "473 ml (16 oz)",
     "url": "https://www.dickblick.com/products/gamblin-artists-oil-colors/?Item=00401-3256",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -3611,7 +3611,7 @@
     "unit": "ml",
     "sizeLabel": "473 ml (16 oz)",
     "url": "https://www.dickblick.com/products/gamblin-artists-oil-colors/?Item=00401-6626",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -3832,7 +3832,7 @@
     "unit": "ml",
     "sizeLabel": "473 ml (16 oz)",
     "url": "https://www.dickblick.com/products/gamblin-artists-oil-colors/?Item=00401-3876",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -4534,7 +4534,7 @@
     "unit": "ml",
     "sizeLabel": "473 ml (16 oz)",
     "url": "https://www.dickblick.com/products/gamblin-artists-oil-colors/?Item=00401-2616",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -4638,7 +4638,7 @@
     "unit": "ml",
     "sizeLabel": "473 ml (16 oz)",
     "url": "https://www.dickblick.com/products/gamblin-artists-oil-colors/?Item=00401-2626",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -4789,7 +4789,7 @@
     "grade": "artist",
     "name": "Quinacridone Magenta",
     "dist": "Blick",
-    "price": 18.0,
+    "price": 17.49,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -4841,7 +4841,7 @@
     "grade": "artist",
     "name": "Quinacridone Red",
     "dist": "Blick",
-    "price": 18.0,
+    "price": 17.49,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -4893,7 +4893,7 @@
     "grade": "artist",
     "name": "Quinacridone Violet",
     "dist": "Blick",
-    "price": 18.0,
+    "price": 17.49,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -4937,7 +4937,7 @@
     "unit": "ml",
     "sizeLabel": "473 ml (16 oz)",
     "url": "https://www.dickblick.com/products/gamblin-artists-oil-colors/?Item=00401-6516",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -4989,7 +4989,7 @@
     "unit": "ml",
     "sizeLabel": "473 ml (16 oz)",
     "url": "https://www.dickblick.com/products/gamblin-artists-oil-colors/?Item=00401-5016",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -5314,7 +5314,7 @@
     "unit": "ml",
     "sizeLabel": "473 ml (16 oz)",
     "url": "https://www.dickblick.com/products/gamblin-artists-oil-colors/?Item=00401-6696",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -6055,7 +6055,7 @@
     "unit": "ml",
     "sizeLabel": "473 ml (16 oz)",
     "url": "https://www.dickblick.com/products/gamblin-artists-oil-colors/?Item=00401-4986",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -6336,7 +6336,7 @@
     "grade": "artist",
     "name": "Viridian",
     "dist": "Blick",
-    "price": 27.74,
+    "price": 25.89,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -8057,7 +8057,7 @@
     "unit": "ml",
     "sizeLabel": "200 ml (6.75 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-1124",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Blick",
@@ -8161,7 +8161,7 @@
     "unit": "ml",
     "sizeLabel": "200 ml (6.75 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-3324",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Blick",
@@ -8369,7 +8369,7 @@
     "unit": "ml",
     "sizeLabel": "200 ml (6.75 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-6574",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Blick",
@@ -8382,7 +8382,7 @@
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-3063",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Blick",
@@ -8668,7 +8668,7 @@
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-5780",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Blick",
@@ -9753,19 +9753,6 @@
     "brand": "Blick",
     "line": "Artists' Oil",
     "grade": "artist",
-    "name": "Titanium White",
-    "dist": "Blick",
-    "price": 9.18,
-    "size": 40,
-    "unit": "ml",
-    "sizeLabel": "40 ml (1.35 oz)",
-    "url": "https://www.dickblick.com/products/blick-artists-oil-color/?Item=01595-1023",
-    "inStock": false
-  },
-  {
-    "brand": "Blick",
-    "line": "Artists' Oil",
-    "grade": "artist",
     "name": "Turquoise Light",
     "dist": "Blick",
     "price": 17.3,
@@ -10561,7 +10548,7 @@
     "grade": "artist",
     "name": "French Ultramarine",
     "dist": "Blick",
-    "price": 25.22,
+    "price": 34.28,
     "size": 200,
     "unit": "ml",
     "sizeLabel": "200 ml (6.75 oz)",
@@ -10834,7 +10821,7 @@
     "grade": "artist",
     "name": "Magenta",
     "dist": "Blick",
-    "price": 25.22,
+    "price": 34.28,
     "size": 200,
     "unit": "ml",
     "sizeLabel": "200 ml (6.75 oz)",
@@ -11060,7 +11047,7 @@
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
     "url": "https://www.dickblick.com/products/winsor-newton-artists-oil-colors/?Item=00461-7373",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Winsor & Newton",
@@ -12178,7 +12165,7 @@
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
     "url": "https://www.dickblick.com/products/winsor-newton-artists-oil-colors/?Item=00461-1033",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Winsor & Newton",
