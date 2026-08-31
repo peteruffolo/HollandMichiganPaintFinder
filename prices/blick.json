@@ -5,12 +5,12 @@
     "grade": "student",
     "name": "Alizarin Crimson Permanent",
     "dist": "Blick",
-    "price": 6.49,
+    "price": 6.99,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
     "url": "https://www.dickblick.com/products/gamblin-1980-oil-colors/?Item=01587-3063",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Gamblin",
@@ -62,7 +62,7 @@
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
     "url": "https://www.dickblick.com/products/gamblin-1980-oil-colors/?Item=01587-8043",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Gamblin",
@@ -88,7 +88,7 @@
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
     "url": "https://www.dickblick.com/products/gamblin-1980-oil-colors/?Item=01587-8053",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Gamblin",
@@ -179,7 +179,7 @@
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
     "url": "https://www.dickblick.com/products/gamblin-1980-oil-colors/?Item=01587-3093",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Gamblin",
@@ -569,7 +569,7 @@
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
     "url": "https://www.dickblick.com/products/gamblin-1980-oil-colors/?Item=01587-2253",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -577,12 +577,12 @@
     "grade": "student",
     "name": "Ivory Black",
     "dist": "Blick",
-    "price": 12.99,
+    "price": 13.2,
     "size": 150,
     "unit": "ml",
     "sizeLabel": "150 ml (5 oz)",
     "url": "https://www.dickblick.com/products/gamblin-1980-oil-colors/?Item=01587-2254",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -959,7 +959,7 @@
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
     "url": "https://www.dickblick.com/products/gamblin-1980-oil-colors/?Item=01587-6203",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Gamblin",
@@ -1037,7 +1037,7 @@
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
     "url": "https://www.dickblick.com/products/gamblin-1980-oil-colors/?Item=01587-7093",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Gamblin",
@@ -1115,7 +1115,7 @@
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
     "url": "https://www.dickblick.com/products/gamblin-1980-oil-colors/?Item=01587-1023",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Gamblin",
@@ -1123,7 +1123,7 @@
     "grade": "student",
     "name": "Titanium White",
     "dist": "Blick",
-    "price": 12.99,
+    "price": 13.2,
     "size": 150,
     "unit": "ml",
     "sizeLabel": "150 ml (5 oz)",
@@ -1167,7 +1167,7 @@
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
     "url": "https://www.dickblick.com/products/gamblin-1980-oil-colors/?Item=01587-1733",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -1349,7 +1349,7 @@
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
     "url": "https://www.dickblick.com/products/gamblin-1980-oil-colors/?Item=01587-7193",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Gamblin",
@@ -1383,7 +1383,7 @@
     "grade": "student",
     "name": "Yellow Ochre",
     "dist": "Blick",
-    "price": 12.99,
+    "price": 13.2,
     "size": 150,
     "unit": "ml",
     "sizeLabel": "150 ml (5 oz)",
@@ -1544,7 +1544,7 @@
     "unit": "ml",
     "sizeLabel": "150 ml (5 oz)",
     "url": "https://www.dickblick.com/products/gamblin-artists-oil-colors/?Item=00401-8484",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Gamblin",
@@ -1843,7 +1843,7 @@
     "unit": "ml",
     "sizeLabel": "473 ml (16 oz)",
     "url": "https://www.dickblick.com/products/gamblin-artists-oil-colors/?Item=00401-4186",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Gamblin",
@@ -2506,7 +2506,7 @@
     "unit": "ml",
     "sizeLabel": "150 ml (5 oz)",
     "url": "https://www.dickblick.com/products/gamblin-artists-oil-colors/?Item=00401-5184",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -3143,7 +3143,7 @@
     "unit": "ml",
     "sizeLabel": "237 ml (8 oz)",
     "url": "https://www.dickblick.com/products/gamblin-artists-oil-colors/?Item=00401-4975",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Gamblin",
@@ -3169,7 +3169,7 @@
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
     "url": "https://www.dickblick.com/products/gamblin-artists-oil-colors/?Item=00401-4703",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -5977,7 +5977,7 @@
     "unit": "ml",
     "sizeLabel": "150 ml (5 oz)",
     "url": "https://www.dickblick.com/products/gamblin-artists-oil-colors/?Item=00401-3734",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Gamblin",
@@ -6172,7 +6172,7 @@
     "unit": "ml",
     "sizeLabel": "946 ml (32 oz)",
     "url": "https://www.dickblick.com/products/gamblin-artists-oil-colors/?Item=00401-5237",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Gamblin",
@@ -6609,7 +6609,7 @@
     "grade": "student",
     "name": "Burnt Sienna",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -6635,7 +6635,7 @@
     "grade": "student",
     "name": "Burnt Umber",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -6700,12 +6700,12 @@
     "grade": "student",
     "name": "Cadmium Orange Hue",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
     "url": "https://www.dickblick.com/products/winsor-newton-winton-oil-colors/?Item=00430-4543",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Winsor & Newton",
@@ -6726,7 +6726,7 @@
     "grade": "student",
     "name": "Cadmium Red Deep Hue",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -6752,7 +6752,7 @@
     "grade": "student",
     "name": "Cadmium Red Hue",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -6960,7 +6960,7 @@
     "grade": "student",
     "name": "Cadmium Yellow Pale Hue",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -7012,7 +7012,7 @@
     "grade": "student",
     "name": "Cerulean Blue Hue",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -7064,7 +7064,7 @@
     "grade": "student",
     "name": "Cobalt Blue Hue",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -7168,7 +7168,7 @@
     "grade": "student",
     "name": "Dioxazine Purple",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -7194,7 +7194,7 @@
     "grade": "student",
     "name": "French Ultramarine",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -7246,7 +7246,7 @@
     "grade": "student",
     "name": "Ivory Black",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -7272,7 +7272,7 @@
     "grade": "student",
     "name": "Lamp Black",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -7298,7 +7298,7 @@
     "grade": "student",
     "name": "Lemon Yellow Hue",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -7376,7 +7376,7 @@
     "grade": "student",
     "name": "Naples Yellow Hue",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -7454,7 +7454,7 @@
     "grade": "student",
     "name": "Payne's Gray",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -7480,7 +7480,7 @@
     "grade": "student",
     "name": "Permanent Alizarin Crimson",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -7532,7 +7532,7 @@
     "grade": "student",
     "name": "Permanent Rose",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -7558,7 +7558,7 @@
     "grade": "student",
     "name": "Phthalo Blue",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -7610,7 +7610,7 @@
     "grade": "student",
     "name": "Phthalo Yellow Green",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -7636,7 +7636,7 @@
     "grade": "student",
     "name": "Prussian Blue",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -7688,7 +7688,7 @@
     "grade": "student",
     "name": "Raw Sienna",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -7714,7 +7714,7 @@
     "grade": "student",
     "name": "Raw Umber",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -7740,7 +7740,7 @@
     "grade": "student",
     "name": "Sap Green",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -7818,7 +7818,7 @@
     "grade": "student",
     "name": "Titanium White",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -7857,7 +7857,7 @@
     "grade": "student",
     "name": "Vandyke Brown",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -7909,7 +7909,7 @@
     "grade": "student",
     "name": "Viridian Hue",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -7948,7 +7948,7 @@
     "grade": "student",
     "name": "Viridian Hue (Blue Shade)",
     "dist": "Blick",
-    "price": 4.12,
+    "price": 4.32,
     "size": 37,
     "unit": "ml",
     "sizeLabel": "37 ml (1.25 oz)",
@@ -8013,7 +8013,7 @@
     "grade": "student",
     "name": "Blue Gray",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8026,7 +8026,7 @@
     "grade": "student",
     "name": "Brilliant Rose",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8039,7 +8039,7 @@
     "grade": "student",
     "name": "Buff Titanium",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8057,7 +8057,7 @@
     "unit": "ml",
     "sizeLabel": "200 ml (6.75 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-1124",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Blick",
@@ -8065,12 +8065,12 @@
     "grade": "student",
     "name": "Burnt Sienna",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-8043",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Blick",
@@ -8083,7 +8083,7 @@
     "unit": "ml",
     "sizeLabel": "200 ml (6.75 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-8044",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Blick",
@@ -8091,7 +8091,7 @@
     "grade": "student",
     "name": "Burnt Umber",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8117,12 +8117,12 @@
     "grade": "student",
     "name": "Cadmium Orange Hue",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-4543",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Blick",
@@ -8135,7 +8135,7 @@
     "unit": "ml",
     "sizeLabel": "200 ml (6.75 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-4544",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Blick",
@@ -8143,7 +8143,7 @@
     "grade": "student",
     "name": "Cadmium Red Deep Hue",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8169,7 +8169,7 @@
     "grade": "student",
     "name": "Cadmium Red Hue",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8195,7 +8195,7 @@
     "grade": "student",
     "name": "Cadmium Red Light Hue",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8221,7 +8221,7 @@
     "grade": "student",
     "name": "Cadmium Yellow Deep Hue",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8239,7 +8239,7 @@
     "unit": "ml",
     "sizeLabel": "200 ml (6.75 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-4284",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Blick",
@@ -8247,12 +8247,12 @@
     "grade": "student",
     "name": "Cadmium Yellow Hue",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-4353",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Blick",
@@ -8265,7 +8265,7 @@
     "unit": "ml",
     "sizeLabel": "200 ml (6.75 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-4354",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Blick",
@@ -8273,7 +8273,7 @@
     "grade": "student",
     "name": "Cadmium Yellow Pale Hue",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8299,7 +8299,7 @@
     "grade": "student",
     "name": "Cerulean Blue Hue",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8325,12 +8325,12 @@
     "grade": "student",
     "name": "Cobalt Blue Hue",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-5193",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Blick",
@@ -8351,7 +8351,7 @@
     "grade": "student",
     "name": "Cobalt Violet Hue",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8377,7 +8377,7 @@
     "grade": "student",
     "name": "Crimson Alizarin",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8403,12 +8403,12 @@
     "grade": "student",
     "name": "Dioxazine Purple",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-6023",
-    "inStock": true
+    "inStock": false
   },
   {
     "brand": "Blick",
@@ -8421,7 +8421,7 @@
     "unit": "ml",
     "sizeLabel": "200 ml (6.75 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-6024",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Blick",
@@ -8429,7 +8429,7 @@
     "grade": "student",
     "name": "Emerald Green Hue",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8442,7 +8442,7 @@
     "grade": "student",
     "name": "Flake White Hue",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8455,7 +8455,7 @@
     "grade": "student",
     "name": "Hooker's Green",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8468,7 +8468,7 @@
     "grade": "student",
     "name": "Ivory Black",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8486,7 +8486,7 @@
     "unit": "ml",
     "sizeLabel": "200 ml (6.75 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-2254",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Blick",
@@ -8494,7 +8494,7 @@
     "grade": "student",
     "name": "Lamp Black",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8520,7 +8520,7 @@
     "grade": "student",
     "name": "Lemon Yellow",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8538,7 +8538,7 @@
     "unit": "ml",
     "sizeLabel": "200 ml (6.75 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-4064",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Blick",
@@ -8546,7 +8546,7 @@
     "grade": "student",
     "name": "Light Blue",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8572,7 +8572,7 @@
     "grade": "student",
     "name": "Mixing White",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8590,7 +8590,7 @@
     "unit": "ml",
     "sizeLabel": "200 ml (6.75 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-1304",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Blick",
@@ -8598,7 +8598,7 @@
     "grade": "student",
     "name": "Naphthol Crimson",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8611,7 +8611,7 @@
     "grade": "student",
     "name": "Naples Yellow",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8637,7 +8637,7 @@
     "grade": "student",
     "name": "Payne's Gray",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8663,12 +8663,12 @@
     "grade": "student",
     "name": "Permanent Blue",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-5780",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Blick",
@@ -8676,7 +8676,7 @@
     "grade": "student",
     "name": "Permanent Light Green",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8702,7 +8702,7 @@
     "grade": "student",
     "name": "Phthalo Blue",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8728,7 +8728,7 @@
     "grade": "student",
     "name": "Phthalo Green",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8746,7 +8746,7 @@
     "unit": "ml",
     "sizeLabel": "200 ml (6.75 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-7804",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Blick",
@@ -8754,12 +8754,12 @@
     "grade": "student",
     "name": "Primary Magenta",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-3700",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Blick",
@@ -8780,7 +8780,7 @@
     "grade": "student",
     "name": "Primary Yellow",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8793,12 +8793,12 @@
     "grade": "student",
     "name": "Prussian Blue",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-5223",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Blick",
@@ -8819,7 +8819,7 @@
     "grade": "student",
     "name": "Raw Sienna",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8845,7 +8845,7 @@
     "grade": "student",
     "name": "Raw Umber",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8871,7 +8871,7 @@
     "grade": "student",
     "name": "Rose Madder",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8897,7 +8897,7 @@
     "grade": "student",
     "name": "Rosy Beige",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8923,7 +8923,7 @@
     "grade": "student",
     "name": "Sap Green",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8949,7 +8949,7 @@
     "grade": "student",
     "name": "Scarlet Lake",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8962,7 +8962,7 @@
     "grade": "student",
     "name": "Terre Verte Hue",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8975,7 +8975,7 @@
     "grade": "student",
     "name": "Titanium White",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -8993,7 +8993,7 @@
     "unit": "ml",
     "sizeLabel": "200 ml (6.75 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-1024",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Blick",
@@ -9001,7 +9001,7 @@
     "grade": "student",
     "name": "Ultramarine Blue",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -9019,7 +9019,7 @@
     "unit": "ml",
     "sizeLabel": "200 ml (6.75 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-5134",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Blick",
@@ -9027,7 +9027,7 @@
     "grade": "student",
     "name": "Vandyke Brown Hue",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -9040,7 +9040,7 @@
     "grade": "student",
     "name": "Violet Grey",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -9053,7 +9053,7 @@
     "grade": "student",
     "name": "Viridian Hue",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -9079,7 +9079,7 @@
     "grade": "student",
     "name": "Yellow Green",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -9097,7 +9097,7 @@
     "unit": "ml",
     "sizeLabel": "200 ml (6.75 oz)",
     "url": "https://www.dickblick.com/products/blick-studio-oil-colors/?Item=01557-4754",
-    "inStock": false
+    "inStock": true
   },
   {
     "brand": "Blick",
@@ -9105,7 +9105,7 @@
     "grade": "student",
     "name": "Yellow Ochre",
     "dist": "Blick",
-    "price": 3.71,
+    "price": 3.89,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -9157,7 +9157,7 @@
     "grade": "artist",
     "name": "Burnt Umber",
     "dist": "Blick",
-    "price": 10.8,
+    "price": 9.43,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -9175,6 +9175,19 @@
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
     "url": "https://www.dickblick.com/products/blick-artists-oil-color/?Item=01595-3203",
+    "inStock": false
+  },
+  {
+    "brand": "Blick",
+    "line": "Artists' Oil",
+    "grade": "artist",
+    "name": "Cadmium Red Light",
+    "dist": "Blick",
+    "price": 32.86,
+    "size": 40,
+    "unit": "ml",
+    "sizeLabel": "40 ml (1.35 oz)",
+    "url": "https://www.dickblick.com/products/blick-artists-oil-color/?Item=01595-3093",
     "inStock": false
   },
   {
@@ -9287,7 +9300,7 @@
     "grade": "artist",
     "name": "Cobalt Blue",
     "dist": "Blick",
-    "price": 49.28,
+    "price": 38.16,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -9300,7 +9313,7 @@
     "grade": "artist",
     "name": "Cobalt Green Light",
     "dist": "Blick",
-    "price": 49.28,
+    "price": 38.16,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -9313,7 +9326,7 @@
     "grade": "artist",
     "name": "Cobalt Turquoise",
     "dist": "Blick",
-    "price": 49.28,
+    "price": 38.16,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -9326,7 +9339,7 @@
     "grade": "artist",
     "name": "English Red",
     "dist": "Blick",
-    "price": 10.8,
+    "price": 9.43,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -9352,7 +9365,7 @@
     "grade": "artist",
     "name": "Green Earth",
     "dist": "Blick",
-    "price": 10.8,
+    "price": 9.43,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -9404,7 +9417,7 @@
     "grade": "artist",
     "name": "Ivory Black",
     "dist": "Blick",
-    "price": 10.8,
+    "price": 9.43,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -9443,7 +9456,7 @@
     "grade": "artist",
     "name": "Light Yellow Ochre",
     "dist": "Blick",
-    "price": 10.8,
+    "price": 9.43,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -9482,7 +9495,7 @@
     "grade": "artist",
     "name": "Mars Black",
     "dist": "Blick",
-    "price": 10.8,
+    "price": 9.43,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -9664,7 +9677,7 @@
     "grade": "artist",
     "name": "Raw Sienna",
     "dist": "Blick",
-    "price": 10.8,
+    "price": 9.43,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -9677,7 +9690,7 @@
     "grade": "artist",
     "name": "Raw Umber",
     "dist": "Blick",
-    "price": 10.8,
+    "price": 9.43,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -9690,7 +9703,7 @@
     "grade": "artist",
     "name": "Red Ochre Tint",
     "dist": "Blick",
-    "price": 10.8,
+    "price": 9.43,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -9729,7 +9742,7 @@
     "grade": "artist",
     "name": "Sepia",
     "dist": "Blick",
-    "price": 10.8,
+    "price": 9.43,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -9742,7 +9755,7 @@
     "grade": "artist",
     "name": "Titanium White",
     "dist": "Blick",
-    "price": 10.8,
+    "price": 9.43,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -9807,7 +9820,7 @@
     "grade": "artist",
     "name": "Venetian Red",
     "dist": "Blick",
-    "price": 10.8,
+    "price": 9.43,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -9846,7 +9859,7 @@
     "grade": "artist",
     "name": "Warm Gray",
     "dist": "Blick",
-    "price": 10.8,
+    "price": 9.43,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
@@ -9859,7 +9872,7 @@
     "grade": "artist",
     "name": "Yellow Ochre",
     "dist": "Blick",
-    "price": 10.8,
+    "price": 9.43,
     "size": 40,
     "unit": "ml",
     "sizeLabel": "40 ml (1.35 oz)",
